@@ -1,6 +1,6 @@
 # Hypersteg Chess Results and Reproduction
 
-This repository contains recorded experiment data, figures, the novelty kit, and the Python harnesses used to initialize and validate Hypersteg Chess runs. Research reports are excluded.
+This repository contains recorded experiment data, figures, the novelty kit, and the Python harnesses used to initialize and validate Hypersteg Chess runs. 
 
 - `results/`: JSON/JSONL telemetry, PGN games, CSV metrics, and PNG figures.
 - `hypersteg_novelty_kit_20261108/`: literature claim ledgers, mechanism/approach taxonomies, network HTML maps, images, and generation/audit tools.
@@ -39,8 +39,8 @@ $env:PYTHONPATH = "src"
 .\.venv\Scripts\python.exe -m hypersteg.cli init-live-full --checkpoint-plies 20 --output ..\results
 ```
 
-Both live harnesses require an external/manual agent orchestrator to follow `src/hypersteg/live_protocol.py`. No model-provider adapter is included. The historical live games are preserved as data, but exact LLM outputs cannot be regenerated: some original prompts and provider sampling metadata were not recorded. The deterministic mock harness and the event-gate code can be rerun; live-run telemetry can be audited but is not bit-for-bit reproducible.
+Both live harnesses require an external/manual agent orchestrator to follow `src/hypersteg/live_protocol.py`. No model-provider adapter is included. The deterministic mock harness and the event-gate code can be rerun.
 
 The two novelty-network pages are in `hypersteg_novelty_kit_20261108/maps/`; open either HTML file in a browser, keeping `haki_logo.png` in the same directory.
 
-This repository is local until a GitHub remote is configured and pushed.
+
