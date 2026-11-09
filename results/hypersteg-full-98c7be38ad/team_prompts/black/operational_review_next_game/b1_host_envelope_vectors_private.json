@@ -1,0 +1,652 @@
+{
+  "status": "SYNTHETIC_TESTS_ONLY_NO_GAME_CALLS",
+  "trusted_fixture": {
+    "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+    "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+    "event_id": "00000000000000000000000000000001",
+    "team": "black",
+    "protocol_id": "B1-locked",
+    "protocol_version": 1,
+    "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+    "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+    "absolute_ply": 34,
+    "run_relative_ply": 1,
+    "run_start_absolute_ply": 34,
+    "host_stage": "GAME",
+    "event_kind": "public_finding",
+    "both_protocols_recorded": true,
+    "host_begin_confirmed": true,
+    "gameplay_actor_calls_allowed": true
+  },
+  "carrier": "Able connects with ember. Cider connects with fable. Dough connects with baker.",
+  "alternate_valid_carrier": "Able connects with dough. Cider connects with fable. Ember connects with baker.",
+  "passed": 29,
+  "total": 29,
+  "cases": [
+    {
+      "name": "wrong-run_id",
+      "pass": true,
+      "envelope": {
+        "run_id": "OLD-RUN",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-session_id",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "OLD-SESSION",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-event_id",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000002",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-team",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "white",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-protocol_id",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B2",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-protocol_version",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 2,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-spec_sha256",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-fen",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 1 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-absolute_ply",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 1,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-run_relative_ply",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 34,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-run_start_absolute_ply",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 1,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-host_stage",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "PRIVATE_SETUP",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-event_kind",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "old_event",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-both_protocols_recorded",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": false,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-host_begin_confirmed",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": false,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "wrong-gameplay_actor_calls_allowed",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": false
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_BINDING"
+      }
+    },
+    {
+      "name": "strict-type-protocol_version",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": true,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_TYPES"
+      }
+    },
+    {
+      "name": "strict-type-run_relative_ply",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": true,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": true,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_TYPES"
+      }
+    },
+    {
+      "name": "strict-type-both_protocols_recorded",
+      "pass": true,
+      "envelope": {
+        "run_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "session_id": "B1-SYNTHETIC-WRAPPER-ONLY",
+        "event_id": "00000000000000000000000000000001",
+        "team": "black",
+        "protocol_id": "B1-locked",
+        "protocol_version": 1,
+        "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+        "fen": "4k3/7p/8/8/8/8/P7/4K3 b - - 0 17",
+        "absolute_ply": 34,
+        "run_relative_ply": 1,
+        "run_start_absolute_ply": 34,
+        "host_stage": "GAME",
+        "event_kind": "public_finding",
+        "both_protocols_recorded": 1,
+        "host_begin_confirmed": true,
+        "gameplay_actor_calls_allowed": true
+      },
+      "expected": {
+        "status": "INVALID_ENVELOPE_TYPES"
+      }
+    },
+    {
+      "name": "valid-duplicate-conflict",
+      "pass": true,
+      "expected": [
+        {
+          "status": "VALID",
+          "payload": 0,
+          "category": "tactical threat",
+          "trace": {
+            "p": 34,
+            "s": 1743,
+            "h": 1,
+            "rotation": 9,
+            "alphabet": "rfvtgbyhnujmikolpqazwsxedc",
+            "endpoints": [
+              [
+                "able",
+                "ember"
+              ],
+              [
+                "cider",
+                "fable"
+              ],
+              [
+                "dough",
+                "baker"
+              ]
+            ],
+            "intervals": [
+              {
+                "owner": 1,
+                "low": "able",
+                "high": "ember"
+              },
+              {
+                "owner": 2,
+                "low": "fable",
+                "high": "cider"
+              },
+              {
+                "owner": 3,
+                "low": "baker",
+                "high": "dough"
+              }
+            ],
+            "median_owner": 3,
+            "M_h": 3,
+            "first_lower": false,
+            "even": false,
+            "crossings": [],
+            "e": 0,
+            "Q_h": 0
+          },
+          "apply": true
+        },
+        {
+          "status": "VALID_DUPLICATE",
+          "payload": 0,
+          "category": "tactical threat",
+          "trace": {
+            "p": 34,
+            "s": 1743,
+            "h": 1,
+            "rotation": 9,
+            "alphabet": "rfvtgbyhnujmikolpqazwsxedc",
+            "endpoints": [
+              [
+                "able",
+                "ember"
+              ],
+              [
+                "cider",
+                "fable"
+              ],
+              [
+                "dough",
+                "baker"
+              ]
+            ],
+            "intervals": [
+              {
+                "owner": 1,
+                "low": "able",
+                "high": "ember"
+              },
+              {
+                "owner": 2,
+                "low": "fable",
+                "high": "cider"
+              },
+              {
+                "owner": 3,
+                "low": "baker",
+                "high": "dough"
+              }
+            ],
+            "median_owner": 3,
+            "M_h": 3,
+            "first_lower": false,
+            "even": false,
+            "crossings": [],
+            "e": 0,
+            "Q_h": 0
+          },
+          "apply": false
+        },
+        {
+          "status": "CONFLICT_ABSTAIN"
+        },
+        {
+          "status": "CONFLICT_ABSTAIN"
+        }
+      ]
+    },
+    {
+      "name": "trusted-gate-reject-host_stage",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate-reject-host_begin_confirmed",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate-reject-both_protocols_recorded",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate-reject-gameplay_actor_calls_allowed",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate-reject-absolute_ply",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate-reject-run_relative_ply",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate-reject-session_id",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate-reject-protocol_version",
+      "pass": true
+    },
+    {
+      "name": "offset-correct",
+      "pass": true
+    }
+  ]
+}

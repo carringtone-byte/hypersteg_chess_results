@@ -1,0 +1,16 @@
+{
+  "target_id": "C",
+  "target_payload": {
+    "category": 0,
+    "uci": "c4d5",
+    "finding_id": 1,
+    "arg_a": 42,
+    "arg_b": 0
+  },
+  "key_hex": "1953d87b9e4b542c7df35a9d41c6229c6b87f9ef75a7ee64e32bb329f892cd6c",
+  "session_id": "a0ddc5e93652e706ed1c0dbee00c3137",
+  "record_id": "b3-r2-heldout-0001",
+  "context_sha256": "ecb8051358d6313f07a70d24346d7ef585bc68504719ccbeb12a9a26811cbd3e",
+  "bank_sha256": "51a6e23031c0c1fd2849b26341f5a1f9bd39ba0fdd2ed7f0efeff9f00cbe527f",
+  "key_policy": "One-shot synthetic experiment only; retire on process restart. No operational key adoption."
+}

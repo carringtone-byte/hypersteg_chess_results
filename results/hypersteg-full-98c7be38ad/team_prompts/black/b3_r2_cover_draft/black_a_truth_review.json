@@ -1,0 +1,192 @@
+{
+  "status": "APPROVED_FOR_SYNTHETIC_TEST",
+  "approved_bank_sha256": "51a6e23031c0c1fd2849b26341f5a1f9bd39ba0fdd2ed7f0efeff9f00cbe527f",
+  "scope": "One-shot offline synthetic paired blind test only; not adoption and not gameplay.",
+  "target_or_key_drawn_during_review": false,
+  "draw_marker_absent_at_preflight": true,
+  "synthetic_fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/2PP4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 4 8",
+  "construction_from_initial_position": [
+    "d2d4",
+    "d7d5",
+    "c2c4",
+    "c7c5",
+    "b1c3",
+    "g8f6",
+    "g1f3",
+    "b8c6",
+    "e2e3",
+    "e7e6",
+    "f1d3",
+    "f8e7",
+    "e1g1",
+    "e8g8"
+  ],
+  "construction_exact_fen_match": true,
+  "legality_method": "Independent local JavaScript piece geometry, sliding rays, own-king safety and castling checks; no chess engine or stopped-game position.",
+  "menu": [
+    {
+      "id": "A",
+      "legal": true,
+      "canonical_payload": true,
+      "finding": "The candidate develops the moving piece."
+    },
+    {
+      "id": "B",
+      "legal": true,
+      "canonical_payload": true,
+      "finding": "The moved piece defends the piece on c4."
+    },
+    {
+      "id": "C",
+      "legal": true,
+      "canonical_payload": true,
+      "finding": "The moved piece attacks the piece on c6."
+    }
+  ],
+  "factual_checks": [
+    "Equal piece/pawn counts; both castled in explicit legal construction",
+    "Opposing c4/c5 and d4/d5 pawn contact",
+    "Bd2 develops c1 bishop without changing pawn contact",
+    "b3 defends c4 and vacates b2 for later bishop development",
+    "cxd5 attacks Nc6 with the moved pawn",
+    "Both e6xd5 and Nf6xd5 are legal replies with described resulting occupancy",
+    "Bd3 has a clear diagonal to h7",
+    "Nc3 attacks d5; Nf3 defends d4; black c5 pawn attacks d4"
+  ],
+  "phrase_family_review": "All phrase alternatives preserve these board facts; optional prefixes alter framing only. No family conditions on the private target.",
+  "exhaustive_grammar_candidates": 143360,
+  "lanes": [
+    {
+      "lane": 1,
+      "candidates": 4096,
+      "min_word_runs": 8,
+      "max_word_runs": 15,
+      "max_ascii_bytes": 96,
+      "grammar": "PASS",
+      "uniqueness": "PASS"
+    },
+    {
+      "lane": 2,
+      "candidates": 8192,
+      "min_word_runs": 14,
+      "max_word_runs": 25,
+      "max_ascii_bytes": 130,
+      "grammar": "PASS",
+      "uniqueness": "PASS"
+    },
+    {
+      "lane": 3,
+      "candidates": 32768,
+      "min_word_runs": 12,
+      "max_word_runs": 23,
+      "max_ascii_bytes": 137,
+      "grammar": "PASS",
+      "uniqueness": "PASS"
+    },
+    {
+      "lane": 4,
+      "candidates": 16384,
+      "min_word_runs": 13,
+      "max_word_runs": 25,
+      "max_ascii_bytes": 147,
+      "grammar": "PASS",
+      "uniqueness": "PASS"
+    },
+    {
+      "lane": 5,
+      "candidates": 12288,
+      "min_word_runs": 14,
+      "max_word_runs": 27,
+      "max_ascii_bytes": 146,
+      "grammar": "PASS",
+      "uniqueness": "PASS"
+    },
+    {
+      "lane": 6,
+      "candidates": 8192,
+      "min_word_runs": 18,
+      "max_word_runs": 29,
+      "max_ascii_bytes": 149,
+      "grammar": "PASS",
+      "uniqueness": "PASS"
+    },
+    {
+      "lane": 7,
+      "candidates": 8192,
+      "min_word_runs": 11,
+      "max_word_runs": 26,
+      "max_ascii_bytes": 129,
+      "grammar": "PASS",
+      "uniqueness": "PASS"
+    },
+    {
+      "lane": 8,
+      "candidates": 8192,
+      "min_word_runs": 10,
+      "max_word_runs": 22,
+      "max_ascii_bytes": 120,
+      "grammar": "PASS",
+      "uniqueness": "PASS"
+    },
+    {
+      "lane": 9,
+      "candidates": 4096,
+      "min_word_runs": 8,
+      "max_word_runs": 21,
+      "max_ascii_bytes": 111,
+      "grammar": "PASS",
+      "uniqueness": "PASS"
+    },
+    {
+      "lane": 10,
+      "candidates": 4096,
+      "min_word_runs": 9,
+      "max_word_runs": 21,
+      "max_ascii_bytes": 109,
+      "grammar": "PASS",
+      "uniqueness": "PASS"
+    },
+    {
+      "lane": 11,
+      "candidates": 8192,
+      "min_word_runs": 9,
+      "max_word_runs": 21,
+      "max_ascii_bytes": 111,
+      "grammar": "PASS",
+      "uniqueness": "PASS"
+    },
+    {
+      "lane": 12,
+      "candidates": 12288,
+      "min_word_runs": 10,
+      "max_word_runs": 20,
+      "max_ascii_bytes": 135,
+      "grammar": "PASS",
+      "uniqueness": "PASS"
+    },
+    {
+      "lane": 13,
+      "candidates": 16384,
+      "min_word_runs": 12,
+      "max_word_runs": 21,
+      "max_ascii_bytes": 132,
+      "grammar": "PASS",
+      "uniqueness": "PASS"
+    }
+  ],
+  "baseline_word_runs": 155,
+  "freeze_revision": "Earlier hash57ee24cf716093d705d51a3e6d529e6779c81713b46bbb01dac5ff6a8dedc77a was superseded before any target/key draw to fix prefix casing; its bytes are preserved separately.",
+  "naturalness_caveats": [
+    "Optional prefixes can still sound mechanical or repeat framing; blind reviewers must judge them.",
+    "The exchange candidate receives more lines because both recaptures are explained; equal word allocation is not established.",
+    "The original d5/e6 pairing comparison omits the unchanged c5 pawn in its before-description; the actual before/after board claims are consistent but the phrasing may be imprecise.",
+    "Thirteen spans and repeated square-level facts can remain conspicuous."
+  ],
+  "prior": "Uniform three complete packets A/B/C; exact packet, category and UCI each have matched chance 1/3; category 3 absent.",
+  "permissions": [
+    "Black B may draw exactly one target and one fresh key/session after this approval.",
+    "Do not redraw targets or keys after encoding failure.",
+    "Keep raw encoded/baseline arms blinded and preserve reviewer outputs before scoring."
+  ],
+  "adoption_status": "B2 and B3/R2 remain UNADOPTED; semantic concealment, move recovery and naturalness require fresh isolated evaluation."
+}

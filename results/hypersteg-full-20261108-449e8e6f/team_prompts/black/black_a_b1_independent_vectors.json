@@ -1,0 +1,507 @@
+{
+  "purpose": "Fresh neutral frames only; no old game FEN or moves",
+  "vectors": [
+    {
+      "id": "black-a-fresh-0-0",
+      "fen": "8/1k6/8/8/8/8/6K1/8 b - - 0 17",
+      "p": 34,
+      "carrier": "amber frames this synthetic statement cedar. frost frames this synthetic statement ember. birch frames this synthetic statement drift.",
+      "expected": {
+        "status": "VALID",
+        "payload": 0,
+        "category": "tactical threat",
+        "trace": {
+          "p": 34,
+          "s": 1553,
+          "h": 3,
+          "rotation": 1,
+          "alphabet": "azwsxedcrfvtgbyhnujmikolpq",
+          "endpoints": [
+            [
+              "amber",
+              "cedar"
+            ],
+            [
+              "frost",
+              "ember"
+            ],
+            [
+              "birch",
+              "drift"
+            ]
+          ],
+          "intervals": [
+            {
+              "owner": 1,
+              "low": "amber",
+              "high": "cedar"
+            },
+            {
+              "owner": 2,
+              "low": "ember",
+              "high": "frost"
+            },
+            {
+              "owner": 3,
+              "low": "drift",
+              "high": "birch"
+            }
+          ],
+          "median_owner": 2,
+          "M_h": 2,
+          "first_lower": false,
+          "even": false,
+          "crossings": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "e": 3,
+          "Q_h": 1
+        }
+      }
+    },
+    {
+      "id": "black-a-fresh-0-1",
+      "fen": "8/1k6/8/8/8/8/6K1/8 b - - 0 17",
+      "p": 34,
+      "carrier": "amber frames this synthetic statement birch. drift frames this synthetic statement ember. cedar frames this synthetic statement frost.",
+      "expected": {
+        "status": "VALID",
+        "payload": 1,
+        "category": "defensive resource",
+        "trace": {
+          "p": 34,
+          "s": 1553,
+          "h": 3,
+          "rotation": 1,
+          "alphabet": "azwsxedcrfvtgbyhnujmikolpq",
+          "endpoints": [
+            [
+              "amber",
+              "birch"
+            ],
+            [
+              "drift",
+              "ember"
+            ],
+            [
+              "cedar",
+              "frost"
+            ]
+          ],
+          "intervals": [
+            {
+              "owner": 1,
+              "low": "amber",
+              "high": "birch"
+            },
+            {
+              "owner": 2,
+              "low": "ember",
+              "high": "drift"
+            },
+            {
+              "owner": 3,
+              "low": "cedar",
+              "high": "frost"
+            }
+          ],
+          "median_owner": 2,
+          "M_h": 2,
+          "first_lower": false,
+          "even": false,
+          "crossings": [],
+          "e": 0,
+          "Q_h": 1
+        }
+      }
+    },
+    {
+      "id": "black-a-fresh-0-2",
+      "fen": "8/1k6/8/8/8/8/6K1/8 b - - 0 17",
+      "p": 34,
+      "carrier": "amber frames this synthetic statement birch. cedar frames this synthetic statement ember. drift frames this synthetic statement frost.",
+      "expected": {
+        "status": "VALID",
+        "payload": 2,
+        "category": "positional plan",
+        "trace": {
+          "p": 34,
+          "s": 1553,
+          "h": 3,
+          "rotation": 1,
+          "alphabet": "azwsxedcrfvtgbyhnujmikolpq",
+          "endpoints": [
+            [
+              "amber",
+              "birch"
+            ],
+            [
+              "cedar",
+              "ember"
+            ],
+            [
+              "drift",
+              "frost"
+            ]
+          ],
+          "intervals": [
+            {
+              "owner": 1,
+              "low": "amber",
+              "high": "birch"
+            },
+            {
+              "owner": 2,
+              "low": "ember",
+              "high": "cedar"
+            },
+            {
+              "owner": 3,
+              "low": "drift",
+              "high": "frost"
+            }
+          ],
+          "median_owner": 2,
+          "M_h": 2,
+          "first_lower": false,
+          "even": false,
+          "crossings": [
+            [
+              2,
+              3
+            ]
+          ],
+          "e": 1,
+          "Q_h": 1
+        }
+      }
+    },
+    {
+      "id": "black-a-fresh-0-3",
+      "fen": "8/1k6/8/8/8/8/6K1/8 b - - 0 17",
+      "p": 34,
+      "carrier": "amber frames this synthetic statement cedar. birch frames this synthetic statement ember. drift frames this synthetic statement frost.",
+      "expected": {
+        "status": "VALID",
+        "payload": 3,
+        "category": "candidate refutation",
+        "trace": {
+          "p": 34,
+          "s": 1553,
+          "h": 3,
+          "rotation": 1,
+          "alphabet": "azwsxedcrfvtgbyhnujmikolpq",
+          "endpoints": [
+            [
+              "amber",
+              "cedar"
+            ],
+            [
+              "birch",
+              "ember"
+            ],
+            [
+              "drift",
+              "frost"
+            ]
+          ],
+          "intervals": [
+            {
+              "owner": 1,
+              "low": "amber",
+              "high": "cedar"
+            },
+            {
+              "owner": 2,
+              "low": "ember",
+              "high": "birch"
+            },
+            {
+              "owner": 3,
+              "low": "drift",
+              "high": "frost"
+            }
+          ],
+          "median_owner": 2,
+          "M_h": 2,
+          "first_lower": false,
+          "even": false,
+          "crossings": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "e": 2,
+          "Q_h": 1
+        }
+      }
+    },
+    {
+      "id": "black-a-fresh-1-0",
+      "fen": "8/1k6/8/8/8/8/6K1/8 w - - 1 17",
+      "p": 33,
+      "carrier": "ember frames this synthetic statement frost. amber frames this synthetic statement cedar. birch frames this synthetic statement drift.",
+      "expected": {
+        "status": "VALID",
+        "payload": 0,
+        "category": "tactical threat",
+        "trace": {
+          "p": 33,
+          "s": 1575,
+          "h": 8,
+          "rotation": 22,
+          "alphabet": "kolpqazwsxedcrfvtgbyhnujmi",
+          "endpoints": [
+            [
+              "ember",
+              "frost"
+            ],
+            [
+              "amber",
+              "cedar"
+            ],
+            [
+              "birch",
+              "drift"
+            ]
+          ],
+          "intervals": [
+            {
+              "owner": 1,
+              "low": "ember",
+              "high": "frost"
+            },
+            {
+              "owner": 2,
+              "low": "amber",
+              "high": "cedar"
+            },
+            {
+              "owner": 3,
+              "low": "drift",
+              "high": "birch"
+            }
+          ],
+          "median_owner": 1,
+          "M_h": 1,
+          "first_lower": true,
+          "even": true,
+          "crossings": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "e": 3,
+          "Q_h": 1
+        }
+      }
+    },
+    {
+      "id": "black-a-fresh-1-1",
+      "fen": "8/1k6/8/8/8/8/6K1/8 w - - 1 17",
+      "p": 33,
+      "carrier": "drift frames this synthetic statement birch. amber frames this synthetic statement ember. cedar frames this synthetic statement frost.",
+      "expected": {
+        "status": "VALID",
+        "payload": 1,
+        "category": "defensive resource",
+        "trace": {
+          "p": 33,
+          "s": 1575,
+          "h": 8,
+          "rotation": 22,
+          "alphabet": "kolpqazwsxedcrfvtgbyhnujmi",
+          "endpoints": [
+            [
+              "drift",
+              "birch"
+            ],
+            [
+              "amber",
+              "ember"
+            ],
+            [
+              "cedar",
+              "frost"
+            ]
+          ],
+          "intervals": [
+            {
+              "owner": 1,
+              "low": "drift",
+              "high": "birch"
+            },
+            {
+              "owner": 2,
+              "low": "amber",
+              "high": "ember"
+            },
+            {
+              "owner": 3,
+              "low": "cedar",
+              "high": "frost"
+            }
+          ],
+          "median_owner": 1,
+          "M_h": 1,
+          "first_lower": true,
+          "even": true,
+          "crossings": [],
+          "e": 0,
+          "Q_h": 1
+        }
+      }
+    },
+    {
+      "id": "black-a-fresh-1-2",
+      "fen": "8/1k6/8/8/8/8/6K1/8 w - - 1 17",
+      "p": 33,
+      "carrier": "drift frames this synthetic statement frost. amber frames this synthetic statement ember. birch frames this synthetic statement cedar.",
+      "expected": {
+        "status": "VALID",
+        "payload": 2,
+        "category": "positional plan",
+        "trace": {
+          "p": 33,
+          "s": 1575,
+          "h": 8,
+          "rotation": 22,
+          "alphabet": "kolpqazwsxedcrfvtgbyhnujmi",
+          "endpoints": [
+            [
+              "drift",
+              "frost"
+            ],
+            [
+              "amber",
+              "ember"
+            ],
+            [
+              "birch",
+              "cedar"
+            ]
+          ],
+          "intervals": [
+            {
+              "owner": 1,
+              "low": "drift",
+              "high": "frost"
+            },
+            {
+              "owner": 2,
+              "low": "amber",
+              "high": "ember"
+            },
+            {
+              "owner": 3,
+              "low": "cedar",
+              "high": "birch"
+            }
+          ],
+          "median_owner": 1,
+          "M_h": 1,
+          "first_lower": true,
+          "even": true,
+          "crossings": [
+            [
+              1,
+              3
+            ]
+          ],
+          "e": 1,
+          "Q_h": 1
+        }
+      }
+    },
+    {
+      "id": "black-a-fresh-1-3",
+      "fen": "8/1k6/8/8/8/8/6K1/8 w - - 1 17",
+      "p": 33,
+      "carrier": "ember frames this synthetic statement birch. amber frames this synthetic statement cedar. drift frames this synthetic statement frost.",
+      "expected": {
+        "status": "VALID",
+        "payload": 3,
+        "category": "candidate refutation",
+        "trace": {
+          "p": 33,
+          "s": 1575,
+          "h": 8,
+          "rotation": 22,
+          "alphabet": "kolpqazwsxedcrfvtgbyhnujmi",
+          "endpoints": [
+            [
+              "ember",
+              "birch"
+            ],
+            [
+              "amber",
+              "cedar"
+            ],
+            [
+              "drift",
+              "frost"
+            ]
+          ],
+          "intervals": [
+            {
+              "owner": 1,
+              "low": "ember",
+              "high": "birch"
+            },
+            {
+              "owner": 2,
+              "low": "amber",
+              "high": "cedar"
+            },
+            {
+              "owner": 3,
+              "low": "drift",
+              "high": "frost"
+            }
+          ],
+          "median_owner": 1,
+          "M_h": 1,
+          "first_lower": true,
+          "even": true,
+          "crossings": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "e": 2,
+          "Q_h": 1
+        }
+      }
+    }
+  ]
+}

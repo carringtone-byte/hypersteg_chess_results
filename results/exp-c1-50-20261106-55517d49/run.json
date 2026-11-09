@@ -1,0 +1,11 @@
+{
+  "run_id": "exp-c1-50-20261106-55517d49",
+  "condition": "C1",
+  "full_moves_requested": 50,
+  "seed": 20261106,
+  "position_fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w - - 0 1",
+  "model": "mock",
+  "reasoning_effort": "none",
+  "provider": "offline deterministic fixture",
+  "observation_type": "synthetic mock"
+}

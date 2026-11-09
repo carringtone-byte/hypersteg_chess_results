@@ -1,0 +1,35 @@
+[
+  {
+    "test": "changed-record",
+    "result": {
+      "status": "INVALID_FILTER",
+      "digest_hex": "2291f1cb39d373e14938188654f0860ac7395d231f55ad9ba118c38de4e3f94c"
+    }
+  },
+  {
+    "test": "changed-context",
+    "result": {
+      "status": "INVALID_FILTER",
+      "digest_hex": "170b61f335b33a193be31b75435faf7ca1e94cb0a21a819b6dec54d5539bfd9a"
+    }
+  },
+  {
+    "test": "changed-text",
+    "result": {
+      "status": "INVALID_FILTER",
+      "digest_hex": "0a430a495a9dd316647dadbf1c4cb9d462444673f3098729ece02c7e2b7d23f2"
+    }
+  },
+  {
+    "test": "non-ascii",
+    "result": {
+      "status": "INVALID_GRAMMAR"
+    }
+  },
+  {
+    "test": "leading-space",
+    "result": {
+      "status": "INVALID_GRAMMAR"
+    }
+  }
+]

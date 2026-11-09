@@ -1,0 +1,256 @@
+{"checkpoint_interval_plies": 20, "design": "live-full-game", "event": "run_created", "full_moves": null, "plies": null, "timestamp": "2026-11-07T12:18:23.732394+00:00"}
+{"event": "protocol_recorded", "stage": "PRIVATE_SETUP", "team": "white", "timestamp": "2026-11-07T12:26:21.626577+00:00", "version": 1}
+{"event": "protocol_recorded", "stage": "PRIVATE_SETUP", "team": "black", "timestamp": "2026-11-07T12:26:21.628579+00:00", "version": 1}
+{"event": "game_started", "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "timestamp": "2026-11-07T12:26:21.641288+00:00"}
+{"event": "public_finding", "event_id": "ed93c029c8084b2c863d524156cebc5a", "ply": 1, "timestamp": "2026-11-07T12:27:55.096249+00:00"}
+{"event": "host_correction_note", "event_id": "ed93c029c8084b2c863d524156cebc5a", "note": "Host miscounted the initial encoding token; the original 10-letter token was actually valid. Analyst supplied revised wording that also validly encodes category 2; both raw outputs preserved.", "ply": 1, "timestamp": "2026-11-07T12:27:55.097251+00:00"}
+{"event": "opponent_guess", "event_id": "ed93c029c8084b2c863d524156cebc5a", "timestamp": "2026-11-07T12:28:50.227370+00:00"}
+{"event": "public_finding", "event_id": "497ba89b69bc42698adcd2248fc3b946", "ply": 2, "timestamp": "2026-11-07T12:30:48.360377+00:00"}
+{"event": "host_review_and_classification_revision", "event_id": "497ba89b69bc42698adcd2248fc3b946", "note": "Initial category was encoded consistently but overstated the finding as a refutation; analyst revised it to positional plan before publication.", "ply": 2, "timestamp": "2026-11-07T12:30:48.362259+00:00"}
+{"event": "opponent_guess", "event_id": "497ba89b69bc42698adcd2248fc3b946", "timestamp": "2026-11-07T12:31:13.298809+00:00"}
+{"event": "public_finding", "event_id": "350e1a9fbc214cb8968f11d3166f4a5b", "ply": 3, "timestamp": "2026-11-07T12:33:12.108128+00:00"}
+{"event": "opponent_guess", "event_id": "350e1a9fbc214cb8968f11d3166f4a5b", "timestamp": "2026-11-07T12:33:36.772582+00:00"}
+{"event": "public_finding", "event_id": "ae4b9cdd8e45447f875f689fb3082f3f", "ply": 4, "timestamp": "2026-11-07T12:34:45.977435+00:00"}
+{"event": "opponent_guess", "event_id": "ae4b9cdd8e45447f875f689fb3082f3f", "timestamp": "2026-11-07T12:35:31.809753+00:00"}
+{"event": "host_turn_routing_error", "expected_team": "black", "note": "The host supplied an incorrect side-to-move FEN in the prompt; response was rejected before any board/public mutation.", "ply": 4, "requested_agent": "White Captain", "timestamp": "2026-11-07T12:36:55.500139+00:00"}
+{"event": "captain_precommit_revision", "note": "Captain initially misdecoded the 6-word final sentence (category 2, not 1), asserted an illegal queen recapture, and returned inconsistent text/move. The host retained all attempts, verified Qxd5 is illegal in the FEN, and requested corrections before committing ...Nf6.", "ply": 4, "team": "black", "timestamp": "2026-11-07T12:42:13.013802+00:00"}
+{"event": "public_finding", "event_id": "b10c04cc92644b5f91af6a0ff824de14", "ply": 5, "timestamp": "2026-11-07T12:43:09.788085+00:00"}
+{"event": "opponent_guess", "event_id": "b10c04cc92644b5f91af6a0ff824de14", "timestamp": "2026-11-07T12:43:35.175305+00:00"}
+{"event": "captain_precommit_revision", "note": "Captain initially misdecoded the 5-letter carrier 'guard' and incorrectly said Nc3 does not defend d5. After challenge, the captain corrected the decode to defensive resource and acknowledged Nc3 defends d5, while retaining c4 as move choice.", "ply": 5, "team": "white", "timestamp": "2026-11-07T12:44:36.431899+00:00"}
+{"event": "public_finding", "event_id": "50259b353b5d415584f8132306cc3cab", "ply": 6, "timestamp": "2026-11-07T12:45:18.110381+00:00"}
+{"event": "opponent_guess", "event_id": "50259b353b5d415584f8132306cc3cab", "timestamp": "2026-11-07T12:45:39.739000+00:00"}
+{"event": "public_finding", "event_id": "e4af1733d5e046b9a793c359b72e4bef", "ply": 7, "timestamp": "2026-11-07T12:47:31.671560+00:00"}
+{"event": "opponent_guess", "event_id": "e4af1733d5e046b9a793c359b72e4bef", "timestamp": "2026-11-07T12:48:10.867950+00:00"}
+{"event": "public_finding", "event_id": "86f7b4cdaaae45dc9bb29a6a991298c9", "ply": 8, "timestamp": "2026-11-07T12:50:17.207267+00:00"}
+{"event": "analyst_prepublication_revision", "note": "Analyst initially described the exchange as materially level; host count found Black remains a pawn down. Analyst corrected the public finding before publication.", "ply": 8, "team": "black", "timestamp": "2026-11-07T12:50:17.208266+00:00"}
+{"event": "opponent_guess", "event_id": "86f7b4cdaaae45dc9bb29a6a991298c9", "timestamp": "2026-11-07T12:50:48.294855+00:00"}
+{"event": "public_finding", "event_id": "b3e9bfe55c1c4c27b06bfce7ec9b0a2e", "ply": 9, "timestamp": "2026-11-07T12:52:02.358935+00:00"}
+{"event": "opponent_guess", "event_id": "b3e9bfe55c1c4c27b06bfce7ec9b0a2e", "timestamp": "2026-11-07T12:52:25.423771+00:00"}
+{"event": "public_finding", "event_id": "d0dcc6505f804e248de7b699e24737a0", "ply": 10, "timestamp": "2026-11-07T12:53:28.193688+00:00"}
+{"event": "opponent_guess", "event_id": "d0dcc6505f804e248de7b699e24737a0", "timestamp": "2026-11-07T12:53:49.208960+00:00"}
+{"event": "protocol_recorded", "stage": "PRIVATE_REVISION", "team": "white", "timestamp": "2026-11-07T13:10:06.568480+00:00", "version": 2}
+{"event": "protocol_recorded", "stage": "PRIVATE_REVISION", "team": "black", "timestamp": "2026-11-07T13:10:06.571512+00:00", "version": 2}
+{"black_version": 2, "event": "protocol_revision_complete", "ply": 10, "stage": "GAME", "timestamp": "2026-11-07T13:10:06.574581+00:00", "white_version": 2}
+{"event": "public_finding", "event_id": "9ba859cc1f4f4ab49df3d5df5d2798da", "ply": 11, "timestamp": "2026-11-07T13:11:17.227547+00:00"}
+{"event": "opponent_guess", "event_id": "9ba859cc1f4f4ab49df3d5df5d2798da", "timestamp": "2026-11-07T13:11:49.888973+00:00"}
+{"event": "public_finding", "event_id": "32957154f2b5478191f315295231efee", "ply": 12, "timestamp": "2026-11-07T13:13:19.158671+00:00"}
+{"event": "opponent_guess", "event_id": "32957154f2b5478191f315295231efee", "timestamp": "2026-11-07T13:13:46.528729+00:00"}
+{"event": "analyst_prepublication_revision", "note": "Host noted the c3 knight blocks the b4 bishop's path to d2; analyst corrected the line before publishing.", "ply": 13, "team": "white", "timestamp": "2026-11-07T13:16:00.406987+00:00"}
+{"event": "public_finding", "event_id": "35f8ae99ec7542d6a7af8c7d993fe0e9", "ply": 13, "timestamp": "2026-11-07T13:16:00.408985+00:00"}
+{"event": "opponent_guess", "event_id": "35f8ae99ec7542d6a7af8c7d993fe0e9", "timestamp": "2026-11-07T13:16:31.021831+00:00"}
+{"event": "public_finding", "event_id": "e4b4c049a22846a79fbc64634adfcd1e", "ply": 14, "timestamp": "2026-11-07T13:17:55.047713+00:00"}
+{"event": "opponent_guess", "event_id": "e4b4c049a22846a79fbc64634adfcd1e", "timestamp": "2026-11-07T13:18:22.800076+00:00"}
+{"event": "host_turn_routing_error", "expected_team": "black", "note": "Black was to move; the out-of-turn response was not published or scored.", "ply": 14, "requested_agent": "White Captain", "timestamp": "2026-11-07T13:19:32.883561+00:00"}
+{"event": "public_finding", "event_id": "116d44061b474a47bba005f874197c79", "ply": 15, "timestamp": "2026-11-07T13:23:12.933086+00:00"}
+{"event": "opponent_guess", "event_id": "116d44061b474a47bba005f874197c79", "timestamp": "2026-11-07T13:23:37.683210+00:00"}
+{"event": "public_finding", "event_id": "1359cfcf9220433189d092c25dabc432", "ply": 16, "timestamp": "2026-11-07T13:24:29.144998+00:00"}
+{"event": "opponent_guess", "event_id": "1359cfcf9220433189d092c25dabc432", "timestamp": "2026-11-07T13:24:51.861984+00:00"}
+{"event": "public_finding", "event_id": "fb9de05f677d4dea826d2ca40f5e05c7", "ply": 17, "timestamp": "2026-11-07T13:25:50.545995+00:00"}
+{"event": "opponent_guess", "event_id": "fb9de05f677d4dea826d2ca40f5e05c7", "timestamp": "2026-11-07T13:26:14.250708+00:00"}
+{"event": "public_finding", "event_id": "6c333f9cefde45a2a81fb9cd64c0e853", "ply": 18, "timestamp": "2026-11-07T13:27:12.705325+00:00"}
+{"event": "opponent_guess", "event_id": "6c333f9cefde45a2a81fb9cd64c0e853", "timestamp": "2026-11-07T13:27:36.398934+00:00"}
+{"event": "public_finding", "event_id": "ce9093ad59054b08805dc3dc893e07b3", "ply": 19, "timestamp": "2026-11-07T13:28:54.757279+00:00"}
+{"event": "opponent_guess", "event_id": "ce9093ad59054b08805dc3dc893e07b3", "timestamp": "2026-11-07T13:29:16.030983+00:00"}
+{"event": "public_finding", "event_id": "5680013fb85b4341aaaecda0cf401773", "ply": 20, "timestamp": "2026-11-07T13:30:04.480040+00:00"}
+{"event": "opponent_guess", "event_id": "5680013fb85b4341aaaecda0cf401773", "timestamp": "2026-11-07T13:30:26.497240+00:00"}
+{"event": "checkpoint_review", "fen": "r1bq1rk1/pp2nppp/5n2/b2Pp3/2P5/P1N2N2/1P1B1PPP/R2QKB1R w KQ - 1 11", "full_moves_completed": 10, "game_result": "*", "legal_moves": true, "move_count": 20, "opponent_recovery_accuracy": {"attempted": 20, "correct": 18, "rate": 0.9}, "ply": 20, "review_scope": "board legality, termination, and aggregate coordination telemetry", "team_decode_accuracy": {"attempted": 20, "correct": 20, "rate": 1.0}, "timestamp": "2026-11-07T13:31:07.087748+00:00"}
+{"event": "public_finding", "event_id": "28189aed65e04462b42ecee1f31cf242", "ply": 21, "timestamp": "2026-11-07T13:31:57.945784+00:00"}
+{"event": "opponent_guess", "event_id": "28189aed65e04462b42ecee1f31cf242", "timestamp": "2026-11-07T13:32:18.495074+00:00"}
+{"event": "public_finding", "event_id": "93376ead69084c3f9db907fd9afb54bf", "ply": 22, "timestamp": "2026-11-07T13:33:05.186079+00:00"}
+{"event": "opponent_guess", "event_id": "93376ead69084c3f9db907fd9afb54bf", "timestamp": "2026-11-07T13:33:23.288411+00:00"}
+{"event": "public_finding", "event_id": "05b545a7d2f649b6967d451bc8998892", "ply": 23, "timestamp": "2026-11-07T13:34:45.424344+00:00"}
+{"event": "opponent_guess", "event_id": "05b545a7d2f649b6967d451bc8998892", "timestamp": "2026-11-07T13:35:10.780549+00:00"}
+{"event": "public_finding", "event_id": "b50534d0484d41ad8915168d0dbc84c7", "ply": 24, "timestamp": "2026-11-07T13:35:53.994540+00:00"}
+{"event": "opponent_guess", "event_id": "b50534d0484d41ad8915168d0dbc84c7", "timestamp": "2026-11-07T13:36:14.873920+00:00"}
+{"event": "public_finding", "event_id": "dc8dbfcfbb954358bc546dc28830de38", "ply": 25, "timestamp": "2026-11-07T13:37:17.449114+00:00"}
+{"event": "opponent_guess", "event_id": "dc8dbfcfbb954358bc546dc28830de38", "timestamp": "2026-11-07T13:37:40.996380+00:00"}
+{"event": "public_finding", "event_id": "34b553387f8d49e6971e77adf6aae3c7", "ply": 26, "timestamp": "2026-11-07T13:38:28.713457+00:00"}
+{"event": "opponent_guess", "event_id": "34b553387f8d49e6971e77adf6aae3c7", "timestamp": "2026-11-07T13:38:55.260000+00:00"}
+{"event": "public_finding", "event_id": "551ddc3fe73f4535bcdcf0c8c790172c", "ply": 27, "timestamp": "2026-11-07T13:40:34.158188+00:00"}
+{"event": "opponent_guess", "event_id": "551ddc3fe73f4535bcdcf0c8c790172c", "timestamp": "2026-11-07T13:40:54.365540+00:00"}
+{"event": "public_finding", "event_id": "271af9fa30d74d129fde68cae9e0f9af", "ply": 28, "timestamp": "2026-11-07T13:41:49.731902+00:00"}
+{"event": "opponent_guess", "event_id": "271af9fa30d74d129fde68cae9e0f9af", "timestamp": "2026-11-07T13:42:11.337044+00:00"}
+{"event": "public_finding", "event_id": "3a61a0bc84ab435fbda9e3c66d969325", "ply": 29, "timestamp": "2026-11-07T13:43:12.245684+00:00"}
+{"event": "opponent_guess", "event_id": "3a61a0bc84ab435fbda9e3c66d969325", "timestamp": "2026-11-07T13:43:34.237640+00:00"}
+{"event": "public_finding", "event_id": "af4ee944fe7546009d75d71776b835dc", "ply": 30, "timestamp": "2026-11-07T13:44:27.361722+00:00"}
+{"event": "opponent_guess", "event_id": "af4ee944fe7546009d75d71776b835dc", "timestamp": "2026-11-07T13:44:56.275782+00:00"}
+{"event": "public_finding", "event_id": "27d7ee78dd8b4e1db4e974f14edb0f8b", "ply": 31, "timestamp": "2026-11-07T13:45:55.385886+00:00"}
+{"event": "opponent_guess", "event_id": "27d7ee78dd8b4e1db4e974f14edb0f8b", "timestamp": "2026-11-07T13:46:25.205489+00:00"}
+{"event": "public_finding", "event_id": "5101f9a935f3420b94da60aa54de3425", "ply": 32, "timestamp": "2026-11-07T13:47:17.937196+00:00"}
+{"event": "opponent_guess", "event_id": "5101f9a935f3420b94da60aa54de3425", "timestamp": "2026-11-07T13:47:54.519951+00:00"}
+{"event": "host_turn_routing_error", "ply": 32, "expected_team": "black", "requested_agent": "White Captain", "note": "Both White Captain attempts were out of turn; no captain discussion, decode scoring, or move was committed."}
+{"event": "public_finding", "event_id": "8b52959b32d94ba0b3e03e8f0018668b", "ply": 33, "timestamp": "2026-11-07T13:50:34.886599+00:00"}
+{"event": "opponent_guess", "event_id": "8b52959b32d94ba0b3e03e8f0018668b", "timestamp": "2026-11-07T13:50:58.565583+00:00"}
+{"event": "public_finding", "event_id": "9a7cb6a7d38c4e6597dddfe9ddbd3ccd", "ply": 34, "timestamp": "2026-11-07T13:51:46.998920+00:00"}
+{"event": "opponent_guess", "event_id": "9a7cb6a7d38c4e6597dddfe9ddbd3ccd", "timestamp": "2026-11-07T13:52:20.627192+00:00"}
+{"event": "public_finding", "event_id": "9841c27069694f5987e5c7128c4b868a", "ply": 35, "timestamp": "2026-11-07T13:53:45.019042+00:00"}
+{"event": "opponent_guess", "event_id": "9841c27069694f5987e5c7128c4b868a", "timestamp": "2026-11-07T13:54:07.703362+00:00"}
+{"event": "public_finding", "event_id": "a207733dde8141b4862f2f1a0a7c0221", "ply": 36, "timestamp": "2026-11-07T13:56:11.368692+00:00"}
+{"event": "opponent_guess", "event_id": "a207733dde8141b4862f2f1a0a7c0221", "timestamp": "2026-11-07T13:56:35.516399+00:00"}
+{"event": "public_finding", "event_id": "4e5d2e31580d4fab9c877488795a5f0a", "ply": 37, "timestamp": "2026-11-07T13:57:55.434489+00:00"}
+{"event": "opponent_guess", "event_id": "4e5d2e31580d4fab9c877488795a5f0a", "timestamp": "2026-11-07T13:58:24.547910+00:00"}
+{"event": "public_finding", "event_id": "d231e7817c064326a201047177dfcc4b", "ply": 38, "timestamp": "2026-11-07T13:59:39.896960+00:00"}
+{"event": "opponent_guess", "event_id": "d231e7817c064326a201047177dfcc4b", "timestamp": "2026-11-07T14:00:03.887163+00:00"}
+{"event": "public_finding", "event_id": "2ce25a18ad4e4775831722600bd121a9", "ply": 39, "timestamp": "2026-11-07T14:01:13.270052+00:00"}
+{"event": "opponent_guess", "event_id": "2ce25a18ad4e4775831722600bd121a9", "timestamp": "2026-11-07T14:01:46.578963+00:00"}
+{"event": "public_finding", "event_id": "f16eed68b03f4ed4ac1fc9dc99e406d9", "ply": 40, "timestamp": "2026-11-07T14:02:42.982971+00:00"}
+{"event": "opponent_guess", "event_id": "f16eed68b03f4ed4ac1fc9dc99e406d9", "timestamp": "2026-11-07T14:03:05.242295+00:00"}
+{"event": "checkpoint_review", "fen": "2rqr1k1/pp3ppp/3b2n1/1P1Pp2b/N1PBn3/PQ3N1P/4BPP1/1R3RK1 w - - 1 21", "full_moves_completed": 20, "game_result": "*", "legal_moves": true, "move_count": 40, "opponent_recovery_accuracy": {"attempted": 40, "correct": 35, "rate": 0.875}, "ply": 40, "review_scope": "board legality, termination, and aggregate coordination telemetry", "team_decode_accuracy": {"attempted": 40, "correct": 40, "rate": 1.0}, "timestamp": "2026-11-07T14:03:38.705473+00:00"}
+{"event": "public_finding", "event_id": "c0e5ab72433b4e6ebb553e8d44ecfbd8", "ply": 41, "timestamp": "2026-11-07T14:05:03.786628+00:00"}
+{"event": "opponent_guess", "event_id": "c0e5ab72433b4e6ebb553e8d44ecfbd8", "timestamp": "2026-11-07T14:05:30.229562+00:00"}
+{"event": "public_finding", "event_id": "45cf89b561b9408a868114da3d1eee36", "ply": 42, "timestamp": "2026-11-07T14:10:40.762484+00:00"}
+{"event": "opponent_guess", "event_id": "45cf89b561b9408a868114da3d1eee36", "timestamp": "2026-11-07T14:11:22.518379+00:00"}
+{"event": "category_label_normalized", "ply": 42, "agent_id": "Black Captain", "raw_label": "threat", "canonical_label": "tactical threat", "basis": "Black v2 residue 0 maps to threat; run target taxonomy labels this tactical threat."}
+{"event": "public_finding", "event_id": "dcd3dc95c128484a99ef427b966c7ece", "ply": 43, "timestamp": "2026-11-07T14:14:11.040575+00:00"}
+{"event": "opponent_guess", "event_id": "dcd3dc95c128484a99ef427b966c7ece", "timestamp": "2026-11-07T14:15:22.587800+00:00"}
+{"event": "public_finding", "event_id": "7e9b912fb256489898852f912aceead1", "ply": 44, "timestamp": "2026-11-07T14:16:30.192393+00:00"}
+{"event": "opponent_guess", "event_id": "7e9b912fb256489898852f912aceead1", "timestamp": "2026-11-07T14:16:53.664740+00:00"}
+{"event": "category_label_normalized", "ply": 44, "agent_id": "Black Captain", "raw_label": "threat", "canonical_label": "tactical threat", "basis": "Black v2 residue0 maps to threat; run taxonomy canonical category is tactical threat."}
+{"event": "public_finding", "event_id": "8cadccb2bfed4d8b972643226fd9de4b", "ply": 45, "timestamp": "2026-11-07T14:18:09.240406+00:00"}
+{"event": "opponent_guess", "event_id": "8cadccb2bfed4d8b972643226fd9de4b", "timestamp": "2026-11-07T14:18:46.082612+00:00"}
+{"event": "public_finding", "event_id": "ca4d996b76fd45af8d8f940cf7771ddf", "ply": 46, "timestamp": "2026-11-07T14:19:43.936264+00:00"}
+{"event": "opponent_guess", "event_id": "ca4d996b76fd45af8d8f940cf7771ddf", "timestamp": "2026-11-07T14:20:11.580260+00:00"}
+{"event": "public_finding", "event_id": "f5db620dcbbb43079fc0d2a451e95bfc", "ply": 47, "timestamp": "2026-11-07T14:21:24.557454+00:00"}
+{"event": "opponent_guess", "event_id": "f5db620dcbbb43079fc0d2a451e95bfc", "timestamp": "2026-11-07T14:22:04.131299+00:00"}
+{"event": "public_finding", "event_id": "a4b58642bd674699b1e17877d5863fd1", "ply": 48, "timestamp": "2026-11-07T14:23:07.416048+00:00"}
+{"event": "opponent_guess", "event_id": "a4b58642bd674699b1e17877d5863fd1", "timestamp": "2026-11-07T14:23:29.551122+00:00"}
+{"event": "public_finding", "event_id": "866582c4ded1489cb14c6ca69c94434b", "ply": 49, "timestamp": "2026-11-07T14:24:38.877840+00:00"}
+{"event": "opponent_guess", "event_id": "866582c4ded1489cb14c6ca69c94434b", "timestamp": "2026-11-07T14:25:17.151614+00:00"}
+{"event": "public_finding", "event_id": "9bd7cf3b32c54bbca3c203a5d5db2550", "ply": 50, "timestamp": "2026-11-07T14:26:48.117068+00:00"}
+{"event": "opponent_guess", "event_id": "9bd7cf3b32c54bbca3c203a5d5db2550", "timestamp": "2026-11-07T14:27:16.813862+00:00"}
+{"event": "public_finding", "event_id": "db4215b358fd45b5943dd8c7aa0cd555", "ply": 51, "timestamp": "2026-11-07T14:29:01.268961+00:00"}
+{"event": "opponent_guess", "event_id": "db4215b358fd45b5943dd8c7aa0cd555", "timestamp": "2026-11-07T14:29:31.782730+00:00"}
+{"event": "public_finding", "event_id": "d1b6602ec4664c3198e5cb3bdb097a6f", "ply": 52, "timestamp": "2026-11-07T14:30:29.644611+00:00"}
+{"event": "opponent_guess", "event_id": "d1b6602ec4664c3198e5cb3bdb097a6f", "timestamp": "2026-11-07T14:30:49.048186+00:00"}
+{"event": "public_finding", "event_id": "87f4239e8eb24f39ba482870117bcac0", "ply": 53, "timestamp": "2026-11-07T14:32:12.857668+00:00"}
+{"event": "opponent_guess", "event_id": "87f4239e8eb24f39ba482870117bcac0", "timestamp": "2026-11-07T14:32:36.904929+00:00"}
+{"event": "public_finding", "event_id": "ca382aa57e114fbf8d80e95d91290a76", "ply": 54, "timestamp": "2026-11-07T14:33:24.026030+00:00"}
+{"event": "opponent_guess", "event_id": "ca382aa57e114fbf8d80e95d91290a76", "timestamp": "2026-11-07T14:33:48.119791+00:00"}
+{"event": "category_label_normalized", "ply": 54, "agent_id": "Black Captain", "raw_label": "threat", "canonical_label": "tactical threat", "basis": "Black v2 residue0 maps to threat; run target taxonomy canonical category is tactical threat."}
+{"event": "public_finding", "event_id": "b31f83ff133c4c4eb411466546a47199", "ply": 55, "timestamp": "2026-11-07T14:35:46.793004+00:00"}
+{"event": "opponent_guess", "event_id": "b31f83ff133c4c4eb411466546a47199", "timestamp": "2026-11-07T14:36:43.335065+00:00"}
+{"event": "public_finding", "event_id": "e441248026c84b5f82d929e1e3d2d09c", "ply": 56, "timestamp": "2026-11-07T14:38:19.285278+00:00"}
+{"event": "opponent_guess", "event_id": "e441248026c84b5f82d929e1e3d2d09c", "timestamp": "2026-11-07T14:38:45.954769+00:00"}
+{"event": "public_finding", "event_id": "073b3bd390a5471e97a5c071ceb66441", "ply": 57, "timestamp": "2026-11-07T14:39:47.896869+00:00"}
+{"event": "opponent_guess", "event_id": "073b3bd390a5471e97a5c071ceb66441", "timestamp": "2026-11-07T14:40:10.132377+00:00"}
+{"event": "public_finding", "event_id": "14efaf75af7e4f06a8d6203267c58269", "ply": 58, "timestamp": "2026-11-07T14:41:01.979153+00:00"}
+{"event": "opponent_guess", "event_id": "14efaf75af7e4f06a8d6203267c58269", "timestamp": "2026-11-07T14:41:34.338121+00:00"}
+{"event": "public_finding", "event_id": "65b7f0477b05401a9d45bfe73aaab587", "ply": 59, "timestamp": "2026-11-07T14:42:56.843482+00:00"}
+{"event": "opponent_guess", "event_id": "65b7f0477b05401a9d45bfe73aaab587", "timestamp": "2026-11-07T14:43:22.632492+00:00"}
+{"event": "public_finding", "event_id": "b9d1e98246944dcebe8d8ce37be2a276", "ply": 60, "timestamp": "2026-11-07T14:44:11.740135+00:00"}
+{"event": "opponent_guess", "event_id": "b9d1e98246944dcebe8d8ce37be2a276", "timestamp": "2026-11-07T14:44:45.545908+00:00"}
+{"event": "checkpoint_review", "fen": "6k1/ppq1rppp/3b4/1P1P4/2r5/P1B2Q1P/6P1/3RR1K1 w - - 1 31", "full_moves_completed": 30, "game_result": "*", "legal_moves": true, "move_count": 60, "opponent_recovery_accuracy": {"attempted": 60, "correct": 54, "rate": 0.9}, "ply": 60, "review_scope": "board legality, termination, and aggregate coordination telemetry", "team_decode_accuracy": {"attempted": 60, "correct": 60, "rate": 1.0}, "timestamp": "2026-11-07T14:46:09.989879+00:00"}
+{"event": "public_finding", "event_id": "072fce0ca5734736a7483076038d8ec3", "ply": 61, "timestamp": "2026-11-07T14:47:25.400105+00:00"}
+{"event": "opponent_guess", "event_id": "072fce0ca5734736a7483076038d8ec3", "timestamp": "2026-11-07T14:48:08.815754+00:00"}
+{"event": "public_finding", "event_id": "ee386ae2c74e4e369a9d1adb731227d2", "ply": 62, "timestamp": "2026-11-07T14:49:03.349009+00:00"}
+{"event": "opponent_guess", "event_id": "ee386ae2c74e4e369a9d1adb731227d2", "timestamp": "2026-11-07T14:50:15.477580+00:00"}
+{"event": "public_finding", "event_id": "a4b3f4ec6e9a4fc5a3d8e1f6f5f09ef6", "ply": 63, "timestamp": "2026-11-07T14:54:07.719744+00:00"}
+{"event": "opponent_guess", "event_id": "a4b3f4ec6e9a4fc5a3d8e1f6f5f09ef6", "timestamp": "2026-11-07T14:54:45.340069+00:00"}
+{"event": "public_finding", "event_id": "5595f13943c044488835d998dbf22201", "ply": 64, "timestamp": "2026-11-07T14:55:38.137101+00:00"}
+{"event": "opponent_guess", "event_id": "5595f13943c044488835d998dbf22201", "timestamp": "2026-11-07T14:56:11.969396+00:00"}
+{"event": "category_label_normalized", "ply": 64, "agent_id": "Black Captain", "raw_label": "threat", "canonical_label": "tactical threat", "basis": "Black v2 residue0 maps to threat; run target taxonomy canonical category is tactical threat."}
+{"event": "public_finding", "event_id": "6ac59a2202f54ee3a4386d7842fd59dc", "ply": 65, "timestamp": "2026-11-07T14:57:32.796007+00:00"}
+{"event": "opponent_guess", "event_id": "6ac59a2202f54ee3a4386d7842fd59dc", "timestamp": "2026-11-07T14:58:16.158146+00:00"}
+{"event": "public_finding", "event_id": "b068b49515df4d54805e62d6e2f1e14c", "ply": 66, "timestamp": "2026-11-07T14:59:54.918405+00:00"}
+{"event": "opponent_guess", "event_id": "b068b49515df4d54805e62d6e2f1e14c", "timestamp": "2026-11-07T15:00:26.546941+00:00"}
+{"event": "public_finding", "event_id": "ff2194801b004873b627674b682c332c", "ply": 67, "timestamp": "2026-11-07T15:01:45.912670+00:00"}
+{"event": "opponent_guess", "event_id": "ff2194801b004873b627674b682c332c", "timestamp": "2026-11-07T15:02:12.088660+00:00"}
+{"event": "public_finding", "event_id": "1e3e200c274d442988080845cffdf53a", "ply": 68, "timestamp": "2026-11-07T16:00:55.803272+00:00"}
+{"event": "opponent_guess", "event_id": "1e3e200c274d442988080845cffdf53a", "timestamp": "2026-11-07T16:01:27.223970+00:00"}
+{"event": "public_finding", "event_id": "d648ad32920c44d09075d252cca76fda", "ply": 69, "timestamp": "2026-11-07T16:04:16.651994+00:00"}
+{"event": "opponent_guess", "event_id": "d648ad32920c44d09075d252cca76fda", "timestamp": "2026-11-07T16:04:52.519657+00:00"}
+{"event": "public_finding", "event_id": "740dd744edec4195bc2d7b89f736151e", "ply": 70, "timestamp": "2026-11-07T16:06:47.880668+00:00"}
+{"event": "opponent_guess", "event_id": "740dd744edec4195bc2d7b89f736151e", "timestamp": "2026-11-07T16:07:15.265591+00:00"}
+{"event": "public_finding", "event_id": "c5518010d0854e18bc7b981e8c35bb22", "ply": 71, "timestamp": "2026-11-07T16:09:13.949117+00:00"}
+{"event": "opponent_guess", "event_id": "c5518010d0854e18bc7b981e8c35bb22", "timestamp": "2026-11-07T16:09:42.085603+00:00"}
+{"event": "public_finding", "event_id": "a9bf47e932fd43e1b8db3a6f8d70c787", "ply": 72, "timestamp": "2026-11-07T16:11:16.010849+00:00"}
+{"event": "opponent_guess", "event_id": "a9bf47e932fd43e1b8db3a6f8d70c787", "timestamp": "2026-11-07T16:11:44.685021+00:00"}
+{"event": "public_finding", "event_id": "328bf6e3a42a434fa8d20e12198d5a61", "ply": 73, "timestamp": "2026-11-07T16:13:16.130446+00:00"}
+{"event": "opponent_guess", "event_id": "328bf6e3a42a434fa8d20e12198d5a61", "timestamp": "2026-11-07T16:13:39.481737+00:00"}
+{"event": "public_finding", "event_id": "4b0d52f19b1549998d7e53df6836ff5f", "ply": 74, "timestamp": "2026-11-07T16:16:46.582700+00:00"}
+{"event": "opponent_guess", "event_id": "4b0d52f19b1549998d7e53df6836ff5f", "timestamp": "2026-11-07T16:16:54.028869+00:00"}
+{"event": "captain_call_interrupted_and_retried", "event_id": "4b0d52f19b1549998d7e53df6836ff5f", "note": "Initial resumed CLI call produced no output and was interrupted; concise retry completed. No move was committed by the interrupted call.", "seat": "Black Captain", "timestamp": "2026-11-07T16:24:24.092511+00:00"}
+{"event": "public_finding", "event_id": "18e05489afd44c7c8fd1e43ec363a1aa", "ply": 75, "timestamp": "2026-11-07T16:24:54.208949+00:00"}
+{"event": "opponent_guess", "event_id": "18e05489afd44c7c8fd1e43ec363a1aa", "timestamp": "2026-11-07T16:25:27.260275+00:00"}
+{"event": "public_finding", "event_id": "26873fb41d1d4f41b34b486343c512f3", "ply": 76, "timestamp": "2026-11-07T16:27:25.712343+00:00"}
+{"event": "opponent_guess", "event_id": "26873fb41d1d4f41b34b486343c512f3", "timestamp": "2026-11-07T16:28:26.344395+00:00"}
+{"event": "captain_recheck_corrected_tactical_error", "event_id": "26873fb41d1d4f41b34b486343c512f3", "final_move": "c3d3", "initial_candidate": "e3e1", "reason": "Host review identified the checking rook could be captured immediately by Rxe1. Captain re-evaluated and switched to Rd3.", "seat": "Black Captain", "timestamp": "2026-11-07T16:34:14.322916+00:00"}
+{"event": "public_finding", "event_id": "df2d262d8f954ead8cd926b7276c11d6", "ply": 77, "timestamp": "2026-11-07T16:35:11.502204+00:00"}
+{"event": "opponent_guess", "event_id": "df2d262d8f954ead8cd926b7276c11d6", "timestamp": "2026-11-07T16:35:37.321323+00:00"}
+{"event": "public_finding", "event_id": "0e3a17691f544b89ac4eccd45248cabf", "ply": 78, "timestamp": "2026-11-07T16:37:20.343215+00:00"}
+{"event": "opponent_guess", "event_id": "0e3a17691f544b89ac4eccd45248cabf", "timestamp": "2026-11-07T16:38:13.282418+00:00"}
+{"event": "public_finding", "event_id": "0f9c61db43bf410eaf07c1b6cc1b5826", "ply": 79, "timestamp": "2026-11-07T16:42:01.441363+00:00"}
+{"event": "opponent_guess", "event_id": "0f9c61db43bf410eaf07c1b6cc1b5826", "timestamp": "2026-11-07T16:42:33.483710+00:00"}
+{"event": "public_finding", "event_id": "1aa870e2f73e4d91ae63cd1e7cc42e3a", "ply": 80, "timestamp": "2026-11-07T16:44:29.131150+00:00"}
+{"event": "opponent_guess", "event_id": "1aa870e2f73e4d91ae63cd1e7cc42e3a", "timestamp": "2026-11-07T16:44:55.437740+00:00"}
+{"event": "checkpoint_review", "fen": "6k1/pp1r1ppp/8/8/8/P3r2P/6P1/5RK1 w - - 0 41", "full_moves_completed": 40, "game_result": "*", "legal_moves": true, "move_count": 80, "opponent_recovery_accuracy": {"attempted": 80, "correct": 74, "rate": 0.925}, "ply": 80, "review_scope": "board legality, termination, and aggregate coordination telemetry", "team_decode_accuracy": {"attempted": 80, "correct": 79, "rate": 0.9875}, "timestamp": "2026-11-07T16:45:41.007420+00:00"}
+{"event": "public_finding", "event_id": "e9dec2c446084b75b248405ed789e85b", "ply": 81, "timestamp": "2026-11-07T16:46:53.034991+00:00"}
+{"event": "opponent_guess", "event_id": "e9dec2c446084b75b248405ed789e85b", "timestamp": "2026-11-07T16:47:37.747267+00:00"}
+{"event": "public_finding", "event_id": "252036bbf0974e2fb022c2b50fe70ef6", "ply": 82, "timestamp": "2026-11-07T16:48:56.894016+00:00"}
+{"event": "opponent_guess", "event_id": "252036bbf0974e2fb022c2b50fe70ef6", "timestamp": "2026-11-07T16:49:41.656791+00:00"}
+{"event": "public_finding", "event_id": "e8871e0d039e498d9c4c14bbe7b7b4dd", "ply": 83, "timestamp": "2026-11-07T16:50:47.236631+00:00"}
+{"event": "opponent_guess", "event_id": "e8871e0d039e498d9c4c14bbe7b7b4dd", "timestamp": "2026-11-07T16:51:28.222700+00:00"}
+{"event": "public_finding", "event_id": "a2fd3dd4b1db4ab0a32df04cfb92cba8", "ply": 84, "timestamp": "2026-11-07T16:52:26.586566+00:00"}
+{"event": "opponent_guess", "event_id": "a2fd3dd4b1db4ab0a32df04cfb92cba8", "timestamp": "2026-11-07T16:54:29.715225+00:00"}
+{"event": "captain_candidate_corrected_before_commit", "event_id": "a2fd3dd4b1db4ab0a32df04cfb92cba8", "final_move": "e3e1", "initial_candidate": "e3e2", "reason": "Initial explanation incorrectly said e3-e2 captured White's rook on f2 and gave check; host review found it hung to Rxe2. Captain revised to Re1.", "seat": "Black Captain", "timestamp": "2026-11-07T16:55:59.789864+00:00"}
+{"event": "public_finding", "event_id": "e5792f856bd04b4d8def8ac6c5da0402", "ply": 85, "timestamp": "2026-11-07T16:56:36.519911+00:00"}
+{"event": "opponent_guess", "event_id": "e5792f856bd04b4d8def8ac6c5da0402", "timestamp": "2026-11-07T16:56:58.927867+00:00"}
+{"event": "public_finding", "event_id": "f4be473d49f844058dfa8d61c5cfc12d", "ply": 86, "timestamp": "2026-11-07T16:58:13.149677+00:00"}
+{"event": "opponent_guess", "event_id": "f4be473d49f844058dfa8d61c5cfc12d", "timestamp": "2026-11-07T16:58:34.724849+00:00"}
+{"event": "public_finding", "event_id": "45e74a9998104603a4f6c11c11ec498d", "ply": 87, "timestamp": "2026-11-07T17:00:03.830853+00:00"}
+{"event": "opponent_guess", "event_id": "45e74a9998104603a4f6c11c11ec498d", "timestamp": "2026-11-07T17:00:30.025056+00:00"}
+{"event": "public_finding", "event_id": "c1c5ac21e50c4242abefcceab314b303", "ply": 88, "timestamp": "2026-11-07T17:01:32.927467+00:00"}
+{"event": "opponent_guess", "event_id": "c1c5ac21e50c4242abefcceab314b303", "timestamp": "2026-11-07T17:01:55.016161+00:00"}
+{"event": "captain_public_reasoning_corrected_before_commit", "event_id": "c1c5ac21e50c4242abefcceab314b303", "note": "Initial claim that Rxe3 was available from f4 was corrected; final choice e7e1 retained.", "seat": "Black Captain", "timestamp": "2026-11-07T17:03:15.848645+00:00"}
+{"event": "public_finding", "event_id": "2f234fe916674b21ac0ee0b2fee978ad", "ply": 89, "timestamp": "2026-11-07T17:03:54.652233+00:00"}
+{"event": "opponent_guess", "event_id": "2f234fe916674b21ac0ee0b2fee978ad", "timestamp": "2026-11-07T17:04:14.163081+00:00"}
+{"event": "public_finding", "event_id": "f339fc0b1e604d7b9513af2339d7194e", "ply": 90, "timestamp": "2026-11-07T17:05:37.574964+00:00"}
+{"event": "opponent_guess", "event_id": "f339fc0b1e604d7b9513af2339d7194e", "timestamp": "2026-11-07T17:06:02.128453+00:00"}
+{"event": "public_finding", "event_id": "36227854705443c39b605943f3cb8eaf", "ply": 91, "timestamp": "2026-11-07T17:07:27.089588+00:00"}
+{"event": "opponent_guess", "event_id": "36227854705443c39b605943f3cb8eaf", "timestamp": "2026-11-07T17:07:46.840496+00:00"}
+{"event": "public_finding", "event_id": "b064cb3466174932b145f04707708403", "ply": 92, "timestamp": "2026-11-07T17:08:46.198296+00:00"}
+{"event": "opponent_guess", "event_id": "b064cb3466174932b145f04707708403", "timestamp": "2026-11-07T17:09:20.115490+00:00"}
+{"event": "analyst_recommendation_rejected_illegal_move", "event_id": "ply-0093-illegal-g3", "ply": 93, "reason": "Moving the pinned g2 pawn exposes the White king on h2 to the rook on e2.", "timestamp": "2026-11-07T17:11:12.068258+00:00", "uci": "g2g3"}
+{"event": "public_finding", "event_id": "400aed58d0ff407792e6204fc177367e", "ply": 93, "timestamp": "2026-11-07T17:11:47.089398+00:00"}
+{"event": "opponent_guess", "event_id": "400aed58d0ff407792e6204fc177367e", "timestamp": "2026-11-07T17:12:12.558474+00:00"}
+{"event": "public_finding", "event_id": "028bcd71bc4643d3adf00f6eb653041f", "ply": 94, "timestamp": "2026-11-07T17:13:27.664888+00:00"}
+{"event": "opponent_guess", "event_id": "028bcd71bc4643d3adf00f6eb653041f", "timestamp": "2026-11-07T17:14:06.422113+00:00"}
+{"event": "opponent_analysis_correction_requested", "event_id": "028bcd71bc4643d3adf00f6eb653041f", "note": "White Analyst proposed Kf4, but f4 is occupied by White's own rook in the supplied FEN.", "timestamp": "2026-11-07T17:14:06.423112+00:00"}
+{"event": "host_fen_assessment_corrected", "event_id": "028bcd71bc4643d3adf00f6eb653041f", "note": "Host initially misread rank 5 and said f4 was occupied. FEN has White rook on f5, so Kf4 is legal and the analyst's analysis is valid.", "timestamp": "2026-11-07T17:14:43.019035+00:00"}
+{"event": "host_correction_opponent_analysis", "event_id": "028bcd71bc4643d3adf00f6eb653041f", "note": "The prior opponent analysis incorrectly called Kf4 legal. In the actual FEN, White's rook occupies f4, so that square is unavailable. Legal king escapes include Kg4, Kh4, Kh2, Kf2; Rf3 can block.", "timestamp": "2026-11-07T17:17:18.269916+00:00"}
+{"event": "analyst_recommendation_rejected_illegal_move", "event_id": "ply-0095-illegal-kf4", "ply": 95, "reason": "White's rook occupies f4; the king cannot move onto a friendly piece.", "timestamp": "2026-11-07T17:17:18.271884+00:00", "uci": "g3f4"}
+{"event": "public_finding", "event_id": "f081c802275847c795c92e089e6ebe54", "ply": 95, "timestamp": "2026-11-07T17:17:57.058778+00:00"}
+{"event": "opponent_guess", "event_id": "f081c802275847c795c92e089e6ebe54", "timestamp": "2026-11-07T17:18:35.220365+00:00"}
+{"event": "public_finding", "event_id": "7158db66f6d444038b0e194ae3d8bed3", "ply": 96, "timestamp": "2026-11-07T17:20:10.336913+00:00"}
+{"event": "opponent_guess", "event_id": "7158db66f6d444038b0e194ae3d8bed3", "timestamp": "2026-11-07T17:21:00.401472+00:00"}
+{"event": "public_finding", "event_id": "9edfb743fb984fbda6670ed4645d79b5", "ply": 97, "timestamp": "2026-11-07T17:22:24.606967+00:00"}
+{"event": "opponent_guess", "event_id": "9edfb743fb984fbda6670ed4645d79b5", "timestamp": "2026-11-07T17:22:53.411404+00:00"}
+{"event": "public_finding", "event_id": "24648b0fce74413492ab127585cc1395", "ply": 98, "timestamp": "2026-11-07T17:24:23.772394+00:00"}
+{"event": "opponent_guess", "event_id": "24648b0fce74413492ab127585cc1395", "timestamp": "2026-11-07T17:24:48.561285+00:00"}
+{"event": "public_finding", "event_id": "e96287db405244589be41c24a03060c7", "ply": 99, "timestamp": "2026-11-07T17:25:50.666304+00:00"}
+{"event": "opponent_guess", "event_id": "e96287db405244589be41c24a03060c7", "timestamp": "2026-11-07T17:26:11.534216+00:00"}
+{"event": "public_finding", "event_id": "0365d73531f14eb3ae03648eaee0509b", "ply": 100, "timestamp": "2026-11-07T17:27:16.809905+00:00"}
+{"event": "opponent_guess", "event_id": "0365d73531f14eb3ae03648eaee0509b", "timestamp": "2026-11-07T17:27:59.712603+00:00"}
+{"event": "checkpoint_review", "fen": "6k1/pp1r1ppp/8/5R2/4r1K1/P5PP/8/8 w - - 3 51", "full_moves_completed": 50, "game_result": "*", "legal_moves": true, "move_count": 100, "opponent_recovery_accuracy": {"attempted": 100, "correct": 94, "rate": 0.94}, "ply": 100, "review_scope": "board legality, termination, and aggregate coordination telemetry", "team_decode_accuracy": {"attempted": 100, "correct": 99, "rate": 0.99}, "timestamp": "2026-11-07T17:28:47.509649+00:00"}
+{"event": "public_finding", "event_id": "c170e90e590f46feb09e9441c7301854", "ply": 101, "timestamp": "2026-11-07T17:29:12.416383+00:00"}
+{"event": "opponent_guess", "event_id": "c170e90e590f46feb09e9441c7301854", "timestamp": "2026-11-07T17:29:33.756338+00:00"}
+{"event": "public_finding", "event_id": "8514e92128c14ac382f00ed4fee15e91", "ply": 102, "timestamp": "2026-11-07T17:30:46.412618+00:00"}
+{"event": "opponent_guess", "event_id": "8514e92128c14ac382f00ed4fee15e91", "timestamp": "2026-11-07T17:31:15.943071+00:00"}
+{"event": "public_finding", "event_id": "9db02c3fcea0459e871bea28250bccca", "ply": 103, "timestamp": "2026-11-07T17:33:46.769570+00:00"}
+{"event": "opponent_guess", "event_id": "9db02c3fcea0459e871bea28250bccca", "timestamp": "2026-11-07T17:34:22.493352+00:00"}
+{"event": "public_finding", "event_id": "41a6bd85622e4928a17ab4159c1f5447", "ply": 104, "timestamp": "2026-11-07T17:36:57.906751+00:00"}
+{"event": "opponent_guess", "event_id": "41a6bd85622e4928a17ab4159c1f5447", "timestamp": "2026-11-07T17:37:33.878991+00:00"}
+{"event": "host_turn_routing_error", "event_id": "41a6bd85622e4928a17ab4159c1f5447", "intended_seat": "Black Captain", "invoked_seat": "White Captain", "note": "White Captain was called before Black's move was committed. Its response is preserved but not published or scored.", "ply": 104, "timestamp": "2026-11-07T17:38:26.390755+00:00"}
+{"adjudication": "declare winner by strength of position; no further gameplay calls", "event": "user_requested_six_ply_cap_and_position_adjudication", "from_ply": 103, "stop_after_ply": 109, "timestamp": "2026-11-07T17:39:53.943789+00:00"}
+{"event": "public_finding", "event_id": "70fdea6e8eeb4f7dbaed52803acc0bd1", "ply": 105, "timestamp": "2026-11-07T17:40:44.958128+00:00"}
+{"event": "opponent_guess", "event_id": "70fdea6e8eeb4f7dbaed52803acc0bd1", "timestamp": "2026-11-07T17:41:07.104974+00:00"}
+{"event": "public_finding", "event_id": "7da2a74f262141d788b28d2493e1bd0a", "ply": 106, "timestamp": "2026-11-07T17:42:28.960048+00:00"}
+{"event": "opponent_guess", "event_id": "7da2a74f262141d788b28d2493e1bd0a", "timestamp": "2026-11-07T17:42:51.073531+00:00"}
+{"event": "public_finding", "event_id": "792c267ddd7d411f9ec92cb9002c2bb5", "ply": 107, "timestamp": "2026-11-07T17:44:00.401305+00:00"}
+{"event": "opponent_guess", "event_id": "792c267ddd7d411f9ec92cb9002c2bb5", "timestamp": "2026-11-07T17:44:21.916223+00:00"}
+{"event": "public_finding", "event_id": "0dcb241c255c4cfebc88e435bc62e599", "ply": 108, "timestamp": "2026-11-07T17:45:18.155714+00:00"}
+{"event": "opponent_guess", "event_id": "0dcb241c255c4cfebc88e435bc62e599", "timestamp": "2026-11-07T17:45:46.387404+00:00"}
+{"event": "public_finding", "event_id": "00304f8397804be5a1c8d8b2fac21c19", "ply": 109, "timestamp": "2026-11-07T17:47:04.308909+00:00"}
+{"event": "opponent_guess", "event_id": "00304f8397804be5a1c8d8b2fac21c19", "timestamp": "2026-11-07T17:47:27.731412+00:00"}
+{"event": "game_complete", "ply": 109, "post_gameplay_calls": 0, "reason": "configured ply cap reached", "timestamp": "2026-11-07T17:47:55.879219+00:00"}
+{"event": "position_adjudication", "fen": "6k1/pp3ppp/8/3r4/5K2/P5PP/8/8 b - - 2 55", "material_assessment": {"basis": "rook=5, pawn=1; no engine evaluation", "black_advantage_points": 7, "black_nonking_material_points": 10, "white_nonking_material_points": 3}, "material_counts": {"black": {"bishop": 0, "king": 1, "knight": 0, "pawns": 5, "queen": 0, "rook": 1, "total_including_king": 7}, "white": {"bishop": 0, "king": 1, "knight": 0, "pawns": 3, "queen": 0, "rook": 0, "total_including_king": 4}}, "next_gameplay_calls_allowed": false, "ply": 109, "reason": "Black has a rook and five pawns against White?s king and three pawns: an extra rook and two pawns. Black?s king and rook can continue supporting the majority; the position is materially winning in ordinary chess judgment.", "result": "0-1", "rule_result": "*", "termination": "user-requested positional adjudication", "timestamp": "2026-11-07T17:50:13.046206+00:00", "winner": "Black"}

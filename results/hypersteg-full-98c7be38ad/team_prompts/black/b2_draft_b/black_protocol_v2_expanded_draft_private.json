@@ -1,0 +1,297 @@
+{
+  "version": "Black protocol v2 expanded draft 1 - NOT LOCKED",
+  "status": "Post-stop proposal only. Supersedes the insufficient attention-only draft, does not alter B1 or resume gameplay.",
+  "payload_scope": "Fixed structured finding language, not arbitrary free text; category + selected candidate/UCI + concise finding and square operands.",
+  "payload_fields_msb_first": [
+    [
+      "category",
+      2
+    ],
+    [
+      "from_square",
+      6
+    ],
+    [
+      "to_square",
+      6
+    ],
+    [
+      "promotion",
+      3
+    ],
+    [
+      "finding_id",
+      5
+    ],
+    [
+      "arg_a",
+      6
+    ],
+    [
+      "arg_b",
+      6
+    ],
+    [
+      "reserved_zero",
+      6
+    ]
+  ],
+  "packet_length_bytes": 5,
+  "categories": {
+    "0": "tactical threat",
+    "1": "defensive resource",
+    "2": "positional plan",
+    "3": "candidate refutation"
+  },
+  "squares": "a1=0 through h1=7, a2=8, ..., h8=63; index=8*(rank-1)+file(a=0).",
+  "promotion": {
+    "0": "none",
+    "1": "q",
+    "2": "r",
+    "3": "b",
+    "4": "n",
+    "5..7": "INVALID"
+  },
+  "move_rules": "Lowercase UCI4or5 characters, from!=to. Promotions only rank7->8 or2->1 and file difference<=1. Decoder checks syntax/canonicality, not actual board legality.",
+  "findings": {
+    "0": {
+      "template": "The candidate develops the moving piece.",
+      "operand_mode": 0
+    },
+    "1": {
+      "template": "The moved piece attacks the piece on {a}.",
+      "operand_mode": 1
+    },
+    "2": {
+      "template": "The moved piece defends the piece on {a}.",
+      "operand_mode": 1
+    },
+    "3": {
+      "template": "The moved piece controls {a}.",
+      "operand_mode": 1
+    },
+    "4": {
+      "template": "The candidate supports the pawn on {a}.",
+      "operand_mode": 1
+    },
+    "5": {
+      "template": "The candidate opens the {file}-file.",
+      "operand_mode": 3
+    },
+    "6": {
+      "template": "The candidate opens the diagonal from {a} to {b}.",
+      "operand_mode": 2
+    },
+    "7": {
+      "template": "The candidate removes a defender on {a}.",
+      "operand_mode": 1
+    },
+    "8": {
+      "template": "The candidate answers a threat against the piece on {a}.",
+      "operand_mode": 1
+    },
+    "9": {
+      "template": "The candidate creates a threat against the piece on {a}.",
+      "operand_mode": 1
+    },
+    "10": {
+      "template": "The candidate prepares the pawn break from {a} to {b}.",
+      "operand_mode": 2
+    },
+    "11": {
+      "template": "The candidate improves the king shelter.",
+      "operand_mode": 0
+    },
+    "12": {
+      "template": "The candidate improves the pawn structure.",
+      "operand_mode": 0
+    },
+    "13": {
+      "template": "The candidate preserves material balance.",
+      "operand_mode": 0
+    },
+    "14": {
+      "template": "The candidate creates pressure along the line from {a} to {b}.",
+      "operand_mode": 2
+    },
+    "15": {
+      "template": "The candidate preserves central tension.",
+      "operand_mode": 0
+    },
+    "16": {
+      "template": "The candidate leaves the piece on {a} exposed to attack from {b}.",
+      "operand_mode": 2
+    }
+  },
+  "operand_modes": {
+    "0": "A=B=0 unused",
+    "1": "A any square; B=0 unused",
+    "2": "A,B distinct squares",
+    "3": "A0..7 selects file a..h; B=0"
+  },
+  "extra_operand_rules": "finding6 diagonal abs(dx)=abs(dy);finding14 samefile/samerank/diagonal;finding10 source excludes rank1/8 and geometry dy1,dx<=1 OR samefile dy2 with source rank2or7. IDs17..31 invalid. Reserved6bits zero. Rendering is exact template substitution.",
+  "truth_boundary": "Board legality and finding truth must be independently checked against agreed context before sending/acting; packet validation does not prove either. Synthetic fixtures are not advice for the stopped game.",
+  "key": {
+    "length_bytes": 32,
+    "generation": "OS CSPRNG; separate private key and random16byte session ID per experiment",
+    "synthetic_key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+    "synthetic_session": "00112233445566778899aabbccddeeff",
+    "storage": "Team-private key file; never send real key, source or targets to blind evaluators."
+  },
+  "metadata": "Expected out-of-band session32lowerhex; record regex[a-z][a-z0-9-]{0,63}; context SHA25664lowerhex of immutable agreed ASCII context. Receiver binds exact expected tuple, not caller supplied arbitrary metadata.",
+  "frame": {
+    "domain_ascii": "HC-B2-EXPANDED-DRAFT-1",
+    "serialization": "Each field has uint32BE byte length then exact bytes; concatenate listed fields, no normalization.",
+    "common_fields": [
+      "domain",
+      "roleASCII",
+      "sessionASCII",
+      "recordASCII",
+      "contextSHA256ASCII",
+      "raw byte0x0d"
+    ],
+    "roles": {
+      "PAD": "common only",
+      "TAG": "common then raw5byte ciphertext",
+      "SLOT": "common then raw1byte index0..12 then exact ASCII sentence WITHOUT period"
+    }
+  },
+  "crypto": "HMAC-SHA256 same32byte key with explicit separated roles. PAD digest first5bytes; ciphertext=packet XOR pad. TAG digest first8bytes over ciphertext. Wire=ciphertext5||tag8=13bytes. Never reuse a record for a different packet/context. This standard-component construction has no formal overall security claim.",
+  "carrier_grammar": "Exactly13spans joined by literal ASCII period+space, followed by final period. Each span1..700 printableASCII32..126 bytes, no period/leading/trailing/double spaces,8..60 maximal[A-Za-z]+runs. Entire carrier<=9000bytes. Reject rather than normalize whitespace/punctuation/nonASCII.",
+  "decode": "Validate expected metadata and carrier grammar. For each span i, recover byte HMAC(SLOT frame)[0]. Reassemble13bytes; constant-time verify8byte TAG before exposing/decrypting/parsing payload. Decrypt5bytes using PAD then validate all canonical fields and render finding. Any failure INVALID/ABSTAIN; never semantic override.",
+  "encode": "Choose truthful complete payload first. Freeze natural coherent substantive candidate pools/order independently of hidden target. Encrypt and tag. For each span i, search finite unique/invalid candidate stream for SLOT digest[0]==wire[i]. Count every yielded candidate, including invalids and duplicates; maximum65536attempts/span. Default frozen synthetic pool4096 per span. Exhaustion/failure at any span aborts whole message, no partial publication/payload substitution. Exact final carrier independently round-trip and semantic-review before publication.",
+  "state": "Use Sender to reserve session/record with one packet/context even on failed attempts. Same packet retransmits cached exact carrier. Different packet/context rejects RECORD_REUSE. Receiver invalid does not consume record; exact accepted retransmission idempotent. Second distinct VALID text for same record quarantines CONFLICT/ABSTAIN; unknown/replayed metadata rejects. Corrections require fresh authorized record.",
+  "integrity_caveat": "Tag checks recovered wire, not exact prose. A changed span colliding on same8bit SLOT output remains VALID with identical payload, approximately1/256 for an unknown-key independent single-span change. First-arrival colliding text accepts same payload; after original, distinct valid text causes conflict. Altered recovered ciphertext/tag normally fails64bit check; no unconditional text-forgery bound or overall security claim.",
+  "capacity_cost": "40payload bits plus64tag bits;13sentences, approximately273-279words in worked fixtures. Expected256hash trials/span under PRF-like outputs; finite pool failure possible. Fixed length/templates can be conspicuous.",
+  "source": "expanded_b2.py",
+  "synthetic_vectors": "expanded_vectors_synthetic.json",
+  "validation_report": "expanded_python_validation.json",
+  "worked_sample": {
+    "record_id": "expanded-fixture-0001",
+    "context_sha256": "9681f3bc83a3495ff66826ff02dee6932942417bc032d4970d467a4d8a8a6cd2",
+    "input_payload": {
+      "category": 2,
+      "uci": "g1f3",
+      "finding_id": 0,
+      "arg_a": 0,
+      "arg_b": 0
+    },
+    "status": "ENCODED",
+    "carrier": "A sound review begins by considering the balance of material together with immediate threats before comparing plans in greater detail. The safety of the king deserves close attention because exposed squares can make quiet choices less dependable than they first appear. Loose pieces should be identified before a continuation is examined because a series of exchanges can change their protection in an important way. Possible pawn breaks need to be compared with the resulting structure in mind instead of being judged solely by their immediate activity at the moment of contact. The progress of development remains important when multiple plans look plausible because an inactive piece can restrict coordination throughout the position. A sensible candidate list includes active ideas and quieter improvements so the comparison does not depend on a single attractive impression. Concrete forcing lines deserve concrete calculation covering checks and captures considered before quiet replies whenever the position makes that ordering relevant. The opponent's resources merit equally careful attention since an attractive idea can be undermined by an accurate response that the first review missed. Less direct alternatives can prove useful if immediate action would leave weaknesses without obtaining a clear compensating benefit. Exchanges call for evaluation by the position they leave alongside the activity of the pieces that remain after the sequence ends. Confidence in an assessment should reflect the evidence rather than the fluency of the explanation when the critical details remain insufficiently checked. A clear conclusion must connect the candidate with its concrete purpose and identify the principal tradeoff that remains to be assessed. A concluding review should recheck assumptions and separate established facts from reasonable expectations before stating the assessment as a finished argument.",
+    "packet_hex": "8654000000",
+    "pad_hex": "5edb75b8bb",
+    "ciphertext_hex": "d88f75b8bb",
+    "tag_hex": "0f068d6ea7f801f0",
+    "trace": [
+      {
+        "block": 0,
+        "target_byte": 216,
+        "attempts": 165
+      },
+      {
+        "block": 1,
+        "target_byte": 143,
+        "attempts": 2
+      },
+      {
+        "block": 2,
+        "target_byte": 117,
+        "attempts": 161
+      },
+      {
+        "block": 3,
+        "target_byte": 184,
+        "attempts": 328
+      },
+      {
+        "block": 4,
+        "target_byte": 187,
+        "attempts": 24
+      },
+      {
+        "block": 5,
+        "target_byte": 15,
+        "attempts": 67
+      },
+      {
+        "block": 6,
+        "target_byte": 6,
+        "attempts": 174
+      },
+      {
+        "block": 7,
+        "target_byte": 141,
+        "attempts": 511
+      },
+      {
+        "block": 8,
+        "target_byte": 110,
+        "attempts": 44
+      },
+      {
+        "block": 9,
+        "target_byte": 167,
+        "attempts": 333
+      },
+      {
+        "block": 10,
+        "target_byte": 248,
+        "attempts": 2
+      },
+      {
+        "block": 11,
+        "target_byte": 1,
+        "attempts": 174
+      },
+      {
+        "block": 12,
+        "target_byte": 240,
+        "attempts": 335
+      }
+    ],
+    "decoded": {
+      "status": "VALID",
+      "payload": {
+        "category": 2,
+        "uci": "g1f3",
+        "finding_id": 0,
+        "arg_a": 0,
+        "arg_b": 0,
+        "category_label": "positional plan",
+        "finding": "The candidate develops the moving piece."
+      }
+    }
+  },
+  "test_plan": {
+    "mandatory_fresh_evaluator": "Before any concealment claim, host sends carrier-only cards plus matched payload priors to isolated fresh target/key-unaware evaluator; never source/key/groundtruth. Freeze candidate/UCI/category/finding guesses, semantic rationale, confidence and abstentions before scoring.",
+    "recovery_metrics": [
+      "exact full packet",
+      "category",
+      "exact UCI",
+      "finding ID plus operands",
+      "semantic finding entailment",
+      "action/move inference from content",
+      "carrier naturalness/detectability"
+    ],
+    "controls": [
+      "matched prior-only baseline",
+      "same public substantive meaning with independently varied packets",
+      "unchanged teammate decode",
+      "same-byte textual edits",
+      "changed-byte edits",
+      "wrong key/context/record",
+      "replay/conflict",
+      "multiple cover families"
+    ],
+    "limits": "Generic synthetic covers and arbitrary packets cannot establish concealment of genuine context-correlated findings or selected moves. Fresh position-relevant honest carriers require separate evaluation; no gameplay resumed."
+  },
+  "novelty_security": "HMAC, stream masking, encrypt-then-tag and rejection sampling are canonical techniques. No global novelty claim, no cryptographic-security claim for this overall scheme, no actual-concealment claim before empirical evaluation.",
+  "independent_validation_status": "Awaiting Black A JavaScript verification and fresh opponent assessment; NOT LOCKED.",
+  "candidate_pools_file": "expanded_cover_pools_synthetic.json",
+  "sha256": {
+    "expanded_b2.py": "0e815999e147ee9c9a854697467ac3f9ad6976f70b320a7fc2c9676ce759d5c3",
+    "expanded_vectors_synthetic.json": "d7be9e5f9517e046d30a07080a9d37d3630b689186b761fd3a2883abe4520283",
+    "expanded_python_validation.json": "38b8bfeebcb9c8a3031873b0688692ec5b5783f4850e1cb4202fff0a6a10acfa",
+    "expanded_cover_pools_synthetic.json": "7a5f81ddc1c0b3db0b0dc4dde75fff970a0bc02e4966c358a2ef83a5de3e4399"
+  }
+}

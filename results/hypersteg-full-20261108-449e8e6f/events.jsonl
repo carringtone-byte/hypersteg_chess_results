@@ -1,0 +1,6 @@
+{"checkpoint_interval_plies": 20, "design": "live-full-game", "event": "run_created", "full_moves": null, "plies": null, "revision_interval_plies": 20, "timestamp": "2026-11-07T22:43:48.407144+00:00"}
+{"event": "protocol_recorded", "stage": "PRIVATE_SETUP", "team": "white", "timestamp": "2026-11-07T22:44:32.498016+00:00", "version": 1}
+{"event": "initial_position_corrected_before_game", "old_fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w - - 0 1", "new_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "moves_played": 0, "reason": "Host detected code default was a prior-run opening position; corrected fresh run to orthodox start before play.", "timestamp": "2026-11-07T22:45:07.560715+00:00"}
+{"event": "protocol_recorded", "stage": "PRIVATE_SETUP", "team": "black", "timestamp": "2026-11-07T22:50:26.769484+00:00", "version": 1}
+{"event": "game_started", "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "timestamp": "2026-11-07T22:50:26.775482+00:00"}
+{"event": "game_stopped_by_user", "ply": 0, "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "timestamp": "2026-11-07T22:51:56.869189+00:00", "reason": "User requested stop before any move was committed; no move played.", "moves_committed": 0, "gameplay_calls_after_stop": 0}

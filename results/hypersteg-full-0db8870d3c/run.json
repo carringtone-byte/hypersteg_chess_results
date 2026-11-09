@@ -1,0 +1,54 @@
+{
+  "run_id": "hypersteg-full-0db8870d3c",
+  "design": "live-full-game",
+  "created_at": "2026-11-07T12:18:23.731387+00:00",
+  "position_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "max_full_moves": 54,
+  "max_plies": 109,
+  "checkpoint_interval_plies": 20,
+  "model_calls_made_by_harness": 0,
+  "status": "position_adjudicated_black_win",
+  "actor_adapter": "manual live-agent orchestration; host-gated moves and telemetry",
+  "isolation": "logical prompt/store isolation; host process is trusted",
+  "models_requested_or_inherited": "GPT-6 Luna, medium reasoning for four gameplay agents",
+  "agent_roles": [
+    "White A",
+    "White B",
+    "Black A",
+    "Black B"
+  ],
+  "gameplay_calls_made": 342,
+  "protocol_setup_calls": {
+    "white": 3,
+    "black": 4
+  },
+  "budget_override": "User reported 96% weekly allowance remaining and explicitly overrode the prior 50% project ceiling.",
+  "usage_meter_limit": "No live allowance percentage API was available; percentage remains user-reported.",
+  "calls_by_seat": {
+    "White Analyst": 110,
+    "White Captain": 65,
+    "Black Analyst": 106,
+    "Black Captain": 65
+  },
+  "isolated_replay_calls_made": 24,
+  "protocol_revision_responses": {
+    "white": 3,
+    "black": 4
+  },
+  "protocol_versions": {
+    "white": 2,
+    "black": 2
+  },
+  "user_requested_stop_after_plies_from_current_state": 6,
+  "post_stop_adjudication": "strength of position; no further gameplay",
+  "completed_at": "2026-11-07T17:47:55.880232+00:00",
+  "adjudicated_result": "0-1",
+  "winner": "Black",
+  "termination": "user-requested positional adjudication after six plies",
+  "adjudication_basis": {
+    "white_nonking_material_points": 3,
+    "black_nonking_material_points": 10,
+    "black_advantage_points": 7,
+    "basis": "rook=5, pawn=1; no engine evaluation"
+  }
+}

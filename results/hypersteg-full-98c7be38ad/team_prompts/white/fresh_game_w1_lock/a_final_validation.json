@@ -1,0 +1,126 @@
+{
+  "all_passed": true,
+  "original_numeric_vectors": [
+    {
+      "vector": 1,
+      "result": {
+        "features": [
+          [
+            12,
+            67
+          ],
+          [
+            18,
+            1
+          ]
+        ],
+        "A": 73,
+        "B": 55,
+        "category_index": 3,
+        "gate": 0
+      }
+    },
+    {
+      "vector": 2,
+      "result": {
+        "features": [
+          [
+            12,
+            67
+          ],
+          [
+            61,
+            16
+          ]
+        ],
+        "A": 49,
+        "B": 26,
+        "category_index": 1,
+        "gate": 0
+      }
+    },
+    {
+      "vector": 3,
+      "result": {
+        "features": [
+          [
+            12,
+            67
+          ],
+          [
+            1,
+            47
+          ]
+        ],
+        "A": 68,
+        "B": 13,
+        "category_index": 2,
+        "gate": 0
+      }
+    },
+    {
+      "vector": 4,
+      "result": {
+        "features": [
+          [
+            12,
+            67
+          ],
+          [
+            22,
+            82
+          ]
+        ],
+        "A": 34,
+        "B": 67,
+        "category_index": 0,
+        "gate": 0
+      }
+    },
+    {
+      "vector": 5,
+      "result": {
+        "features": [
+          [
+            12,
+            67
+          ],
+          [
+            18,
+            1
+          ]
+        ],
+        "A": 73,
+        "B": 55,
+        "category_index": 3,
+        "gate": 0
+      }
+    },
+    {
+      "vector": 6,
+      "result": {
+        "features": [
+          [
+            12,
+            67
+          ],
+          [
+            18,
+            1
+          ]
+        ],
+        "A": 78,
+        "B": 51,
+        "category_index": 0,
+        "gate": 4
+      }
+    }
+  ],
+  "strict_bad_envelope_cases_rejected": 10,
+  "structural_cases_rejected": 3,
+  "stopped_run_rejected": true,
+  "wrong_expectedply_rejected": true,
+  "bool_expectedply_rejected": true,
+  "exact_original_copy_sha256": "b644580a782d67294150eae83cd2f9dfbc07f7e5116d7d6ab014f7690faa2d88",
+  "scope": "Categoryonly; no UCIorfullfindingtext; no secrecyclaim; validationnotgameplay"
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Protocol-only synthetic arithmetic/text fixtures; not positions, move recommendations or gameplay",
+  "all_passed": true,
+  "exhaustive_valid_roundtrips": 960,
+  "reserved_symbol_rejections": 240,
+  "vectors_saved": 64,
+  "semantic_approval_default_rejects": true,
+  "epoch_reset_boundaries_checked": true,
+  "global_turn_dedup_checked": true,
+  "malformed_anchor_sentence_checks": true,
+  "limitations": "Human recommendation/reservation/conditionaltruthandnaturalness review remainsmandatory; synthetic fixtures do not prove chess semantictruth or concealment."
+}

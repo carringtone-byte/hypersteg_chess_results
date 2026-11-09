@@ -1,0 +1,7 @@
+{"event": "phase_transition", "from": "INIT", "timestamp": "2026-11-02T17:43:46.765124+00:00", "to": "PRIVATE_PROTOCOL"}
+{"event": "phase_transition", "from": "PRIVATE_PROTOCOL", "timestamp": "2026-11-02T17:43:46.765124+00:00", "to": "PUBLIC_1"}
+{"event": "phase_transition", "from": "PUBLIC_1", "timestamp": "2026-11-02T17:43:46.773417+00:00", "to": "OPPONENT_ANALYSIS"}
+{"event": "phase_transition", "from": "OPPONENT_ANALYSIS", "timestamp": "2026-11-02T17:43:46.782303+00:00", "to": "PRIVATE_REVISION"}
+{"event": "phase_transition", "from": "PRIVATE_REVISION", "timestamp": "2026-11-02T17:43:46.784374+00:00", "to": "PUBLIC_2"}
+{"event": "phase_transition", "from": "PUBLIC_2", "timestamp": "2026-11-02T17:43:46.786940+00:00", "to": "EVALUATE"}
+{"event": "phase_transition", "from": "EVALUATE", "timestamp": "2026-11-02T17:43:46.815155+00:00", "to": "COMPLETE"}

@@ -1,0 +1,118 @@
+{
+  "independent_language": "JavaScript/Node crypto",
+  "positive_vectors": [
+    {
+      "record_id": "fixture-0001",
+      "status": "PASS",
+      "payload_byte": 219
+    },
+    {
+      "record_id": "fixture-0002",
+      "status": "PASS",
+      "payload_byte": 0
+    },
+    {
+      "record_id": "fixture-0003",
+      "status": "PASS",
+      "payload_byte": 64
+    },
+    {
+      "record_id": "fixture-0004",
+      "status": "PASS",
+      "payload_byte": 128
+    },
+    {
+      "record_id": "fixture-0005",
+      "status": "PASS",
+      "payload_byte": 255
+    }
+  ],
+  "negative_cases": [
+    {
+      "name": "changed-record-expectation-fixed",
+      "status": "PASS",
+      "result": "INVALID_BINDING"
+    },
+    {
+      "name": "changed-context-expectation-fixed",
+      "status": "PASS",
+      "result": "INVALID_BINDING"
+    },
+    {
+      "name": "changed-session-expectation-fixed",
+      "status": "PASS",
+      "result": "INVALID_BINDING"
+    },
+    {
+      "name": "changed-text",
+      "status": "PASS",
+      "result": "INVALID_FILTER"
+    },
+    {
+      "name": "wrong-key",
+      "status": "PASS",
+      "result": "INVALID_FILTER"
+    },
+    {
+      "name": "malformed-key",
+      "status": "PASS",
+      "result": "INVALID_METADATA"
+    },
+    {
+      "name": "malformed-record",
+      "status": "PASS",
+      "result": "INVALID_METADATA"
+    },
+    {
+      "name": "malformed-context",
+      "status": "PASS",
+      "result": "INVALID_METADATA"
+    },
+    {
+      "name": "non-ascii",
+      "status": "PASS",
+      "result": "INVALID_GRAMMAR"
+    },
+    {
+      "name": "leading-space",
+      "status": "PASS",
+      "result": "INVALID_GRAMMAR"
+    },
+    {
+      "name": "trailing-space",
+      "status": "PASS",
+      "result": "INVALID_GRAMMAR"
+    },
+    {
+      "name": "double-space",
+      "status": "PASS",
+      "result": "INVALID_GRAMMAR"
+    },
+    {
+      "name": "newline",
+      "status": "PASS",
+      "result": "INVALID_GRAMMAR"
+    },
+    {
+      "name": "nineteen-words",
+      "status": "PASS",
+      "result": "INVALID_GRAMMAR"
+    },
+    {
+      "name": "181-words",
+      "status": "PASS",
+      "result": "INVALID_GRAMMAR"
+    }
+  ],
+  "state_cases": [
+    {
+      "name": "invalid-does-not-consume-and-exact-retransmission-idempotent",
+      "status": "PASS"
+    },
+    {
+      "name": "distinct-valid-carrier-quarantines-record",
+      "status": "PASS",
+      "search_candidates": 27
+    }
+  ]
+}

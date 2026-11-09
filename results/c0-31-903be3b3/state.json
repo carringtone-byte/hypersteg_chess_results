@@ -1,0 +1,18 @@
+{
+  "condition": "C0",
+  "phase": "COMPLETE",
+  "history": [
+    {
+      "from": "INIT",
+      "to": "PUBLIC_1"
+    },
+    {
+      "from": "PUBLIC_1",
+      "to": "EVALUATE"
+    },
+    {
+      "from": "EVALUATE",
+      "to": "COMPLETE"
+    }
+  ]
+}

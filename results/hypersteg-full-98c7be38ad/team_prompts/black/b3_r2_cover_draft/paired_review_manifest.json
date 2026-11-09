@@ -1,0 +1,11 @@
+{
+  "status": "PAIRED_REVIEW_READY_NOT_ADOPTED",
+  "bank_sha256": "51a6e23031c0c1fd2849b26341f5a1f9bd39ba0fdd2ed7f0efeff9f00cbe527f",
+  "public_cards": [
+    "blind_card_P.json",
+    "blind_card_Q.json"
+  ],
+  "instructions": "Host uses two fresh isolated key/target-unaware reviewer contexts, one card each; no source, keys, targets, mapping or cross-arm output. Preserve raw outputs unchanged before scoring.",
+  "expected_chance": "Fullpacket/category/UCI/finding menu ID each1/3 under the matched restricted prior. N=1 paired sample cannot establish concealment.",
+  "naturalness_and_recovery": "Score separately; no inferential claim from a failed exact guess. B2/B3 remain unadopted unless separately justified by further evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "draft_revision": "W2-R2-unadopted",
+  "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/P2P1N2/1PP2PPP/RNBQ1RK1 w - - 2 7",
+  "context": {
+    "version": 2,
+    "channel_id": "WHITE-W2-SEMANTIC-REPAIR-R2",
+    "message_id": 2,
+    "position_tag": "e4a30241a5fd542f806a40c88f5454736ad29d7d603ea80421b4ba353d210682"
+  },
+  "bank_sha256_display": "fbfc90249e6a3e953c4adea151899e5debc254d52642c0c8985dcf60a2b0f43d",
+  "frozen_at_utc": "2026-11-07T22:14:37Z",
+  "selected_target": "NOT_YET_DRAWN",
+  "bank_counts": [
+    512,
+    512,
+    512,
+    512,
+    512,
+    512,
+    512,
+    512
+  ],
+  "prior_failure_target_excluded": {
+    "category": "candidate_refutation",
+    "uci": "c4f7"
+  },
+  "target_draw": "uniform among3 remaining truthful findings, only after this file is saved",
+  "provenance": "Adaptive exploratory factual-cover repair proposed by White B; no explicit candidate UCI or selected refutation in cover; old W2 files unchanged"
+}

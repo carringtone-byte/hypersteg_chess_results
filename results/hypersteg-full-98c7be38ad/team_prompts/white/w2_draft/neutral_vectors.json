@@ -1,0 +1,234 @@
+[
+  {
+    "context": {
+      "channel_id": "WHITE-W2-NEUTRAL",
+      "message_id": 1,
+      "position_tag": "NEUTRAL-NO-BOARD",
+      "version": 2
+    },
+    "payload": {
+      "mode": "neutral",
+      "neutral_id": 0
+    },
+    "text": "At the start of the review, the editor considers the account in detail. For consistency, the editor checks the summary against the original notes. Where clarification is needed, the editor records the outstanding issues for subsequent discussion. Before changing the text, the editor reviews the alternative wording before making revisions. For a clearer structure, the editor checks the arrangement of the supporting material. To preserve useful context, the editor checks the background notes for further context. Before the next revision, the editor identifies the suggested changes for the next edition. Before concluding the review, the editor assesses the corrected account before the next discussion.",
+    "trace": {
+      "raw_hex": "200000",
+      "tag_hex": "8c8b",
+      "packet_hex": "800002322c",
+      "symbols": [
+        16,
+        0,
+        0,
+        0,
+        4,
+        12,
+        17,
+        12
+      ],
+      "candidate_indices_zero_based": [
+        7,
+        3,
+        3,
+        8,
+        2,
+        2,
+        15,
+        79
+      ]
+    },
+    "decoded": {
+      "status": "VALID",
+      "payload": {
+        "mode": "neutral",
+        "neutral_id": 0
+      },
+      "symbols": [
+        16,
+        0,
+        0,
+        0,
+        4,
+        12,
+        17,
+        12
+      ],
+      "raw_hex": "200000",
+      "tag_hex": "8c8b",
+      "packet_hex": "800002322c"
+    }
+  },
+  {
+    "context": {
+      "channel_id": "WHITE-W2-NEUTRAL",
+      "message_id": 1,
+      "position_tag": "NEUTRAL-NO-BOARD",
+      "version": 2
+    },
+    "payload": {
+      "mode": "neutral",
+      "neutral_id": 1
+    },
+    "text": "At the start of the review, the editor considers the account in detail. For consistency, the editor checks the summary against the original notes. Where clarification is needed, the editor records the outstanding issues for subsequent discussion. Before changing the text, the editor reviews the alternative wording before making revisions. For a clearer structure, the reader checks the arrangement of the supporting material. To preserve useful context, the editor checks the accompanying notes for relevant context. Before the next revision, the editor notes the remaining corrections for the next version. As the review concludes, the editor examines the revised draft before the next discussion.",
+    "trace": {
+      "raw_hex": "200001",
+      "tag_hex": "f65d",
+      "packet_hex": "800007d974",
+      "symbols": [
+        16,
+        0,
+        0,
+        0,
+        15,
+        22,
+        11,
+        20
+      ],
+      "candidate_indices_zero_based": [
+        7,
+        3,
+        3,
+        8,
+        50,
+        3,
+        10,
+        0
+      ]
+    },
+    "decoded": {
+      "status": "VALID",
+      "payload": {
+        "mode": "neutral",
+        "neutral_id": 1
+      },
+      "symbols": [
+        16,
+        0,
+        0,
+        0,
+        15,
+        22,
+        11,
+        20
+      ],
+      "raw_hex": "200001",
+      "tag_hex": "f65d",
+      "packet_hex": "800007d974"
+    }
+  },
+  {
+    "context": {
+      "channel_id": "WHITE-W2-NEUTRAL",
+      "message_id": 1,
+      "position_tag": "NEUTRAL-NO-BOARD",
+      "version": 2
+    },
+    "payload": {
+      "mode": "neutral",
+      "neutral_id": 654321
+    },
+    "text": "At the start of the review, the editor examines the account in detail. For consistency, the author assesses the wording against the earlier notes. For clarification, the editor identifies the remaining questions for later discussion. Before revising the draft, the editor considers the alternative wording before making revisions. To clarify the organization, the editor examines the arrangement of the supporting material. To preserve useful context, the editor checks the supporting notes for additional context. Before the next revision, the editor lists the suggested changes for the next edition. As the review concludes, the editor examines the revised draft before the next discussion.",
+    "trace": {
+      "raw_hex": "29fbf1",
+      "tag_hex": "61a5",
+      "packet_hex": "a7efc58694",
+      "symbols": [
+        20,
+        31,
+        23,
+        28,
+        11,
+        1,
+        20,
+        20
+      ],
+      "candidate_indices_zero_based": [
+        3,
+        44,
+        76,
+        68,
+        74,
+        0,
+        7,
+        0
+      ]
+    },
+    "decoded": {
+      "status": "VALID",
+      "payload": {
+        "mode": "neutral",
+        "neutral_id": 654321
+      },
+      "symbols": [
+        20,
+        31,
+        23,
+        28,
+        11,
+        1,
+        20,
+        20
+      ],
+      "raw_hex": "29fbf1",
+      "tag_hex": "61a5",
+      "packet_hex": "a7efc58694"
+    }
+  },
+  {
+    "context": {
+      "channel_id": "WHITE-W2-NEUTRAL",
+      "message_id": 1,
+      "position_tag": "NEUTRAL-NO-BOARD",
+      "version": 2
+    },
+    "payload": {
+      "mode": "neutral",
+      "neutral_id": 2097151
+    },
+    "text": "As the review begins, the reviewer considers the account in detail. For consistency, the author assesses the wording against the earlier notes. Where clarification is needed, the reviewer lists the outstanding issues for subsequent discussion. Before changing the text, the editor examines the alternative wording before making revisions. For a clearer structure, the reviewer reviews the organization of the available examples. To preserve useful context, the reader examines the reference material for useful context. Before preparing another draft, the editor records the final adjustments for the next revision. Before concluding the review, the editor assesses the corrected account before the next discussion.",
+    "trace": {
+      "raw_hex": "3fffff",
+      "tag_hex": "e2eb",
+      "packet_hex": "ffffff8bac",
+      "symbols": [
+        31,
+        31,
+        31,
+        31,
+        31,
+        2,
+        29,
+        12
+      ],
+      "candidate_indices_zero_based": [
+        87,
+        44,
+        23,
+        0,
+        23,
+        53,
+        128,
+        79
+      ]
+    },
+    "decoded": {
+      "status": "VALID",
+      "payload": {
+        "mode": "neutral",
+        "neutral_id": 2097151
+      },
+      "symbols": [
+        31,
+        31,
+        31,
+        31,
+        31,
+        2,
+        29,
+        12
+      ],
+      "raw_hex": "3fffff",
+      "tag_hex": "e2eb",
+      "packet_hex": "ffffff8bac"
+    }
+  }
+]

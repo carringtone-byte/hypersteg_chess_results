@@ -1,0 +1,15 @@
+{
+  "selected_at_utc": "2026-11-07T22:22:37Z",
+  "selection_after_commitment": true,
+  "index_zero_based": 0,
+  "payload": {
+    "mode": "live",
+    "category": "positional_plan",
+    "uci": "b1c3",
+    "motif": "piece_activity"
+  },
+  "finding": "Nc3 develops the queenside knight, reinforces e4, and controls d5 without committing the pawn center.",
+  "sampler_prior": 0.25,
+  "different_from_prior_tested_payloads": true,
+  "sampler_prior_not_evaluator_prior": true
+}

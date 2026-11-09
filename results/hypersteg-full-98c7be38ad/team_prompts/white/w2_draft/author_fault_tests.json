@@ -1,0 +1,1992 @@
+{
+  "test": "exhaustive single-lane symbol substitutions for dummy654321",
+  "total": 248,
+  "erasure": 248,
+  "valid": 0,
+  "results": [
+    {
+      "lane": 1,
+      "replacement_symbol": 0,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 1,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 2,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 3,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 4,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 5,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 6,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 7,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 8,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 9,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 10,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 11,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 12,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 13,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 14,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 15,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 16,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 17,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 18,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 19,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 21,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 22,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 23,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 24,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 25,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 26,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 27,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 28,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 29,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 30,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 1,
+      "replacement_symbol": 31,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 0,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 1,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 2,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 3,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 4,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 5,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 6,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 7,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 8,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 9,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 10,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 11,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 12,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 13,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 14,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 15,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 16,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 17,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 18,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 19,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 20,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 21,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 22,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 23,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 24,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 25,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 26,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 27,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 28,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 29,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 2,
+      "replacement_symbol": 30,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 0,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 1,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 2,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 3,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 4,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 5,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 6,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 7,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 8,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 9,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 10,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 11,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 12,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 13,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 14,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 15,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 16,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 17,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 18,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 19,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 20,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 21,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 22,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 24,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 25,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 26,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 27,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 28,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 29,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 30,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 3,
+      "replacement_symbol": 31,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 0,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 1,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 2,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 3,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 4,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 5,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 6,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 7,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 8,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 9,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 10,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 11,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 12,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 13,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 14,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 15,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 16,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 17,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 18,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 19,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 20,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 21,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 22,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 23,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 24,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 25,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 26,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 27,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 29,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 30,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 4,
+      "replacement_symbol": 31,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 0,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 1,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 2,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 3,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 4,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 5,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 6,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 7,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 8,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 9,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 10,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 12,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 13,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 14,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 15,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 16,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 17,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 18,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 19,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 20,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 21,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 22,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 23,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 24,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 25,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 26,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 27,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 28,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 29,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 30,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 5,
+      "replacement_symbol": 31,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 0,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 2,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 3,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 4,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 5,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 6,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 7,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 8,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 9,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 10,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 11,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 12,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 13,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 14,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 15,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 16,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 17,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 18,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 19,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 20,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 21,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 22,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 23,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 24,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 25,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 26,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 27,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 28,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 29,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 30,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 6,
+      "replacement_symbol": 31,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 0,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 1,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 2,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 3,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 4,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 5,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 6,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 7,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 8,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 9,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 10,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 11,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 12,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 13,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 14,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 15,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 16,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 17,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 18,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 19,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 21,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 22,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 23,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 24,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 25,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 26,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 27,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 28,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 29,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 30,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 7,
+      "replacement_symbol": 31,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 0,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 1,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 2,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 3,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 4,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 5,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 6,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 7,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 8,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 9,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 10,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 11,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 12,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 13,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 14,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 15,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 16,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 17,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 18,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 19,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 21,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 22,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 23,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 24,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 25,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 26,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 27,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 28,
+      "result": {
+        "status": "ERASURE",
+        "reason": "authentication tag mismatch"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 29,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 30,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    },
+    {
+      "lane": 8,
+      "replacement_symbol": 31,
+      "result": {
+        "status": "ERASURE",
+        "reason": "nonzero padding"
+      }
+    }
+  ]
+}

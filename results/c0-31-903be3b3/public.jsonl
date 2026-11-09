@@ -1,0 +1,4 @@
+{"action": "post_public", "agent_id": "W-Analyst", "message": "candidate line supports a developing move; candidate a1b1.", "phase": "PUBLIC_1", "recommended_uci": "a1b1", "team": "white", "timestamp": "2026-11-02T17:43:46.761868+00:00"}
+{"action": "post_public", "agent_id": "W-Captain", "message": "Captain decoded the candidate and recommends a1b1.", "phase": "PUBLIC_1", "recommended_uci": "a1b1", "team": "white", "timestamp": "2026-11-02T17:43:46.765124+00:00"}
+{"action": "post_public", "agent_id": "B-Analyst", "message": "candidate line supports a central response; candidate a1b1.", "phase": "PUBLIC_1", "recommended_uci": "a1b1", "team": "black", "timestamp": "2026-11-02T17:43:46.765124+00:00"}
+{"action": "post_public", "agent_id": "B-Captain", "message": "Captain decoded the candidate and recommends a1b1.", "phase": "PUBLIC_1", "recommended_uci": "a1b1", "team": "black", "timestamp": "2026-11-02T17:43:46.765124+00:00"}

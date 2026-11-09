@@ -1,0 +1,199 @@
+{
+  "run_id": "hypersteg-full-20261108-449e8e6f",
+  "scope": "Independent cross-language protocol/envelope tests; no gameplay calls",
+  "checks": [
+    {
+      "name": "python-codec-vector-0",
+      "pass": true
+    },
+    {
+      "name": "python-codec-vector-1",
+      "pass": true
+    },
+    {
+      "name": "python-codec-vector-2",
+      "pass": true
+    },
+    {
+      "name": "python-codec-vector-3",
+      "pass": true
+    },
+    {
+      "name": "python-codec-vector-4",
+      "pass": true
+    },
+    {
+      "name": "python-codec-vector-5",
+      "pass": true
+    },
+    {
+      "name": "python-codec-vector-6",
+      "pass": true
+    },
+    {
+      "name": "python-codec-vector-7",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-run_id",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-session_id",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-event_id",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-team",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-protocol_id",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-protocol_version",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-spec_sha256",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-fen",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-absolute_ply",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-run_relative_ply",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-run_start_absolute_ply",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-host_stage",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-event_kind",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-both_protocols_recorded",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-host_begin_confirmed",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:wrong-gameplay_actor_calls_allowed",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:strict-type-protocol_version",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:strict-type-run_relative_ply",
+      "pass": true
+    },
+    {
+      "name": "python-envelope:strict-type-both_protocols_recorded",
+      "pass": true
+    },
+    {
+      "name": "python-envelope-state-sequence",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate:host_stage",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate:host_begin_confirmed",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate:both_protocols_recorded",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate:gameplay_actor_calls_allowed",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate:absolute_ply",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate:run_relative_ply",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate:session_id",
+      "pass": true
+    },
+    {
+      "name": "trusted-gate:protocol_version",
+      "pass": true
+    },
+    {
+      "name": "shifted-absolute-relative-frame",
+      "pass": true
+    },
+    {
+      "name": "type-exact-binding:protocol_version",
+      "pass": true
+    },
+    {
+      "name": "type-exact-binding:run_relative_ply",
+      "pass": true
+    },
+    {
+      "name": "type-exact-binding:both_protocols_recorded",
+      "pass": true
+    },
+    {
+      "name": "type-exact-binding:host_begin_confirmed",
+      "pass": true
+    },
+    {
+      "name": "type-exact-binding:gameplay_actor_calls_allowed",
+      "pass": true
+    },
+    {
+      "name": "explicit-before-guess-replacement",
+      "pass": true
+    },
+    {
+      "name": "invalid-carrier-does-not-consume",
+      "pass": true
+    },
+    {
+      "name": "extra-or-missing-envelope-field",
+      "pass": true
+    },
+    {
+      "name": "fresh-run-logical-session-binding-in-synthetic-sandbox",
+      "pass": true
+    },
+    {
+      "name": "real-host-still-awaits-start",
+      "pass": true
+    }
+  ],
+  "spec_sha256": "a66e172a9606ec7f6a6cf428948e0264d962e5a9f046669eff68ca212fadbcb3",
+  "passed": 47,
+  "total": 47,
+  "ready_to_play": false,
+  "host_start_required": true
+}

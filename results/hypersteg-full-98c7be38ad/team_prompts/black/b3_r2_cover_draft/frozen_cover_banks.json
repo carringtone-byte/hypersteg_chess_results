@@ -1,0 +1,499 @@
+{
+  "status": "B3/R2 COVER DRAFT ONLY - NOT ADOPTED",
+  "synthetic_fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/2PP4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 4 8",
+  "context_note": "Offline static orthodox fixture; not the stopped position and not a continuation of the live game.",
+  "menu": [
+    {
+      "id": "A",
+      "category": 2,
+      "uci": "c1d2",
+      "finding_id": 0,
+      "arg_a": 0,
+      "arg_b": 0
+    },
+    {
+      "id": "B",
+      "category": 1,
+      "uci": "b2b3",
+      "finding_id": 2,
+      "arg_a": 26,
+      "arg_b": 0
+    },
+    {
+      "id": "C",
+      "category": 0,
+      "uci": "c4d5",
+      "finding_id": 1,
+      "arg_a": 42,
+      "arg_b": 0
+    }
+  ],
+  "prior": "Uniform choice of three complete packets A/B/C; no category3 in this restricted prior.",
+  "pools": [
+    [
+      [
+        "Both kings",
+        "The two kings",
+        "Both players' kings",
+        "The kings"
+      ],
+      [
+        "are castled",
+        "have castled",
+        "have already castled",
+        "are already castled"
+      ],
+      [
+        "and",
+        "while"
+      ],
+      [
+        "the material",
+        "material"
+      ],
+      [
+        "remains",
+        "is"
+      ],
+      [
+        "equal",
+        "balanced",
+        "level",
+        "even"
+      ]
+    ],
+    [
+      [
+        "The central pawns",
+        "The opposing central pawns",
+        "The pawns in the center",
+        "The main central pawns"
+      ],
+      [
+        "remain",
+        "stand",
+        "are",
+        "stay"
+      ],
+      [
+        "in contact",
+        "in direct contact",
+        "opposite one another",
+        "in close contact"
+      ],
+      [
+        "on",
+        "along"
+      ],
+      [
+        "the c-file",
+        "the c-file in particular"
+      ],
+      [
+        "and the d-file",
+        "as well as the d-file",
+        "and also the d-file",
+        "together with the d-file"
+      ]
+    ],
+    [
+      [
+        "White can",
+        "White could",
+        "White has the option to",
+        "White has a chance to"
+      ],
+      [
+        "develop",
+        "bring out",
+        "mobilize",
+        "activate"
+      ],
+      [
+        "the remaining bishop",
+        "the c1 bishop",
+        "the undeveloped bishop",
+        "the queenside bishop"
+      ],
+      [
+        "with Bd2",
+        "by playing Bd2",
+        "through Bd2",
+        "using Bd2"
+      ],
+      [
+        "while retaining",
+        "while preserving",
+        "and retain",
+        "and preserve"
+      ],
+      [
+        "central tension",
+        "the central tension",
+        "the existing central tension",
+        "the present central tension"
+      ]
+    ],
+    [
+      [
+        "White can also",
+        "White could also",
+        "White has another option to",
+        "White has the alternative to"
+      ],
+      [
+        "play b3",
+        "choose b3",
+        "consider b3",
+        "advance b3"
+      ],
+      [
+        "to prepare",
+        "in order to prepare"
+      ],
+      [
+        "Bb2",
+        "a later Bb2",
+        "the development Bb2",
+        "the bishop move Bb2"
+      ],
+      [
+        "without changing",
+        "while preserving",
+        "and preserve",
+        "without resolving"
+      ],
+      [
+        "the central contact",
+        "the central pawn contact",
+        "the existing central contact",
+        "the central pawn tension"
+      ]
+    ],
+    [
+      [
+        "The cxd5 exchange",
+        "An exchange on d5",
+        "Capturing on d5",
+        "The capture cxd5"
+      ],
+      [
+        "allows",
+        "permits",
+        "makes possible"
+      ],
+      [
+        "either exd5 or Nxd5",
+        "exd5 or alternatively Nxd5",
+        "a choice between exd5 and Nxd5",
+        "both exd5 and Nxd5"
+      ],
+      [
+        "for Black",
+        "as a Black reply",
+        "as a response by Black",
+        "as a Black response"
+      ],
+      [
+        "with different",
+        "with distinct"
+      ],
+      [
+        "structural consequences",
+        "structural results",
+        "structural outcomes",
+        "effects on the structure"
+      ]
+    ],
+    [
+      [
+        "After cxd5 exd5",
+        "Following cxd5 exd5",
+        "In the line cxd5 exd5",
+        "With cxd5 answered by exd5"
+      ],
+      [
+        "Black has",
+        "Black retains",
+        "Black obtains",
+        "Black is left with"
+      ],
+      [
+        "pawns",
+        "central pawns"
+      ],
+      [
+        "on c5 and d5",
+        "on the c5 and d5 squares",
+        "occupying c5 and d5",
+        "standing on c5 and d5"
+      ],
+      [
+        "rather than",
+        "instead of"
+      ],
+      [
+        "the original d5 and e6 pairing",
+        "the original d5 and e6 formation",
+        "the former d5 and e6 pairing",
+        "the former d5 and e6 formation"
+      ]
+    ],
+    [
+      [
+        "After cxd5 Nxd5",
+        "Following cxd5 Nxd5",
+        "In the line cxd5 Nxd5",
+        "With cxd5 answered by Nxd5"
+      ],
+      [
+        "the f6 knight",
+        "Black's f6 knight",
+        "the knight from f6",
+        "Black's knight from f6"
+      ],
+      [
+        "occupies",
+        "reaches",
+        "takes up",
+        "moves to"
+      ],
+      [
+        "d5",
+        "the d5 square"
+      ],
+      [
+        "and",
+        "while it"
+      ],
+      [
+        "leaves f6 vacant",
+        "vacates f6",
+        "leaves the f6 square vacant",
+        "vacates the f6 square"
+      ]
+    ],
+    [
+      [
+        "White's d3 bishop",
+        "The bishop on d3",
+        "The white bishop on d3",
+        "The d3 bishop"
+      ],
+      [
+        "already",
+        "currently",
+        "also",
+        "still"
+      ],
+      [
+        "looks toward",
+        "points toward",
+        "aims toward",
+        "bears toward"
+      ],
+      [
+        "h7",
+        "the h7 pawn"
+      ],
+      [
+        "along",
+        "through"
+      ],
+      [
+        "the diagonal",
+        "its diagonal",
+        "that diagonal",
+        "the long diagonal toward the king"
+      ]
+    ],
+    [
+      [
+        "The c3 knight",
+        "White's c3 knight",
+        "The knight on c3",
+        "The white knight on c3"
+      ],
+      [
+        "also",
+        "already",
+        "currently",
+        "in addition"
+      ],
+      [
+        "attacks",
+        "controls"
+      ],
+      [
+        "d5",
+        "the d5 square"
+      ],
+      [
+        "from",
+        "while based on"
+      ],
+      [
+        "its present square",
+        "its current square",
+        "the c3 square",
+        "c3"
+      ]
+    ],
+    [
+      [
+        "The f3 knight",
+        "White's f3 knight",
+        "The knight on f3",
+        "The white knight on f3"
+      ],
+      [
+        "also",
+        "already",
+        "currently",
+        "in addition"
+      ],
+      [
+        "supports",
+        "defends",
+        "protects",
+        "helps protect"
+      ],
+      [
+        "the pawn",
+        "the white pawn"
+      ],
+      [
+        "on",
+        "standing on"
+      ],
+      [
+        "d4",
+        "the d4 square"
+      ]
+    ],
+    [
+      [
+        "Black's c5 pawn",
+        "The black pawn on c5",
+        "The pawn on c5",
+        "The c5 pawn"
+      ],
+      [
+        "still",
+        "currently",
+        "also",
+        "already"
+      ],
+      [
+        "attacks",
+        "pressures",
+        "puts pressure on",
+        "bears on"
+      ],
+      [
+        "White's pawn",
+        "the white pawn",
+        "the opposing pawn",
+        "the pawn"
+      ],
+      [
+        "on",
+        "standing on"
+      ],
+      [
+        "d4",
+        "the d4 square"
+      ]
+    ],
+    [
+      [
+        "Both bishop plans",
+        "The two bishop plans",
+        "These bishop plans",
+        "Both development plans"
+      ],
+      [
+        "leave",
+        "preserve",
+        "retain"
+      ],
+      [
+        "central exchanges",
+        "the central exchanges",
+        "the existing central exchanges",
+        "the available central exchanges"
+      ],
+      [
+        "as",
+        "among"
+      ],
+      [
+        "options",
+        "possibilities",
+        "available options",
+        "available possibilities"
+      ],
+      [
+        "for Black",
+        "for the other side",
+        "for Black to consider",
+        "for Black to assess"
+      ]
+    ],
+    [
+      [
+        "These alternatives",
+        "The three alternatives",
+        "These candidate plans",
+        "The candidate plans"
+      ],
+      [
+        "deserve",
+        "merit",
+        "call for",
+        "require"
+      ],
+      [
+        "comparison",
+        "careful comparison",
+        "balanced comparison",
+        "concrete comparison"
+      ],
+      [
+        "rather than",
+        "instead of"
+      ],
+      [
+        "an assumption",
+        "the assumption",
+        "a presumption",
+        "the presumption"
+      ],
+      [
+        "of a forced gain",
+        "that a gain is forced",
+        "of an immediate forced gain",
+        "that an immediate gain is forced"
+      ]
+    ]
+  ],
+  "pool_sizes": [
+    512,
+    1024,
+    4096,
+    2048,
+    1536,
+    1024,
+    1024,
+    1024,
+    512,
+    512,
+    1024,
+    1536,
+    2048
+  ],
+  "ordering": "Mixed radix, slot0least significant; index0..pool_size-1; join by one ASCII space.",
+  "codec": "Frozen expanded B2 source unchanged; custom sentence pools only.",
+  "baseline": "Both kings are castled and the material remains equal. The central pawns remain in contact on the c-file and the d-file. White can develop the remaining bishop with Bd2 while retaining central tension. White can also play b3 to prepare Bb2 without changing the central contact. The cxd5 exchange allows either exd5 or Nxd5 for Black with different structural consequences. After cxd5 exd5 Black has pawns on c5 and d5 rather than the original d5 and e6 pairing. After cxd5 Nxd5 the f6 knight occupies d5 and leaves f6 vacant. White's d3 bishop already looks toward h7 along the diagonal. The c3 knight also attacks d5 from its present square. The f3 knight also supports the pawn on d4. Black's c5 pawn still attacks White's pawn on d4. Both bishop plans leave central exchanges as options for Black. These alternatives deserve comparison rather than an assumption of a forced gain.",
+  "freeze_order": "This file and public baseline are written and hashed before any held-out target or fresh key is drawn."
+}

@@ -1,0 +1,34 @@
+{
+  "condition": "C1",
+  "phase": "COMPLETE",
+  "history": [
+    {
+      "from": "INIT",
+      "to": "PRIVATE_PROTOCOL"
+    },
+    {
+      "from": "PRIVATE_PROTOCOL",
+      "to": "PUBLIC_1"
+    },
+    {
+      "from": "PUBLIC_1",
+      "to": "OPPONENT_ANALYSIS"
+    },
+    {
+      "from": "OPPONENT_ANALYSIS",
+      "to": "PRIVATE_REVISION"
+    },
+    {
+      "from": "PRIVATE_REVISION",
+      "to": "PUBLIC_2"
+    },
+    {
+      "from": "PUBLIC_2",
+      "to": "EVALUATE"
+    },
+    {
+      "from": "EVALUATE",
+      "to": "COMPLETE"
+    }
+  ]
+}

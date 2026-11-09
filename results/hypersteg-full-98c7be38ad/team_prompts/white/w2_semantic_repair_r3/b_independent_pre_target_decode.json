@@ -1,0 +1,51 @@
+{
+  "provenance": "Independent White B code. Public package/commitment/banks and synthetic FEN only; target and author result not read before saving this file. No stopped-game position used.",
+  "codec": "../w2_draft/b_w2_independent.py",
+  "python_chess_version": "1.11.2",
+  "legal_move_count": 35,
+  "bank_hash": "564ec669b18c95e88422eed7b5a5d803ad20f04d01addfcf9c0c8b511307ed82",
+  "bank_hash_match": true,
+  "context_position_hash_match": true,
+  "bank_counts": [
+    512,
+    512,
+    512,
+    512,
+    512,
+    512,
+    512,
+    512
+  ],
+  "symbol_coverage": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+  ],
+  "decode": {
+    "status": "VALID",
+    "payload": {
+      "mode": "live",
+      "category": "defensive_resource",
+      "uci": "h2h3",
+      "motif": "pin_or_skewer"
+    },
+    "symbols": [
+      4,
+      30,
+      23,
+      1,
+      11,
+      2,
+      8,
+      4
+    ],
+    "raw_hex": "09eb85",
+    "tag_hex": "6241",
+    "packet_hex": "27ae158904"
+  }
+}

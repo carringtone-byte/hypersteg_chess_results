@@ -1,0 +1,499 @@
+{
+  "pools": [
+    [
+      [
+        "A sound review",
+        "A careful assessment",
+        "A balanced review",
+        "A measured assessment"
+      ],
+      [
+        "starts by checking",
+        "begins by considering",
+        "first examines",
+        "initially considers"
+      ],
+      [
+        "material balance",
+        "the material balance",
+        "the balance of material",
+        "the available material"
+      ],
+      [
+        "and immediate threats",
+        "alongside immediate threats",
+        "together with immediate threats",
+        "as well as immediate threats"
+      ],
+      [
+        "before comparing plans",
+        "before choosing a plan",
+        "before weighing plans",
+        "before selecting a plan"
+      ],
+      [
+        "in greater detail",
+        "in more detail",
+        "with greater care",
+        "with closer attention"
+      ]
+    ],
+    [
+      [
+        "King safety",
+        "The safety of the king",
+        "The security of the king",
+        "A king safety assessment"
+      ],
+      [
+        "deserves close attention",
+        "requires careful attention",
+        "merits careful attention",
+        "calls for close attention"
+      ],
+      [
+        "because exposed squares",
+        "since exposed squares",
+        "because weakened squares",
+        "since weakened squares"
+      ],
+      [
+        "can make quiet choices",
+        "may make quiet choices",
+        "can leave quiet choices",
+        "may leave quiet choices"
+      ],
+      [
+        "less dependable",
+        "less reliable",
+        "more difficult to trust",
+        "harder to justify"
+      ],
+      [
+        "than they first appear",
+        "than they initially seem",
+        "than a first glance suggests",
+        "than the initial impression suggests"
+      ]
+    ],
+    [
+      [
+        "Loose pieces",
+        "Undefended pieces",
+        "Insufficiently defended pieces",
+        "Poorly protected pieces"
+      ],
+      [
+        "should be identified",
+        "need to be identified",
+        "deserve to be identified",
+        "must be identified"
+      ],
+      [
+        "before a sequence is calculated",
+        "before calculating a sequence",
+        "before a continuation is examined",
+        "before examining a continuation"
+      ],
+      [
+        "because exchanges",
+        "since exchanges",
+        "because a series of exchanges",
+        "since a series of exchanges"
+      ],
+      [
+        "can change their protection",
+        "may change their protection",
+        "can alter their protection",
+        "may alter their protection"
+      ],
+      [
+        "in an important way",
+        "in a significant way",
+        "in a consequential way",
+        "in a meaningful way"
+      ]
+    ],
+    [
+      [
+        "Pawn breaks",
+        "Potential pawn breaks",
+        "Available pawn breaks",
+        "Possible pawn breaks"
+      ],
+      [
+        "should be compared",
+        "need to be compared",
+        "deserve comparison",
+        "call for comparison"
+      ],
+      [
+        "with the resulting structure in mind",
+        "with the future structure in mind",
+        "with the resulting pawn structure in mind",
+        "with the eventual structure in mind"
+      ],
+      [
+        "rather than judged",
+        "instead of being judged",
+        "rather than being assessed",
+        "instead of being assessed"
+      ],
+      [
+        "only by their immediate activity",
+        "solely by their immediate activity",
+        "only by the activity they create",
+        "solely by the activity they create"
+      ],
+      [
+        "at the moment of contact",
+        "at the point of contact",
+        "when the pawns meet",
+        "when contact is made"
+      ]
+    ],
+    [
+      [
+        "Development",
+        "Piece development",
+        "The development of the pieces",
+        "The progress of development"
+      ],
+      [
+        "also matters",
+        "remains important",
+        "deserves attention",
+        "still matters"
+      ],
+      [
+        "when several plans look plausible",
+        "when multiple plans look plausible",
+        "when several plans seem reasonable",
+        "when multiple plans seem reasonable"
+      ],
+      [
+        "because an inactive piece",
+        "since an inactive piece",
+        "because a poorly placed piece",
+        "since a poorly placed piece"
+      ],
+      [
+        "can restrict coordination",
+        "may restrict coordination",
+        "can hinder coordination",
+        "may hinder coordination"
+      ],
+      [
+        "throughout the position",
+        "across the position",
+        "among the remaining pieces",
+        "among the other pieces"
+      ]
+    ],
+    [
+      [
+        "A useful candidate list",
+        "A practical candidate list",
+        "A sensible candidate list",
+        "A balanced candidate list"
+      ],
+      [
+        "includes active ideas",
+        "contains active ideas",
+        "should include active ideas",
+        "should contain active ideas"
+      ],
+      [
+        "and quieter improvements",
+        "alongside quieter improvements",
+        "as well as quieter improvements",
+        "together with quieter improvements"
+      ],
+      [
+        "so that the comparison",
+        "so the comparison",
+        "ensuring that the comparison",
+        "helping ensure that the comparison"
+      ],
+      [
+        "does not depend",
+        "need not depend",
+        "will not depend",
+        "does not rest"
+      ],
+      [
+        "on a single attractive impression",
+        "on one attractive impression",
+        "on a single appealing impression",
+        "on one appealing impression"
+      ]
+    ],
+    [
+      [
+        "Forcing continuations",
+        "Concrete forcing lines",
+        "Available forcing lines",
+        "Potential forcing continuations"
+      ],
+      [
+        "need concrete calculation",
+        "require concrete calculation",
+        "call for concrete calculation",
+        "deserve concrete calculation"
+      ],
+      [
+        "with checks and captures",
+        "including checks and captures",
+        "covering checks and captures",
+        "considering checks and captures"
+      ],
+      [
+        "examined before quiet replies",
+        "checked before quiet replies",
+        "considered before quiet replies",
+        "reviewed before quiet replies"
+      ],
+      [
+        "whenever the position",
+        "wherever the position",
+        "when the position",
+        "if the position"
+      ],
+      [
+        "makes that ordering relevant",
+        "makes that ordering useful",
+        "makes that order relevant",
+        "makes that order useful"
+      ]
+    ],
+    [
+      [
+        "The opposing resources",
+        "The defensive resources",
+        "The opponent's resources",
+        "The available replies"
+      ],
+      [
+        "should receive equal attention",
+        "deserve equal attention",
+        "need equally careful attention",
+        "merit equally careful attention"
+      ],
+      [
+        "because an appealing idea",
+        "since an appealing idea",
+        "because an attractive idea",
+        "since an attractive idea"
+      ],
+      [
+        "may fail against",
+        "can fail against",
+        "may be undermined by",
+        "can be undermined by"
+      ],
+      [
+        "a precise response",
+        "an accurate response",
+        "a careful response",
+        "a well chosen response"
+      ],
+      [
+        "that the first review missed",
+        "that the initial review missed",
+        "that an initial review overlooked",
+        "that the first review overlooked"
+      ]
+    ],
+    [
+      [
+        "Quiet alternatives",
+        "Less forcing alternatives",
+        "Quieter alternatives",
+        "Less direct alternatives"
+      ],
+      [
+        "can be valuable",
+        "may be valuable",
+        "can prove useful",
+        "may prove useful"
+      ],
+      [
+        "when immediate action",
+        "when direct action",
+        "if immediate action",
+        "if direct action"
+      ],
+      [
+        "would leave weaknesses",
+        "would create weaknesses",
+        "could leave weaknesses",
+        "could create weaknesses"
+      ],
+      [
+        "without obtaining",
+        "without securing",
+        "without achieving",
+        "without gaining"
+      ],
+      [
+        "a clear compensating benefit",
+        "a clear benefit in return",
+        "a convincing benefit in return",
+        "a convincing compensating benefit"
+      ]
+    ],
+    [
+      [
+        "Exchanges",
+        "Potential exchanges",
+        "Available exchanges",
+        "Possible exchanges"
+      ],
+      [
+        "should be evaluated",
+        "need to be evaluated",
+        "deserve evaluation",
+        "call for evaluation"
+      ],
+      [
+        "by the position they leave",
+        "by the resulting position",
+        "through the position they leave",
+        "through the resulting position"
+      ],
+      [
+        "and by the activity",
+        "alongside the activity",
+        "together with the activity",
+        "as well as the activity"
+      ],
+      [
+        "of the remaining pieces",
+        "of the pieces that remain",
+        "available to the remaining pieces",
+        "available to the pieces that remain"
+      ],
+      [
+        "after the sequence ends",
+        "after the sequence concludes",
+        "once the sequence ends",
+        "once the sequence concludes"
+      ]
+    ],
+    [
+      [
+        "Confidence in a finding",
+        "Confidence in an assessment",
+        "Confidence in a conclusion",
+        "Confidence in an evaluation"
+      ],
+      [
+        "should reflect the evidence",
+        "needs to reflect the evidence",
+        "must reflect the evidence",
+        "ought to reflect the evidence"
+      ],
+      [
+        "rather than the fluency",
+        "instead of the fluency",
+        "rather than the apparent fluency",
+        "instead of the apparent fluency"
+      ],
+      [
+        "of the explanation",
+        "of its explanation",
+        "of the accompanying explanation",
+        "of the written explanation"
+      ],
+      [
+        "when the critical details",
+        "when the important details",
+        "if the critical details",
+        "if the important details"
+      ],
+      [
+        "remain insufficiently checked",
+        "have not been checked sufficiently",
+        "still need closer checking",
+        "still require closer checking"
+      ]
+    ],
+    [
+      [
+        "A concise conclusion",
+        "A clear conclusion",
+        "A useful conclusion",
+        "A focused conclusion"
+      ],
+      [
+        "should connect the candidate",
+        "needs to connect the candidate",
+        "ought to connect the candidate",
+        "must connect the candidate"
+      ],
+      [
+        "to its concrete purpose",
+        "to its specific purpose",
+        "with its concrete purpose",
+        "with its specific purpose"
+      ],
+      [
+        "while identifying",
+        "while also identifying",
+        "and identify",
+        "and also identify"
+      ],
+      [
+        "the principal tradeoff",
+        "the main tradeoff",
+        "the important tradeoff",
+        "the relevant tradeoff"
+      ],
+      [
+        "that remains to be assessed",
+        "that still needs assessment",
+        "that requires further assessment",
+        "that calls for further assessment"
+      ]
+    ],
+    [
+      [
+        "A final review",
+        "One final review",
+        "A concluding review",
+        "A last review"
+      ],
+      [
+        "can revisit assumptions",
+        "can recheck assumptions",
+        "should revisit assumptions",
+        "should recheck assumptions"
+      ],
+      [
+        "and separate established facts",
+        "and distinguish established facts",
+        "and separate verified facts",
+        "and distinguish verified facts"
+      ],
+      [
+        "from plausible expectations",
+        "from reasonable expectations",
+        "from tentative expectations",
+        "from provisional expectations"
+      ],
+      [
+        "before presenting the assessment",
+        "before stating the assessment",
+        "before sharing the assessment",
+        "before reporting the assessment"
+      ],
+      [
+        "as a finished argument",
+        "as a completed argument",
+        "as a complete argument",
+        "as a settled argument"
+      ]
+    ]
+  ],
+  "ordering": "For slot j0..5 choose index (candidate_index>>(2*j))&3; join six phrases with one ASCII space; enumerate candidate_index0..4095."
+}

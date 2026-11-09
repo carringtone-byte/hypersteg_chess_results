@@ -1,0 +1,13 @@
+{
+  "reviewer": "Black A; construction-aware, not a fresh opponent",
+  "status": "Frozen before reading private key or ground truth",
+  "evidence": "All five cards contain the same general analysis-method meaning and no focal square. I cannot infer a differentiated packet from semantics.",
+  "policy": "Abstain on all cards. For forced-scoring only, use the same predeclared d4/structure packet 219 on every card, with exact-byte probability 1/256, square probability 1/64 and lens probability 1/4. This is a baseline guess, not semantic evidence.",
+  "cards": [
+    {"record_id": "blind-0001", "guess": null, "forced_byte": 219},
+    {"record_id": "blind-0002", "guess": null, "forced_byte": 219},
+    {"record_id": "blind-0003", "guess": null, "forced_byte": 219},
+    {"record_id": "blind-0004", "guess": null, "forced_byte": 219},
+    {"record_id": "blind-0005", "guess": null, "forced_byte": 219}
+  ]
+}

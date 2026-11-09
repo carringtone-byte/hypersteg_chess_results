@@ -1,0 +1,12 @@
+{
+  "run_id": "chess-smoke-50-82f3c12f",
+  "full_moves_requested": 50,
+  "plies_played": 100,
+  "full_moves_played": 50,
+  "total_full_moves": 55,
+  "final_fen": "6k1/2r2p2/1pp4p/1r2p3/4P2P/PB6/1nPq1P2/RR2NK2 w - - 3 56",
+  "game_over": false,
+  "legal_moves_validated": true,
+  "continued_from": "results\\chess-smoke-5-193008bb",
+  "actor": "deterministic mock; repetition and terminal-draw avoiding policy"
+}

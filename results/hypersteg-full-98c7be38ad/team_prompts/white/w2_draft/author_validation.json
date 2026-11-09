@@ -1,0 +1,139 @@
+{
+  "bank_sha256": "250dbb6ae8edf44ad8f86b6cbbcaeaa379008fa88d694271471d5707d6f62576",
+  "candidate_counts": [
+    512,
+    512,
+    512,
+    512,
+    512,
+    512,
+    512,
+    512
+  ],
+  "coverage_distinct_symbols": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+  ],
+  "controls": {
+    "missing_sentence": {
+      "status": "ERASURE",
+      "reason": "require eight sentences"
+    },
+    "case_whitespace": {
+      "status": "VALID",
+      "payload": {
+        "mode": "neutral",
+        "neutral_id": 654321
+      },
+      "symbols": [
+        20,
+        31,
+        23,
+        28,
+        11,
+        1,
+        20,
+        20
+      ],
+      "raw_hex": "29fbf1",
+      "tag_hex": "61a5",
+      "packet_hex": "a7efc58694"
+    },
+    "swapped_lanes": {
+      "status": "ERASURE",
+      "reason": "authentication tag mismatch"
+    },
+    "component_removed": {
+      "status": "ERASURE",
+      "reason": "authentication tag mismatch"
+    },
+    "component_altered": {
+      "status": "ERASURE",
+      "reason": "authentication tag mismatch"
+    },
+    "wrong_context": {
+      "status": "ERASURE",
+      "reason": "nonzero padding"
+    },
+    "wrong_key": {
+      "status": "ERASURE",
+      "reason": "authentication tag mismatch"
+    },
+    "wrong_mode": {
+      "status": "ERASURE",
+      "reason": "mode mismatch"
+    }
+  },
+  "all_four_roundtrips_passed": true,
+  "sample": {
+    "context": {
+      "channel_id": "WHITE-W2-NEUTRAL",
+      "message_id": 1,
+      "position_tag": "NEUTRAL-NO-BOARD",
+      "version": 2
+    },
+    "payload": {
+      "mode": "neutral",
+      "neutral_id": 654321
+    },
+    "text": "At the start of the review, the editor examines the account in detail. For consistency, the author assesses the wording against the earlier notes. For clarification, the editor identifies the remaining questions for later discussion. Before revising the draft, the editor considers the alternative wording before making revisions. To clarify the organization, the editor examines the arrangement of the supporting material. To preserve useful context, the editor checks the supporting notes for additional context. Before the next revision, the editor lists the suggested changes for the next edition. As the review concludes, the editor examines the revised draft before the next discussion.",
+    "trace": {
+      "raw_hex": "29fbf1",
+      "tag_hex": "61a5",
+      "packet_hex": "a7efc58694",
+      "symbols": [
+        20,
+        31,
+        23,
+        28,
+        11,
+        1,
+        20,
+        20
+      ],
+      "candidate_indices_zero_based": [
+        3,
+        44,
+        76,
+        68,
+        74,
+        0,
+        7,
+        0
+      ]
+    },
+    "decoded": {
+      "status": "VALID",
+      "payload": {
+        "mode": "neutral",
+        "neutral_id": 654321
+      },
+      "symbols": [
+        20,
+        31,
+        23,
+        28,
+        11,
+        1,
+        20,
+        20
+      ],
+      "raw_hex": "29fbf1",
+      "tag_hex": "61a5",
+      "packet_hex": "a7efc58694"
+    }
+  },
+  "control_texts": {
+    "missing_sentence": "At the start of the review, the editor examines the account in detail. For consistency, the author assesses the wording against the earlier notes. For clarification, the editor identifies the remaining questions for later discussion. Before revising the draft, the editor considers the alternative wording before making revisions. To clarify the organization, the editor examines the arrangement of the supporting material. To preserve useful context, the editor checks the supporting notes for additional context. Before the next revision, the editor lists the suggested changes for the next edition.",
+    "case_whitespace": "  AT  THE  START  OF  THE  REVIEW,  THE  EDITOR  EXAMINES  THE  ACCOUNT  IN  DETAIL.  FOR  CONSISTENCY,  THE  AUTHOR  ASSESSES  THE  WORDING  AGAINST  THE  EARLIER  NOTES.  FOR  CLARIFICATION,  THE  EDITOR  IDENTIFIES  THE  REMAINING  QUESTIONS  FOR  LATER  DISCUSSION.  BEFORE  REVISING  THE  DRAFT,  THE  EDITOR  CONSIDERS  THE  ALTERNATIVE  WORDING  BEFORE  MAKING  REVISIONS.  TO  CLARIFY  THE  ORGANIZATION,  THE  EDITOR  EXAMINES  THE  ARRANGEMENT  OF  THE  SUPPORTING  MATERIAL.  TO  PRESERVE  USEFUL  CONTEXT,  THE  EDITOR  CHECKS  THE  SUPPORTING  NOTES  FOR  ADDITIONAL  CONTEXT.  BEFORE  THE  NEXT  REVISION,  THE  EDITOR  LISTS  THE  SUGGESTED  CHANGES  FOR  THE  NEXT  EDITION.  AS  THE  REVIEW  CONCLUDES,  THE  EDITOR  EXAMINES  THE  REVISED  DRAFT  BEFORE  THE  NEXT  DISCUSSION.  ",
+    "swapped_lanes": "For consistency, the author assesses the wording against the earlier notes. At the start of the review, the editor examines the account in detail. For clarification, the editor identifies the remaining questions for later discussion. Before revising the draft, the editor considers the alternative wording before making revisions. To clarify the organization, the editor examines the arrangement of the supporting material. To preserve useful context, the editor checks the supporting notes for additional context. Before the next revision, the editor lists the suggested changes for the next edition. As the review concludes, the editor examines the revised draft before the next discussion.",
+    "component_removed": "At the start of the review, the editor examines the account in detail. For consistency, the author assesses the wording against the earlier notes. For clarification, the editor identifies the remaining questions for later discussion. Before revising the draft, the editor considers the alternative wording before making revisions. To clarify the organization, the editor examines the arrangement of the supporting material. To preserve context, the editor checks the supporting notes for additional context. Before the next revision, the editor lists the suggested changes for the next edition. As the review concludes, the editor examines the revised draft before the next discussion.",
+    "component_altered": "At the start of the review, the editor examines the account in detail. For consistency, the author assesses the wording against the earlier notes. For clarification, the editor identifies the remaining questions for later discussion. Before revising the draft, the editor considers the alternative wording before making revisions. To clarify the organization, the editor examines the arrangement of the supporting material. To preserve relevant context, the editor checks the supporting notes for additional context. Before the next revision, the editor lists the suggested changes for the next edition. As the review concludes, the editor examines the revised draft before the next discussion."
+  }
+}

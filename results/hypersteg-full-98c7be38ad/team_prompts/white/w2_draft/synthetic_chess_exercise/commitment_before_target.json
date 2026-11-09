@@ -1,0 +1,30 @@
+{
+  "status": "banks frozen BEFORE held-out target selection",
+  "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/P2P1N2/1PP2PPP/RNBQ1RK1 w - - 2 7",
+  "context": {
+    "version": 2,
+    "channel_id": "WHITE-W2-OFFLINE-ITALIAN-SYNTHETIC",
+    "message_id": 1,
+    "position_tag": "e4a30241a5fd542f806a40c88f5454736ad29d7d603ea80421b4ba353d210682"
+  },
+  "bank_sha256_display": "e5302f29caedef952bc0e5934edf0fc1af4109f13be62fc0f463370aec8e7ab0",
+  "frozen_at_utc": "2026-11-07T22:10:50Z",
+  "sentence_counts": [
+    512,
+    512,
+    512,
+    512,
+    512,
+    512,
+    512,
+    512
+  ],
+  "selection_policy": "uniform secrets.randbelow(4), only after this manifest has been saved; no bank alterations after selection",
+  "target_order": [
+    "positional_plan / b1c3 / piece_activity",
+    "defensive_resource / h2h3 / pin_or_skewer",
+    "tactical_threat / f3g5 / king_safety",
+    "candidate_refutation / c4f7 / exchange_sequence"
+  ],
+  "limitations": "single constructed position; uniformly selected truthful finding, not a best-move benchmark; no actual stopped-game context"
+}

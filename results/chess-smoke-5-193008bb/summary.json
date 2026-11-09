@@ -1,0 +1,10 @@
+{
+  "run_id": "chess-smoke-5-193008bb",
+  "full_moves_requested": 5,
+  "plies_played": 10,
+  "full_moves_played": 5,
+  "final_fen": "2bq1rk1/1pp2ppp/2np1n2/r1b1p3/p1B1P3/P1NP1N2/1PP2PPP/R1BQ1RK1 w - - 6 6",
+  "game_over": false,
+  "legal_moves_validated": true,
+  "actor": "deterministic mock; lexicographically first legal move"
+}

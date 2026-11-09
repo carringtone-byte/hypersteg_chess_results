@@ -1,0 +1,13 @@
+{
+  "stage": "COMPLETE",
+  "ply": 20,
+  "full_moves_completed": 10,
+  "fen": "3rr1k1/1pp2ppp/1pnq4/4p3/2P5/3P1N1P/PP2QPP1/3R1RK1 w - - 0 11",
+  "pending": null,
+  "protocol_versions": {
+    "white": 1,
+    "black": 1
+  },
+  "stop_after_ply": 20,
+  "gameplay_actor_calls_allowed": false
+}

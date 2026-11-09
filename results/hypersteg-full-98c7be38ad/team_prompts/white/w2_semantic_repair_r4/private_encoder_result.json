@@ -1,0 +1,99 @@
+{
+  "encoded": {
+    "text": "The kings have castled and central play warrants a closer look. The supported king pawns currently limit access to the central files. Changing that pawn structure would influence the activity of several pieces. Here, white still needs to develop the queen knight and bishop to complete development. White's remaining pieces need active squares before the position becomes sharper. Here, both developed bishops already point toward the enemy kingside pawns. Here, forcing captures still require checking the opponent's forcing responses. Here, white should balance piece development, central play and tactical safety.",
+    "trace": {
+      "raw_hex": "102902",
+      "tag_hex": "3b9b",
+      "packet_hex": "40a408ee6c",
+      "symbols": [
+        8,
+        2,
+        18,
+        0,
+        17,
+        27,
+        19,
+        12
+      ],
+      "candidate_indices_zero_based": [
+        26,
+        1,
+        29,
+        71,
+        60,
+        97,
+        98,
+        76
+      ]
+    },
+    "decoded": {
+      "status": "VALID",
+      "payload": {
+        "mode": "live",
+        "category": "positional_plan",
+        "uci": "b1c3",
+        "motif": "piece_activity"
+      },
+      "symbols": [
+        8,
+        2,
+        18,
+        0,
+        17,
+        27,
+        19,
+        12
+      ],
+      "raw_hex": "102902",
+      "tag_hex": "3b9b",
+      "packet_hex": "40a408ee6c"
+    }
+  },
+  "full_legal_uci": [
+    "a1a2",
+    "a3a4",
+    "b1c3",
+    "b1d2",
+    "b2b3",
+    "b2b4",
+    "c1d2",
+    "c1e3",
+    "c1f4",
+    "c1g5",
+    "c1h6",
+    "c2c3",
+    "c4a2",
+    "c4a6",
+    "c4b3",
+    "c4b5",
+    "c4d5",
+    "c4e6",
+    "c4f7",
+    "d1d2",
+    "d1e1",
+    "d1e2",
+    "d3d4",
+    "f1e1",
+    "f3d2",
+    "f3d4",
+    "f3e1",
+    "f3e5",
+    "f3g5",
+    "f3h4",
+    "g1h1",
+    "g2g3",
+    "g2g4",
+    "h2h3",
+    "h2h4"
+  ],
+  "coverage": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+  ]
+}

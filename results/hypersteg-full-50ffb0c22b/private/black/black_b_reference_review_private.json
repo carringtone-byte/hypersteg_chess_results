@@ -1,0 +1,18 @@
+{
+  "source": "Only permitted Black historical reference and pending lock packet read.",
+  "reference_sha256": "027700c951a6f32fec5572a87f62451fc399901c434d05e95f359c87c52a7fc2",
+  "signals": {
+    "reference_hash_matches": true,
+    "all_12_literal_markers_present": true,
+    "word_lower_bound_present": true,
+    "word_upper_bound_present": true,
+    "whitespace_word_count_explicit": false,
+    "six_sentence_rule_present": true,
+    "zero_based_j_explicit": true,
+    "full_stop_signal": true,
+    "pending_salt_is_shared_6": true,
+    "pending_epoch_rule_present": true,
+    "pending_direction_0_A_to_B": true
+  },
+  "privacy": "Historical audit password is not emitted, copied, used as salt, or used as key. Shared salt6 only."
+}

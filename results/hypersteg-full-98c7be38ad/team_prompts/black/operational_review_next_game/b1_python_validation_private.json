@@ -1,0 +1,372 @@
+{
+  "implementation": "Python new implementation of unchanged B1",
+  "passed": 23,
+  "total": 23,
+  "checks": [
+    {
+      "test": "initial-board-static-fixture-0",
+      "pass": true
+    },
+    {
+      "test": "initial-board-static-fixture-1",
+      "pass": true
+    },
+    {
+      "test": "initial-board-static-fixture-2",
+      "pass": true
+    },
+    {
+      "test": "initial-board-static-fixture-3",
+      "pass": true
+    },
+    {
+      "test": "fresh-neutral-offset-static-fixture-0",
+      "pass": true
+    },
+    {
+      "test": "fresh-neutral-offset-static-fixture-1",
+      "pass": true
+    },
+    {
+      "test": "fresh-neutral-offset-static-fixture-2",
+      "pass": true
+    },
+    {
+      "test": "fresh-neutral-offset-static-fixture-3",
+      "pass": true
+    },
+    {
+      "test": "wrong-ply",
+      "pass": true,
+      "result": {
+        "status": "INVALID_ABSTAIN",
+        "reason": "PLY_MISMATCH"
+      },
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "p": 2,
+      "carrier": "Able connects with cider. Fable connects with ember. Baker connects with dough."
+    },
+    {
+      "test": "fen-whitespace",
+      "pass": true,
+      "result": {
+        "status": "INVALID_ABSTAIN",
+        "reason": "FEN_CANONICAL_FIELDS"
+      },
+      "fen": " rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "p": 1,
+      "carrier": "Able connects with cider. Fable connects with ember. Baker connects with dough."
+    },
+    {
+      "test": "few-periods",
+      "pass": true,
+      "result": {
+        "status": "INVALID_ABSTAIN",
+        "reason": "PERIOD_COUNT"
+      },
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "p": 1,
+      "carrier": "Able connects with cider. Fable connects with ember."
+    },
+    {
+      "test": "period-boundary",
+      "pass": true,
+      "result": {
+        "status": "INVALID_ABSTAIN",
+        "reason": "PERIOD_BOUNDARY"
+      },
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "p": 1,
+      "carrier": "Able connects with cider.X Fable connects with ember. Baker connects with dough."
+    },
+    {
+      "test": "nonascii-prefix",
+      "pass": true,
+      "result": {
+        "status": "INVALID_ABSTAIN",
+        "reason": "PREFIX_ASCII_PUNCTUATION"
+      },
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "p": 1,
+      "carrier": "\u00e9Able connects with cider. Fable connects with ember. Baker connects with dough."
+    },
+    {
+      "test": "forbidden-punctuation",
+      "pass": true,
+      "result": {
+        "status": "INVALID_ABSTAIN",
+        "reason": "PREFIX_ASCII_PUNCTUATION"
+      },
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "p": 1,
+      "carrier": "!Able connects with cider. Fable connects with ember. Baker connects with dough."
+    },
+    {
+      "test": "short-span",
+      "pass": true,
+      "result": {
+        "status": "INVALID_ABSTAIN",
+        "reason": "RETAINED_TOKEN_COUNT"
+      },
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "p": 1,
+      "carrier": "To an. Fable connects with ember. Baker connects with dough."
+    },
+    {
+      "test": "duplicate-endpoints",
+      "pass": true,
+      "result": {
+        "status": "INVALID_ABSTAIN",
+        "reason": "ENDPOINT_UNIQUENESS"
+      },
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "p": 1,
+      "carrier": "Able connects with baker. Able connects with dough. Ember connects with fable."
+    },
+    {
+      "test": "wrong-orientation",
+      "pass": true,
+      "result": {
+        "status": "INVALID_ABSTAIN",
+        "reason": "ORIENTATION"
+      },
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "p": 1,
+      "carrier": "Able connects with cider. Ember connects with fable. Baker connects with dough."
+    },
+    {
+      "test": "wrong-median",
+      "pass": true,
+      "result": {
+        "status": "INVALID_ABSTAIN",
+        "reason": "MEDIAN_OWNER"
+      },
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "p": 1,
+      "carrier": "Able connects with cider. Baker connects with dough. Fable connects with ember."
+    },
+    {
+      "test": "later-prose-ignored",
+      "pass": true,
+      "carrier": "Able connects with cider. Fable connects with ember. Baker connects with dough. Extra prose may contain \u2014 or ? and is ignored.",
+      "expected": {
+        "status": "VALID",
+        "payload": 0,
+        "category": "tactical threat",
+        "trace": {
+          "p": 1,
+          "s": 4358,
+          "h": 7,
+          "rotation": 17,
+          "alphabet": "nujmikolpqazwsxedcrfvtgbyh",
+          "endpoints": [
+            [
+              "able",
+              "cider"
+            ],
+            [
+              "fable",
+              "ember"
+            ],
+            [
+              "baker",
+              "dough"
+            ]
+          ],
+          "intervals": [
+            {
+              "owner": 1,
+              "low": "able",
+              "high": "cider"
+            },
+            {
+              "owner": 2,
+              "low": "ember",
+              "high": "fable"
+            },
+            {
+              "owner": 3,
+              "low": "dough",
+              "high": "baker"
+            }
+          ],
+          "median_owner": 2,
+          "M_h": 2,
+          "first_lower": false,
+          "even": false,
+          "crossings": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "e": 3,
+          "Q_h": 1
+        }
+      }
+    },
+    {
+      "test": "state-binding-duplicate-conflict",
+      "pass": true,
+      "sequence": [
+        {
+          "status": "INVALID_BINDING"
+        },
+        {
+          "status": "VALID",
+          "payload": 0,
+          "category": "tactical threat",
+          "trace": {
+            "p": 1,
+            "s": 4358,
+            "h": 7,
+            "rotation": 17,
+            "alphabet": "nujmikolpqazwsxedcrfvtgbyh",
+            "endpoints": [
+              [
+                "able",
+                "cider"
+              ],
+              [
+                "fable",
+                "ember"
+              ],
+              [
+                "baker",
+                "dough"
+              ]
+            ],
+            "intervals": [
+              {
+                "owner": 1,
+                "low": "able",
+                "high": "cider"
+              },
+              {
+                "owner": 2,
+                "low": "ember",
+                "high": "fable"
+              },
+              {
+                "owner": 3,
+                "low": "dough",
+                "high": "baker"
+              }
+            ],
+            "median_owner": 2,
+            "M_h": 2,
+            "first_lower": false,
+            "even": false,
+            "crossings": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "e": 3,
+            "Q_h": 1
+          },
+          "apply": true
+        },
+        {
+          "status": "VALID_DUPLICATE",
+          "payload": 0,
+          "category": "tactical threat",
+          "trace": {
+            "p": 1,
+            "s": 4358,
+            "h": 7,
+            "rotation": 17,
+            "alphabet": "nujmikolpqazwsxedcrfvtgbyh",
+            "endpoints": [
+              [
+                "able",
+                "cider"
+              ],
+              [
+                "fable",
+                "ember"
+              ],
+              [
+                "baker",
+                "dough"
+              ]
+            ],
+            "intervals": [
+              {
+                "owner": 1,
+                "low": "able",
+                "high": "cider"
+              },
+              {
+                "owner": 2,
+                "low": "ember",
+                "high": "fable"
+              },
+              {
+                "owner": 3,
+                "low": "dough",
+                "high": "baker"
+              }
+            ],
+            "median_owner": 2,
+            "M_h": 2,
+            "first_lower": false,
+            "even": false,
+            "crossings": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "e": 3,
+            "Q_h": 1
+          },
+          "apply": false
+        },
+        {
+          "status": "CONFLICT_ABSTAIN"
+        },
+        {
+          "status": "CONFLICT_ABSTAIN"
+        }
+      ]
+    },
+    {
+      "test": "bounded-zero",
+      "pass": true
+    },
+    {
+      "test": "bounded-invalid-duplicate",
+      "pass": true
+    },
+    {
+      "test": "exact-target-selection",
+      "pass": true
+    }
+  ]
+}

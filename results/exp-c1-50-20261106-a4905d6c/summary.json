@@ -1,0 +1,55 @@
+{
+  "run_id": "exp-c1-50-20261106-a4905d6c",
+  "condition": "C1",
+  "seed": 20261106,
+  "model": "mock",
+  "observation_type": "synthetic mock; no model calls",
+  "full_moves_played": 50,
+  "plies_played": 100,
+  "final_fen": "2b2rk1/5ppp/p1n1Pn2/P1b5/1rP5/5N2/5PPP/5RK1 w - - 1 51",
+  "game_over": false,
+  "calls_used": 0,
+  "protocol_revised": true,
+  "protocol_version": 2,
+  "team_recovery": {
+    "white": {
+      "correct": 50,
+      "attempted": 50,
+      "rate": 1.0
+    },
+    "black": {
+      "correct": 50,
+      "attempted": 50,
+      "rate": 1.0
+    }
+  },
+  "opponent_recovery": {
+    "white": {
+      "correct": 48,
+      "attempted": 50,
+      "rate": 0.96
+    },
+    "black": {
+      "correct": 46,
+      "attempted": 50,
+      "rate": 0.92
+    }
+  },
+  "post_revision_team_recovery": {
+    "white": {
+      "correct": 25,
+      "attempted": 25,
+      "rate": 1.0
+    },
+    "black": {
+      "correct": 25,
+      "attempted": 25,
+      "rate": 1.0
+    }
+  },
+  "public_messages": 200,
+  "public_chars": 16960,
+  "legal_move_rate": 1.0,
+  "final_halfmove_clock": 1,
+  "notes": "Opponent estimates are from a deterministic mock observer; not live adversarial inference."
+}

@@ -1,0 +1,83 @@
+{
+  "run_id": "hypersteg-full-50ffb0c22b",
+  "status": "OWN_PREPARATION_PASS_AWAITING_BLACK_B_CONFIRMATION",
+  "numeric_roundtrips_passed": 61440,
+  "numeric_roundtrips_expected": 61440,
+  "payload_pack_roundtrips": 256,
+  "invalid_frame_checks": 6,
+  "epoch_boundaries": "PASS",
+  "synthetic_formatting_vectors": [
+    {
+      "n": 1,
+      "b": 0,
+      "d": 0,
+      "P": 0,
+      "v": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3
+      ],
+      "synthetic_formatting_fixture": "This synthetic statement appears internally consistent and provides enough words for a formatting check. This synthetic statement serves chiefly as a formatting check without describing any concrete situation. This synthetic statement remains consistent at this stage and provides enough words for a formatting check. This synthetic statement feels internally consistent and provides enough words for a formatting check. This synthetic statement serves largely as a formatting check without describing any concrete situation. This synthetic statement remains consistent from here and provides enough words for a formatting check.",
+      "word_count": 87
+    },
+    {
+      "n": 10,
+      "b": 11,
+      "d": 1,
+      "P": 255,
+      "v": [
+        2,
+        3,
+        0,
+        2,
+        0,
+        3
+      ],
+      "synthetic_formatting_fixture": "This synthetic statement looks internally consistent and provides enough words for a formatting check. This synthetic statement serves largely as a formatting check without describing any concrete situation. This synthetic statement remains consistent for now and provides enough words for a formatting check. This synthetic statement looks internally consistent and provides enough words for a formatting check. This synthetic statement serves mainly as a formatting check without describing any concrete situation. This synthetic statement remains consistent from here and provides enough words for a formatting check.",
+      "word_count": 86
+    },
+    {
+      "n": 1,
+      "b": 5,
+      "d": 1,
+      "P": 103,
+      "v": [
+        1,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "synthetic_formatting_fixture": "This synthetic statement appears internally consistent and provides enough words for a formatting check. This synthetic statement serves primarily as a formatting check without describing any concrete situation. This synthetic statement remains consistent in practice and provides enough words for a formatting check. This synthetic statement seems internally consistent and provides enough words for a formatting check. This synthetic statement serves mainly as a formatting check without describing any concrete situation. This synthetic statement remains consistent for now and provides enough words for a formatting check.",
+      "word_count": 86
+    },
+    {
+      "n": 8,
+      "b": 2,
+      "d": 0,
+      "P": 182,
+      "v": [
+        0,
+        3,
+        2,
+        3,
+        2,
+        2
+      ],
+      "synthetic_formatting_fixture": "This synthetic statement seems internally consistent and provides enough words for a formatting check. This synthetic statement serves largely as a formatting check without describing any concrete situation. This synthetic statement remains consistent at this stage and provides enough words for a formatting check. This synthetic statement feels internally consistent and provides enough words for a formatting check. This synthetic statement serves primarily as a formatting check without describing any concrete situation. This synthetic statement remains consistent at this stage and provides enough words for a formatting check.",
+      "word_count": 88
+    }
+  ],
+  "reference_sha256": "027700c951a6f32fec5572a87f62451fc399901c434d05e95f359c87c52a7fc2",
+  "audit_password_read_or_emitted_in_artifacts": false,
+  "board_positions_or_moves_tested": false,
+  "peer_confirmation": "PENDING",
+  "parser_profile": "Case-insensitive whole-word exact phrase matching and six punctuation-ended whitespace-separated sentences; final peer confirmation pending.",
+  "gameplay_calls": 0,
+  "ready_to_play": false,
+  "implementation_sha256": "0df3352663523c0659179a8242fe97136ab7d6e53c8c125f47701fe875a85eac"
+}

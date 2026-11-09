@@ -1,0 +1,99 @@
+{
+  "encoded": {
+    "text": "The two kings have completed castling and are sheltered by their kingside pawns with the central pawn structure still intact. White's queen knight and queen bishop remain on their original squares so the queenside remains incompletely developed despite the king already having castled. Black has brought both knights toward the center and moved the kingside bishop off its original square while the queenside bishop remains undeveloped. The two developed bishops have open diagonal lines with influence toward the opposing kingside pawn formations although the pawns they face retain defensive support. Each queen pawn supports its neighboring king pawn and contribute to the stability of the center while the central pawn formation stays intact. The queens remain on their original squares instead of moving to advanced central squares with their lines influenced by the intervening pieces. The rooks stand behind the existing pawn formations without an open file immediately available so opening a suitable file would improve their scope. In this position, development and pawn support are both relevant when weighing White's possible continuations while forcing replies still require tactical checking.",
+    "trace": {
+      "raw_hex": "102902",
+      "tag_hex": "d0aa",
+      "packet_hex": "40a40b42a8",
+      "symbols": [
+        8,
+        2,
+        18,
+        0,
+        22,
+        16,
+        21,
+        8
+      ],
+      "candidate_indices_zero_based": [
+        26,
+        14,
+        12,
+        55,
+        22,
+        15,
+        45,
+        70
+      ]
+    },
+    "decoded": {
+      "status": "VALID",
+      "payload": {
+        "mode": "live",
+        "category": "positional_plan",
+        "uci": "b1c3",
+        "motif": "piece_activity"
+      },
+      "symbols": [
+        8,
+        2,
+        18,
+        0,
+        22,
+        16,
+        21,
+        8
+      ],
+      "raw_hex": "102902",
+      "tag_hex": "d0aa",
+      "packet_hex": "40a40b42a8"
+    }
+  },
+  "full_legal_uci": [
+    "a1a2",
+    "a3a4",
+    "b1c3",
+    "b1d2",
+    "b2b3",
+    "b2b4",
+    "c1d2",
+    "c1e3",
+    "c1f4",
+    "c1g5",
+    "c1h6",
+    "c2c3",
+    "c4a2",
+    "c4a6",
+    "c4b3",
+    "c4b5",
+    "c4d5",
+    "c4e6",
+    "c4f7",
+    "d1d2",
+    "d1e1",
+    "d1e2",
+    "d3d4",
+    "f1e1",
+    "f3d2",
+    "f3d4",
+    "f3e1",
+    "f3e5",
+    "f3g5",
+    "f3h4",
+    "g1h1",
+    "g2g3",
+    "g2g4",
+    "h2h3",
+    "h2h4"
+  ],
+  "coverage": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+  ]
+}

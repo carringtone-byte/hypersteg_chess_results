@@ -1,0 +1,18 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[FEN "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w - - 0 1"]
+[SetUp "1"]
+
+1. a4 a6 2. Ra2 b5 3. a5 Rb8 4. Ra1 Rb6 5. Ra4 b4 6. Ra1 Rb7 7. Ra4 bxc3 8. Ra1
+Rb4 9. Ra4 Rxb2 10. Ra1 Rb4 11. Ra4 Rb1 12. Ra1 Rb4 13. Ra4 Rb1 14. Ra2 Rb5 15.
+Ba3 Rb1 16. Ra1 Rb4 17. Rc1 Rb1 18. Bb2 cxb2 19. Ba2 Rxc1 20. Bb1 Ba3 21. c4
+Bc5 22. Ba2 b1=R 23. Qa4 Rb2 24. Bb1 Rb4 25. Qa3 Rbxb1 26. Qa1 Rb4 27. Qa4 Rbb1
+28. Qa1 Rb4 29. Qa4 Rb2 30. Qa2 Rb6 31. Qb1 Rb2 32. Qa2 Rb6 33. Qb1 Rb3 34. Qb2
+Rb5 35. Qb3 Rxb3 36. d4 Rb4 37. dxe5 Rbb1 38. exd6 Rb4 39. e5 Rbb1 40. dxc7 Rb4
+41. cxd8=Q Rbb1 42. Qb6 Rb4 43. Qxb4 Rb1 44. Qa3 Rb4 45. Qa4 Rb1 46. Qa1 Rb4
+47. Qa4 Rb1 48. Qa1 Rb5 49. Qb1 Rxb1 50. e6 Rb4 *

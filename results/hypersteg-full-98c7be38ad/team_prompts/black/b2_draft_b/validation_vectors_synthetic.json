@@ -1,0 +1,81 @@
+{
+  "synthetic_key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+  "session_id": "00112233445566778899aabbccddeeff",
+  "vectors": [
+    {
+      "record_id": "fixture-0001",
+      "context_sha256": "be776af9b403371185311106123a5e5d36b676492f97ebf4373c04cc0bb96b6f",
+      "target_byte": 219,
+      "carrier": "Careful planning helps players coordinate their pieces while preserving useful flexibility. A balanced assessment weighs the activity of the pieces, pawn structure, and the security of the king before settling on a plan. Precise analysis should distinguish concrete threats from longer-term aims and explain the relevant tradeoffs without overstating the evidence.",
+      "candidate_index": 7554,
+      "candidates_checked": 7555,
+      "decoded": {
+        "status": "VALID",
+        "payload_byte": 219,
+        "square": "d4",
+        "lens": "structure",
+        "digest_hex": "dba7ba3ff3dfb596b2eb7a5d2c93580bfadaf3377a4e609e965987dbfa20ccc0"
+      }
+    },
+    {
+      "record_id": "fixture-0002",
+      "context_sha256": "be776af9b403371185311106123a5e5d36b676492f97ebf4373c04cc0bb96b6f",
+      "target_byte": 0,
+      "carrier": "Patient preparation helps players bring their pieces together while preserving useful options. A balanced assessment weighs piece activity, pawn structure, and king safety before settling on a plan. Clear analysis should distinguish immediate threats from longer-term goals and describe the relevant tradeoffs without overstating the evidence.",
+      "candidate_index": 231589,
+      "candidates_checked": 231590,
+      "decoded": {
+        "status": "VALID",
+        "payload_byte": 0,
+        "square": "a1",
+        "lens": "activity",
+        "digest_hex": "00a7ce6d01032110535b57ad703d3869a5a4a1f81c0693a568f98c05e35f5271"
+      }
+    },
+    {
+      "record_id": "fixture-0003",
+      "context_sha256": "be776af9b403371185311106123a5e5d36b676492f97ebf4373c04cc0bb96b6f",
+      "target_byte": 64,
+      "carrier": "Patient planning helps players bring their pieces together while preserving practical options. A measured evaluation considers the activity of the pieces, pawn structure, and the security of the king before choosing a plan. Clear analysis should distinguish concrete threats from longer-term aims and explain the relevant tradeoffs without overstating the evidence.",
+      "candidate_index": 1399,
+      "candidates_checked": 1400,
+      "decoded": {
+        "status": "VALID",
+        "payload_byte": 64,
+        "square": "a1",
+        "lens": "vulnerability",
+        "digest_hex": "40a784898ed36f6f916dff7a35552fb86d9acdc97f542d14d2f838d0e3b4176f"
+      }
+    },
+    {
+      "record_id": "fixture-0004",
+      "context_sha256": "be776af9b403371185311106123a5e5d36b676492f97ebf4373c04cc0bb96b6f",
+      "target_byte": 128,
+      "carrier": "Patient planning helps players bring their pieces together while retaining practical options. A measured evaluation considers piece activity, pawn structure, and king safety before choosing a plan. Clear analysis should distinguish immediate threats from longer-term aims and explain the relevant tradeoffs without overstating the evidence.",
+      "candidate_index": 32895,
+      "candidates_checked": 32896,
+      "decoded": {
+        "status": "VALID",
+        "payload_byte": 128,
+        "square": "a1",
+        "lens": "safety",
+        "digest_hex": "80a7ad2f54dbbe0059fe55fa5d354054366a6e23c6584d5c1aceae98020a2933"
+      }
+    },
+    {
+      "record_id": "fixture-0005",
+      "context_sha256": "be776af9b403371185311106123a5e5d36b676492f97ebf4373c04cc0bb96b6f",
+      "target_byte": 255,
+      "carrier": "Careful planning helps players coordinate their pieces while retaining practical flexibility. A measured evaluation considers the activity of the pieces, pawn structure, and the security of the king before choosing a plan. Precise analysis should separate immediate threats from longer-term goals and explain the relevant tradeoffs without overstating the evidence.",
+      "candidate_index": 120154,
+      "candidates_checked": 120155,
+      "decoded": {
+        "status": "VALID",
+        "payload_byte": 255,
+        "square": "h8",
+        "lens": "structure",
+        "digest_hex": "ffa7eec3f441294abe4405f6736f42e55a2385ddfcbf377e7679e40be49d983e"
+      }
+    }
+  ]
+}

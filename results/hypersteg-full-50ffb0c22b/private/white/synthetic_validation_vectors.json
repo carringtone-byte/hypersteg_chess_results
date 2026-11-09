@@ -1,0 +1,2626 @@
+[
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses development as its single topic. The fixture reservation concerns files in this formal example. If the fixture continues, its follow-up concerns exchanges alone.",
+    "expected": {
+      "anchors": [
+        "development",
+        "files",
+        "exchanges"
+      ],
+      "O": [
+        "files",
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king"
+      ],
+      "r": 3,
+      "s": 15,
+      "q": 15,
+      "a": 3,
+      "b": 0,
+      "U": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "j": 0,
+      "m": 0,
+      "type": "Intent",
+      "value": "Develop"
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses center as its single topic. The fixture reservation concerns files in this formal example. If the fixture continues, its follow-up concerns squares alone.",
+    "expected": {
+      "anchors": [
+        "center",
+        "files",
+        "squares"
+      ],
+      "O": [
+        "files",
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king"
+      ],
+      "r": 3,
+      "s": 15,
+      "q": 20,
+      "a": 4,
+      "b": 0,
+      "U": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "j": 1,
+      "m": 5,
+      "type": "Intent",
+      "value": "preserve tension"
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses center as its single topic. The fixture reservation concerns exchanges in this formal example. If the fixture continues, its follow-up concerns king alone.",
+    "expected": {
+      "anchors": [
+        "center",
+        "exchanges",
+        "king"
+      ],
+      "O": [
+        "files",
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king"
+      ],
+      "r": 3,
+      "s": 15,
+      "q": 21,
+      "a": 4,
+      "b": 1,
+      "U": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "j": 3,
+      "m": 6,
+      "type": "Risk",
+      "value": "Forcing reply"
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses king as its single topic. The fixture reservation concerns exchanges in this formal example. If the fixture continues, its follow-up concerns files alone.",
+    "expected": {
+      "anchors": [
+        "king",
+        "exchanges",
+        "files"
+      ],
+      "O": [
+        "files",
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king"
+      ],
+      "r": 3,
+      "s": 15,
+      "q": 26,
+      "a": 5,
+      "b": 1,
+      "U": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "j": 0,
+      "m": 11,
+      "type": "Risk",
+      "value": "move-order trap"
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses king as its single topic. The fixture reservation concerns squares in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "king",
+        "squares",
+        "development"
+      ],
+      "O": [
+        "files",
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king"
+      ],
+      "r": 3,
+      "s": 15,
+      "q": 27,
+      "a": 5,
+      "b": 2,
+      "U": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "j": 2,
+      "m": 12,
+      "type": "Evaluation",
+      "value": "Clearly worse"
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns development in this formal example. If the fixture continues, its follow-up concerns king alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "development",
+        "king"
+      ],
+      "O": [
+        "files",
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king"
+      ],
+      "r": 3,
+      "s": 15,
+      "q": 2,
+      "a": 0,
+      "b": 3,
+      "U": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "j": 3,
+      "m": 17,
+      "type": "Evaluation",
+      "value": "clearly better"
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns center in this formal example. If the fixture continues, its follow-up concerns squares alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "center",
+        "squares"
+      ],
+      "O": [
+        "files",
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king"
+      ],
+      "r": 3,
+      "s": 15,
+      "q": 3,
+      "a": 0,
+      "b": 4,
+      "U": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "j": 1,
+      "m": 18,
+      "type": "Data",
+      "value": 0
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses exchanges as its single topic. The fixture reservation concerns center in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "exchanges",
+        "center",
+        "development"
+      ],
+      "O": [
+        "files",
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king"
+      ],
+      "r": 3,
+      "s": 15,
+      "q": 8,
+      "a": 1,
+      "b": 4,
+      "U": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "j": 2,
+      "m": 23,
+      "type": "Data",
+      "value": 5
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns exchanges in this formal example. If the fixture continues, its follow-up concerns center alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "exchanges",
+        "center"
+      ],
+      "O": [
+        "development",
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares"
+      ],
+      "r": 0,
+      "s": 18,
+      "q": 18,
+      "a": 3,
+      "b": 4,
+      "U": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "j": 1,
+      "m": 0,
+      "type": "Intent",
+      "value": "Develop"
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses exchanges as its single topic. The fixture reservation concerns files in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "exchanges",
+        "files",
+        "development"
+      ],
+      "O": [
+        "development",
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares"
+      ],
+      "r": 0,
+      "s": 18,
+      "q": 23,
+      "a": 4,
+      "b": 3,
+      "U": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "j": 0,
+      "m": 5,
+      "type": "Intent",
+      "value": "preserve tension"
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses exchanges as its single topic. The fixture reservation concerns squares in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "exchanges",
+        "squares",
+        "development"
+      ],
+      "O": [
+        "development",
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares"
+      ],
+      "r": 0,
+      "s": 18,
+      "q": 24,
+      "a": 4,
+      "b": 5,
+      "U": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "j": 0,
+      "m": 6,
+      "type": "Risk",
+      "value": "Forcing reply"
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses squares as its single topic. The fixture reservation concerns exchanges in this formal example. If the fixture continues, its follow-up concerns files alone.",
+    "expected": {
+      "anchors": [
+        "squares",
+        "exchanges",
+        "files"
+      ],
+      "O": [
+        "development",
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares"
+      ],
+      "r": 0,
+      "s": 18,
+      "q": 29,
+      "a": 5,
+      "b": 4,
+      "U": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "j": 3,
+      "m": 11,
+      "type": "Risk",
+      "value": "move-order trap"
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses development as its single topic. The fixture reservation concerns center in this formal example. If the fixture continues, its follow-up concerns king alone.",
+    "expected": {
+      "anchors": [
+        "development",
+        "center",
+        "king"
+      ],
+      "O": [
+        "development",
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares"
+      ],
+      "r": 0,
+      "s": 18,
+      "q": 0,
+      "a": 0,
+      "b": 1,
+      "U": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "j": 0,
+      "m": 12,
+      "type": "Evaluation",
+      "value": "Clearly worse"
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses center as its single topic. The fixture reservation concerns development in this formal example. If the fixture continues, its follow-up concerns squares alone.",
+    "expected": {
+      "anchors": [
+        "center",
+        "development",
+        "squares"
+      ],
+      "O": [
+        "development",
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares"
+      ],
+      "r": 0,
+      "s": 18,
+      "q": 5,
+      "a": 1,
+      "b": 0,
+      "U": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "j": 3,
+      "m": 17,
+      "type": "Evaluation",
+      "value": "clearly better"
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses center as its single topic. The fixture reservation concerns king in this formal example. If the fixture continues, its follow-up concerns squares alone.",
+    "expected": {
+      "anchors": [
+        "center",
+        "king",
+        "squares"
+      ],
+      "O": [
+        "development",
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares"
+      ],
+      "r": 0,
+      "s": 18,
+      "q": 6,
+      "a": 1,
+      "b": 2,
+      "U": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "j": 3,
+      "m": 18,
+      "type": "Data",
+      "value": 0
+    }
+  },
+  {
+    "counts": {
+      "P": 16,
+      "N": 4,
+      "Q": 2,
+      "B": 2,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses king as its single topic. The fixture reservation concerns center in this formal example. If the fixture continues, its follow-up concerns exchanges alone.",
+    "expected": {
+      "anchors": [
+        "king",
+        "center",
+        "exchanges"
+      ],
+      "O": [
+        "development",
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares"
+      ],
+      "r": 0,
+      "s": 18,
+      "q": 11,
+      "a": 2,
+      "b": 1,
+      "U": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "j": 2,
+      "m": 23,
+      "type": "Data",
+      "value": 5
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses squares as its single topic. The fixture reservation concerns exchanges in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "squares",
+        "exchanges",
+        "development"
+      ],
+      "O": [
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center",
+        "development"
+      ],
+      "r": 0,
+      "s": 0,
+      "q": 0,
+      "a": 0,
+      "b": 1,
+      "U": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "j": 3,
+      "m": 0,
+      "type": "Intent",
+      "value": "Develop"
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses exchanges as its single topic. The fixture reservation concerns squares in this formal example. If the fixture continues, its follow-up concerns center alone.",
+    "expected": {
+      "anchors": [
+        "exchanges",
+        "squares",
+        "center"
+      ],
+      "O": [
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center",
+        "development"
+      ],
+      "r": 0,
+      "s": 0,
+      "q": 5,
+      "a": 1,
+      "b": 0,
+      "U": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "j": 2,
+      "m": 5,
+      "type": "Intent",
+      "value": "preserve tension"
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses exchanges as its single topic. The fixture reservation concerns files in this formal example. If the fixture continues, its follow-up concerns center alone.",
+    "expected": {
+      "anchors": [
+        "exchanges",
+        "files",
+        "center"
+      ],
+      "O": [
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center",
+        "development"
+      ],
+      "r": 0,
+      "s": 0,
+      "q": 6,
+      "a": 1,
+      "b": 2,
+      "U": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "j": 2,
+      "m": 6,
+      "type": "Risk",
+      "value": "Forcing reply"
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns exchanges in this formal example. If the fixture continues, its follow-up concerns king alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "exchanges",
+        "king"
+      ],
+      "O": [
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center",
+        "development"
+      ],
+      "r": 0,
+      "s": 0,
+      "q": 11,
+      "a": 2,
+      "b": 1,
+      "U": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "j": 1,
+      "m": 11,
+      "type": "Risk",
+      "value": "move-order trap"
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns king in this formal example. If the fixture continues, its follow-up concerns exchanges alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "king",
+        "exchanges"
+      ],
+      "O": [
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center",
+        "development"
+      ],
+      "r": 0,
+      "s": 0,
+      "q": 12,
+      "a": 2,
+      "b": 3,
+      "U": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "j": 1,
+      "m": 12,
+      "type": "Evaluation",
+      "value": "Clearly worse"
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses king as its single topic. The fixture reservation concerns files in this formal example. If the fixture continues, its follow-up concerns squares alone.",
+    "expected": {
+      "anchors": [
+        "king",
+        "files",
+        "squares"
+      ],
+      "O": [
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center",
+        "development"
+      ],
+      "r": 0,
+      "s": 0,
+      "q": 17,
+      "a": 3,
+      "b": 2,
+      "U": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "j": 0,
+      "m": 17,
+      "type": "Evaluation",
+      "value": "clearly better"
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses king as its single topic. The fixture reservation concerns center in this formal example. If the fixture continues, its follow-up concerns squares alone.",
+    "expected": {
+      "anchors": [
+        "king",
+        "center",
+        "squares"
+      ],
+      "O": [
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center",
+        "development"
+      ],
+      "r": 0,
+      "s": 0,
+      "q": 18,
+      "a": 3,
+      "b": 4,
+      "U": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "j": 0,
+      "m": 18,
+      "type": "Data",
+      "value": 0
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses center as its single topic. The fixture reservation concerns king in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "center",
+        "king",
+        "development"
+      ],
+      "O": [
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center",
+        "development"
+      ],
+      "r": 0,
+      "s": 0,
+      "q": 23,
+      "a": 4,
+      "b": 3,
+      "U": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "j": 3,
+      "m": 23,
+      "type": "Data",
+      "value": 5
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses king as its single topic. The fixture reservation concerns exchanges in this formal example. If the fixture continues, its follow-up concerns squares alone.",
+    "expected": {
+      "anchors": [
+        "king",
+        "exchanges",
+        "squares"
+      ],
+      "O": [
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges",
+        "files"
+      ],
+      "r": 3,
+      "s": 3,
+      "q": 3,
+      "a": 0,
+      "b": 4,
+      "U": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "j": 2,
+      "m": 0,
+      "type": "Intent",
+      "value": "Develop"
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses center as its single topic. The fixture reservation concerns exchanges in this formal example. If the fixture continues, its follow-up concerns files alone.",
+    "expected": {
+      "anchors": [
+        "center",
+        "exchanges",
+        "files"
+      ],
+      "O": [
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges",
+        "files"
+      ],
+      "r": 3,
+      "s": 3,
+      "q": 8,
+      "a": 1,
+      "b": 4,
+      "U": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "j": 3,
+      "m": 5,
+      "type": "Intent",
+      "value": "preserve tension"
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses center as its single topic. The fixture reservation concerns files in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "center",
+        "files",
+        "development"
+      ],
+      "O": [
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges",
+        "files"
+      ],
+      "r": 3,
+      "s": 3,
+      "q": 9,
+      "a": 1,
+      "b": 5,
+      "U": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "j": 1,
+      "m": 6,
+      "type": "Risk",
+      "value": "Forcing reply"
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses development as its single topic. The fixture reservation concerns files in this formal example. If the fixture continues, its follow-up concerns squares alone.",
+    "expected": {
+      "anchors": [
+        "development",
+        "files",
+        "squares"
+      ],
+      "O": [
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges",
+        "files"
+      ],
+      "r": 3,
+      "s": 3,
+      "q": 14,
+      "a": 2,
+      "b": 5,
+      "U": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "j": 2,
+      "m": 11,
+      "type": "Risk",
+      "value": "move-order trap"
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses squares as its single topic. The fixture reservation concerns king in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "squares",
+        "king",
+        "development"
+      ],
+      "O": [
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges",
+        "files"
+      ],
+      "r": 3,
+      "s": 3,
+      "q": 15,
+      "a": 3,
+      "b": 0,
+      "U": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "j": 1,
+      "m": 12,
+      "type": "Evaluation",
+      "value": "Clearly worse"
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses exchanges as its single topic. The fixture reservation concerns king in this formal example. If the fixture continues, its follow-up concerns squares alone.",
+    "expected": {
+      "anchors": [
+        "exchanges",
+        "king",
+        "squares"
+      ],
+      "O": [
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges",
+        "files"
+      ],
+      "r": 3,
+      "s": 3,
+      "q": 20,
+      "a": 4,
+      "b": 0,
+      "U": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "j": 2,
+      "m": 17,
+      "type": "Evaluation",
+      "value": "clearly better"
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses exchanges as its single topic. The fixture reservation concerns center in this formal example. If the fixture continues, its follow-up concerns king alone.",
+    "expected": {
+      "anchors": [
+        "exchanges",
+        "center",
+        "king"
+      ],
+      "O": [
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges",
+        "files"
+      ],
+      "r": 3,
+      "s": 3,
+      "q": 21,
+      "a": 4,
+      "b": 1,
+      "U": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "j": 0,
+      "m": 18,
+      "type": "Data",
+      "value": 0
+    }
+  },
+  {
+    "counts": {
+      "P": 9,
+      "N": 3,
+      "Q": 1,
+      "B": 1,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns center in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "center",
+        "development"
+      ],
+      "O": [
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges",
+        "files"
+      ],
+      "r": 3,
+      "s": 3,
+      "q": 26,
+      "a": 5,
+      "b": 1,
+      "U": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "j": 1,
+      "m": 23,
+      "type": "Data",
+      "value": 5
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses king as its single topic. The fixture reservation concerns squares in this formal example. If the fixture continues, its follow-up concerns exchanges alone.",
+    "expected": {
+      "anchors": [
+        "king",
+        "squares",
+        "exchanges"
+      ],
+      "O": [
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king",
+        "files"
+      ],
+      "r": 4,
+      "s": 21,
+      "q": 21,
+      "a": 4,
+      "b": 1,
+      "U": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "j": 0,
+      "m": 0,
+      "type": "Intent",
+      "value": "Develop"
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns squares in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "squares",
+        "development"
+      ],
+      "O": [
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king",
+        "files"
+      ],
+      "r": 4,
+      "s": 21,
+      "q": 26,
+      "a": 5,
+      "b": 1,
+      "U": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "j": 1,
+      "m": 5,
+      "type": "Intent",
+      "value": "preserve tension"
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns development in this formal example. If the fixture continues, its follow-up concerns king alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "development",
+        "king"
+      ],
+      "O": [
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king",
+        "files"
+      ],
+      "r": 4,
+      "s": 21,
+      "q": 27,
+      "a": 5,
+      "b": 2,
+      "U": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "j": 3,
+      "m": 6,
+      "type": "Risk",
+      "value": "Forcing reply"
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses exchanges as its single topic. The fixture reservation concerns center in this formal example. If the fixture continues, its follow-up concerns squares alone.",
+    "expected": {
+      "anchors": [
+        "exchanges",
+        "center",
+        "squares"
+      ],
+      "O": [
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king",
+        "files"
+      ],
+      "r": 4,
+      "s": 21,
+      "q": 2,
+      "a": 0,
+      "b": 3,
+      "U": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "j": 0,
+      "m": 11,
+      "type": "Risk",
+      "value": "move-order trap"
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses exchanges as its single topic. The fixture reservation concerns king in this formal example. If the fixture continues, its follow-up concerns center alone.",
+    "expected": {
+      "anchors": [
+        "exchanges",
+        "king",
+        "center"
+      ],
+      "O": [
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king",
+        "files"
+      ],
+      "r": 4,
+      "s": 21,
+      "q": 3,
+      "a": 0,
+      "b": 4,
+      "U": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "j": 2,
+      "m": 12,
+      "type": "Evaluation",
+      "value": "Clearly worse"
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses squares as its single topic. The fixture reservation concerns king in this formal example. If the fixture continues, its follow-up concerns files alone.",
+    "expected": {
+      "anchors": [
+        "squares",
+        "king",
+        "files"
+      ],
+      "O": [
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king",
+        "files"
+      ],
+      "r": 4,
+      "s": 21,
+      "q": 8,
+      "a": 1,
+      "b": 4,
+      "U": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "j": 3,
+      "m": 17,
+      "type": "Evaluation",
+      "value": "clearly better"
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses squares as its single topic. The fixture reservation concerns files in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "squares",
+        "files",
+        "development"
+      ],
+      "O": [
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king",
+        "files"
+      ],
+      "r": 4,
+      "s": 21,
+      "q": 9,
+      "a": 1,
+      "b": 5,
+      "U": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "j": 1,
+      "m": 18,
+      "type": "Data",
+      "value": 0
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses development as its single topic. The fixture reservation concerns files in this formal example. If the fixture continues, its follow-up concerns center alone.",
+    "expected": {
+      "anchors": [
+        "development",
+        "files",
+        "center"
+      ],
+      "O": [
+        "exchanges",
+        "squares",
+        "development",
+        "center",
+        "king",
+        "files"
+      ],
+      "r": 4,
+      "s": 21,
+      "q": 14,
+      "a": 2,
+      "b": 5,
+      "U": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "j": 2,
+      "m": 23,
+      "type": "Data",
+      "value": 5
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses squares as its single topic. The fixture reservation concerns development in this formal example. If the fixture continues, its follow-up concerns king alone.",
+    "expected": {
+      "anchors": [
+        "squares",
+        "development",
+        "king"
+      ],
+      "O": [
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares",
+        "development"
+      ],
+      "r": 1,
+      "s": 24,
+      "q": 24,
+      "a": 4,
+      "b": 5,
+      "U": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "j": 1,
+      "m": 0,
+      "type": "Intent",
+      "value": "Develop"
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses development as its single topic. The fixture reservation concerns squares in this formal example. If the fixture continues, its follow-up concerns center alone.",
+    "expected": {
+      "anchors": [
+        "development",
+        "squares",
+        "center"
+      ],
+      "O": [
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares",
+        "development"
+      ],
+      "r": 1,
+      "s": 24,
+      "q": 29,
+      "a": 5,
+      "b": 4,
+      "U": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "j": 0,
+      "m": 5,
+      "type": "Intent",
+      "value": "preserve tension"
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses center as its single topic. The fixture reservation concerns king in this formal example. If the fixture continues, its follow-up concerns exchanges alone.",
+    "expected": {
+      "anchors": [
+        "center",
+        "king",
+        "exchanges"
+      ],
+      "O": [
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares",
+        "development"
+      ],
+      "r": 1,
+      "s": 24,
+      "q": 0,
+      "a": 0,
+      "b": 1,
+      "U": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "j": 1,
+      "m": 6,
+      "type": "Risk",
+      "value": "Forcing reply"
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses king as its single topic. The fixture reservation concerns center in this formal example. If the fixture continues, its follow-up concerns files alone.",
+    "expected": {
+      "anchors": [
+        "king",
+        "center",
+        "files"
+      ],
+      "O": [
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares",
+        "development"
+      ],
+      "r": 1,
+      "s": 24,
+      "q": 5,
+      "a": 1,
+      "b": 0,
+      "U": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "j": 0,
+      "m": 11,
+      "type": "Risk",
+      "value": "move-order trap"
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses king as its single topic. The fixture reservation concerns files in this formal example. If the fixture continues, its follow-up concerns center alone.",
+    "expected": {
+      "anchors": [
+        "king",
+        "files",
+        "center"
+      ],
+      "O": [
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares",
+        "development"
+      ],
+      "r": 1,
+      "s": 24,
+      "q": 6,
+      "a": 1,
+      "b": 2,
+      "U": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "j": 0,
+      "m": 12,
+      "type": "Evaluation",
+      "value": "Clearly worse"
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns king in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "king",
+        "development"
+      ],
+      "O": [
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares",
+        "development"
+      ],
+      "r": 1,
+      "s": 24,
+      "q": 11,
+      "a": 2,
+      "b": 1,
+      "U": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "j": 3,
+      "m": 17,
+      "type": "Evaluation",
+      "value": "clearly better"
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns exchanges in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "exchanges",
+        "development"
+      ],
+      "O": [
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares",
+        "development"
+      ],
+      "r": 1,
+      "s": 24,
+      "q": 12,
+      "a": 2,
+      "b": 3,
+      "U": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "j": 3,
+      "m": 18,
+      "type": "Data",
+      "value": 0
+    }
+  },
+  {
+    "counts": {
+      "P": 3,
+      "N": 1,
+      "Q": 3,
+      "B": 0,
+      "C": 0
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses exchanges as its single topic. The fixture reservation concerns files in this formal example. If the fixture continues, its follow-up concerns squares alone.",
+    "expected": {
+      "anchors": [
+        "exchanges",
+        "files",
+        "squares"
+      ],
+      "O": [
+        "center",
+        "king",
+        "files",
+        "exchanges",
+        "squares",
+        "development"
+      ],
+      "r": 1,
+      "s": 24,
+      "q": 17,
+      "a": 3,
+      "b": 2,
+      "U": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "j": 2,
+      "m": 23,
+      "type": "Data",
+      "value": 5
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses exchanges as its single topic. The fixture reservation concerns king in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "exchanges",
+        "king",
+        "development"
+      ],
+      "O": [
+        "development",
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center"
+      ],
+      "r": 1,
+      "s": 13,
+      "q": 13,
+      "a": 2,
+      "b": 4,
+      "U": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "j": 0,
+      "m": 0,
+      "type": "Intent",
+      "value": "Develop"
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns king in this formal example. If the fixture continues, its follow-up concerns squares alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "king",
+        "squares"
+      ],
+      "O": [
+        "development",
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center"
+      ],
+      "r": 1,
+      "s": 13,
+      "q": 18,
+      "a": 3,
+      "b": 4,
+      "U": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "j": 1,
+      "m": 5,
+      "type": "Intent",
+      "value": "preserve tension"
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns center in this formal example. If the fixture continues, its follow-up concerns king alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "center",
+        "king"
+      ],
+      "O": [
+        "development",
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center"
+      ],
+      "r": 1,
+      "s": 13,
+      "q": 19,
+      "a": 3,
+      "b": 5,
+      "U": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "j": 3,
+      "m": 6,
+      "type": "Risk",
+      "value": "Forcing reply"
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses king as its single topic. The fixture reservation concerns center in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "king",
+        "center",
+        "development"
+      ],
+      "O": [
+        "development",
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center"
+      ],
+      "r": 1,
+      "s": 13,
+      "q": 24,
+      "a": 4,
+      "b": 5,
+      "U": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "j": 0,
+      "m": 11,
+      "type": "Risk",
+      "value": "move-order trap"
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses center as its single topic. The fixture reservation concerns development in this formal example. If the fixture continues, its follow-up concerns king alone.",
+    "expected": {
+      "anchors": [
+        "center",
+        "development",
+        "king"
+      ],
+      "O": [
+        "development",
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center"
+      ],
+      "r": 1,
+      "s": 13,
+      "q": 25,
+      "a": 5,
+      "b": 0,
+      "U": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "j": 3,
+      "m": 12,
+      "type": "Evaluation",
+      "value": "Clearly worse"
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses development as its single topic. The fixture reservation concerns squares in this formal example. If the fixture continues, its follow-up concerns exchanges alone.",
+    "expected": {
+      "anchors": [
+        "development",
+        "squares",
+        "exchanges"
+      ],
+      "O": [
+        "development",
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center"
+      ],
+      "r": 1,
+      "s": 13,
+      "q": 0,
+      "a": 0,
+      "b": 1,
+      "U": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "j": 0,
+      "m": 17,
+      "type": "Evaluation",
+      "value": "clearly better"
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses development as its single topic. The fixture reservation concerns exchanges in this formal example. If the fixture continues, its follow-up concerns king alone.",
+    "expected": {
+      "anchors": [
+        "development",
+        "exchanges",
+        "king"
+      ],
+      "O": [
+        "development",
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center"
+      ],
+      "r": 1,
+      "s": 13,
+      "q": 1,
+      "a": 0,
+      "b": 2,
+      "U": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "j": 2,
+      "m": 18,
+      "type": "Data",
+      "value": 0
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 1,
+    "paragraph": "The fixture recommendation uses squares as its single topic. The fixture reservation concerns exchanges in this formal example. If the fixture continues, its follow-up concerns center alone.",
+    "expected": {
+      "anchors": [
+        "squares",
+        "exchanges",
+        "center"
+      ],
+      "O": [
+        "development",
+        "squares",
+        "exchanges",
+        "files",
+        "king",
+        "center"
+      ],
+      "r": 1,
+      "s": 13,
+      "q": 6,
+      "a": 1,
+      "b": 2,
+      "U": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "j": 3,
+      "m": 23,
+      "type": "Data",
+      "value": 5
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses development as its single topic. The fixture reservation concerns king in this formal example. If the fixture continues, its follow-up concerns files alone.",
+    "expected": {
+      "anchors": [
+        "development",
+        "king",
+        "files"
+      ],
+      "O": [
+        "files",
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges"
+      ],
+      "r": 4,
+      "s": 16,
+      "q": 16,
+      "a": 3,
+      "b": 1,
+      "U": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "j": 0,
+      "m": 0,
+      "type": "Intent",
+      "value": "Develop"
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses squares as its single topic. The fixture reservation concerns king in this formal example. If the fixture continues, its follow-up concerns center alone.",
+    "expected": {
+      "anchors": [
+        "squares",
+        "king",
+        "center"
+      ],
+      "O": [
+        "files",
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges"
+      ],
+      "r": 4,
+      "s": 16,
+      "q": 21,
+      "a": 4,
+      "b": 1,
+      "U": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "j": 1,
+      "m": 5,
+      "type": "Intent",
+      "value": "preserve tension"
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses squares as its single topic. The fixture reservation concerns center in this formal example. If the fixture continues, its follow-up concerns exchanges alone.",
+    "expected": {
+      "anchors": [
+        "squares",
+        "center",
+        "exchanges"
+      ],
+      "O": [
+        "files",
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges"
+      ],
+      "r": 4,
+      "s": 16,
+      "q": 22,
+      "a": 4,
+      "b": 2,
+      "U": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "j": 3,
+      "m": 6,
+      "type": "Risk",
+      "value": "Forcing reply"
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses exchanges as its single topic. The fixture reservation concerns center in this formal example. If the fixture continues, its follow-up concerns files alone.",
+    "expected": {
+      "anchors": [
+        "exchanges",
+        "center",
+        "files"
+      ],
+      "O": [
+        "files",
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges"
+      ],
+      "r": 4,
+      "s": 16,
+      "q": 27,
+      "a": 5,
+      "b": 2,
+      "U": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "j": 0,
+      "m": 11,
+      "type": "Risk",
+      "value": "move-order trap"
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses exchanges as its single topic. The fixture reservation concerns development in this formal example. If the fixture continues, its follow-up concerns center alone.",
+    "expected": {
+      "anchors": [
+        "exchanges",
+        "development",
+        "center"
+      ],
+      "O": [
+        "files",
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges"
+      ],
+      "r": 4,
+      "s": 16,
+      "q": 28,
+      "a": 5,
+      "b": 3,
+      "U": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "j": 2,
+      "m": 12,
+      "type": "Evaluation",
+      "value": "Clearly worse"
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns squares in this formal example. If the fixture continues, its follow-up concerns exchanges alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "squares",
+        "exchanges"
+      ],
+      "O": [
+        "files",
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges"
+      ],
+      "r": 4,
+      "s": 16,
+      "q": 3,
+      "a": 0,
+      "b": 4,
+      "U": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "j": 3,
+      "m": 17,
+      "type": "Evaluation",
+      "value": "clearly better"
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses files as its single topic. The fixture reservation concerns exchanges in this formal example. If the fixture continues, its follow-up concerns center alone.",
+    "expected": {
+      "anchors": [
+        "files",
+        "exchanges",
+        "center"
+      ],
+      "O": [
+        "files",
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges"
+      ],
+      "r": 4,
+      "s": 16,
+      "q": 4,
+      "a": 0,
+      "b": 5,
+      "U": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "j": 1,
+      "m": 18,
+      "type": "Data",
+      "value": 0
+    }
+  },
+  {
+    "counts": {
+      "P": 0,
+      "N": 5,
+      "Q": 0,
+      "B": 3,
+      "C": 1
+    },
+    "t": 10,
+    "paragraph": "The fixture recommendation uses king as its single topic. The fixture reservation concerns exchanges in this formal example. If the fixture continues, its follow-up concerns development alone.",
+    "expected": {
+      "anchors": [
+        "king",
+        "exchanges",
+        "development"
+      ],
+      "O": [
+        "files",
+        "king",
+        "center",
+        "development",
+        "squares",
+        "exchanges"
+      ],
+      "r": 4,
+      "s": 16,
+      "q": 9,
+      "a": 1,
+      "b": 5,
+      "U": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "j": 2,
+      "m": 23,
+      "type": "Data",
+      "value": 5
+    }
+  }
+]

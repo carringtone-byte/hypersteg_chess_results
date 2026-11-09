@@ -1,0 +1,115 @@
+{
+  "decision": "CONSENT_LOCK_RETAINED_W1",
+  "protocol_version": 1,
+  "source_copy_byte_identical": true,
+  "source_sha256": "b644580a782d67294150eae83cd2f9dfbc07f7e5116d7d6ab014f7690faa2d88",
+  "five_formula_functions_ast_identical": true,
+  "six_numeric_vectors": "PASS",
+  "three_structural_rejects": "PASS",
+  "nonzero_gate_reject": "PASS",
+  "envelope_controls": [
+    {
+      "control": "wrong run",
+      "result": {
+        "status": "ERASURE",
+        "reason": "external envelope mismatch"
+      }
+    },
+    {
+      "control": "wrong ply",
+      "result": {
+        "status": "ERASURE",
+        "reason": "external envelope mismatch"
+      }
+    },
+    {
+      "control": "wrong version",
+      "result": {
+        "status": "ERASURE",
+        "reason": "envelope types"
+      }
+    },
+    {
+      "control": "float version",
+      "result": {
+        "status": "ERASURE",
+        "reason": "envelope types"
+      }
+    },
+    {
+      "control": "bool version",
+      "result": {
+        "status": "ERASURE",
+        "reason": "envelope types"
+      }
+    },
+    {
+      "control": "bool ply",
+      "result": {
+        "status": "ERASURE",
+        "reason": "envelope types"
+      }
+    },
+    {
+      "control": "float ply",
+      "result": {
+        "status": "ERASURE",
+        "reason": "envelope types"
+      }
+    },
+    {
+      "control": "zero ply",
+      "result": {
+        "status": "ERASURE",
+        "reason": "envelope types"
+      }
+    },
+    {
+      "control": "extra field",
+      "result": {
+        "status": "ERASURE",
+        "reason": "envelope fields"
+      }
+    },
+    {
+      "control": "missing field",
+      "result": {
+        "status": "ERASURE",
+        "reason": "envelope fields"
+      }
+    },
+    {
+      "control": "empty run",
+      "result": {
+        "status": "ERASURE",
+        "reason": "envelope run"
+      }
+    },
+    {
+      "control": "old stopped run",
+      "result": {
+        "status": "ERASURE",
+        "reason": "fresh run required"
+      }
+    },
+    {
+      "control": "expected bool ply",
+      "result": {
+        "status": "ERASURE",
+        "reason": "expected ply"
+      }
+    },
+    {
+      "control": "expected float ply",
+      "result": {
+        "status": "ERASURE",
+        "reason": "expected ply"
+      }
+    }
+  ],
+  "legal_boundary": "W1 encodes category only. Host separately validates every final UCI against full legal set. Mock membership pass/fail boundary checked; no board or move selected.",
+  "gameplay": "No moves until both teams ready and host starts fresh run. Old run permanently stopped.",
+  "readiness": "WHITE_PROTOCOL_READY; fresh authoritative run_id must be assigned externally",
+  "limitations_report": "review_and_operational_boundary.json",
+  "independent_revalidation": "../b_fresh_game_w1_validation.json"
+}

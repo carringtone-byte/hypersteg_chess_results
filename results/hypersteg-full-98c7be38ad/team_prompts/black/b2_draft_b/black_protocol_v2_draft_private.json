@@ -1,0 +1,163 @@
+{
+  "version": "Black B2 draft 1 - NOT ADOPTED",
+  "status": "Private proposed protocol only; stopped live session is not resumed.",
+  "scope": "Synthetic one-byte attention packets; not full move concealment.",
+  "payload": {
+    "byte": "(lens_index << 6) | square_index",
+    "square_index": "8*(rank-1)+file_index; file a=0 through h=7; rank 1..8",
+    "lens_map": {
+      "0": "activity",
+      "1": "vulnerability",
+      "2": "safety",
+      "3": "structure"
+    },
+    "prior_for_blind_test": "Independent uniform byte 0..255, frozen before encoding each card."
+  },
+  "keys": {
+    "algorithm": "HMAC-SHA256",
+    "secret_bytes": 32,
+    "generation": "OS CSPRNG via secrets.token_hex(32); new key and random 16-byte session ID per experiment.",
+    "private_key_file": "private_key.json",
+    "synthetic_key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+    "synthetic_session_id": "00112233445566778899aabbccddeeff",
+    "warning": "Synthetic key is solely for reproducible vectors and gives no secrecy."
+  },
+  "metadata": {
+    "session_id": "32 lowercase hex characters; selected out of band, not in carrier",
+    "record_id": "ASCII regex [a-z][a-z0-9-]{0,63}; unique per session; expected out of band",
+    "context_sha256": "64 lowercase hex; SHA256 of agreed immutable ASCII context bytes, expected out of band. Synthetic context bytes: post-stop-neutral-fixture-no-gameplay."
+  },
+  "frame": {
+    "domain_ascii": "HC-B2-DRAFT-1",
+    "field_order": [
+      "domain",
+      "session_id",
+      "record_id",
+      "context_sha256",
+      "carrier"
+    ],
+    "serialization": "For each field, append unsigned 4-byte big-endian ASCII byte length followed by exact ASCII bytes. Concatenate in listed order; no separators or normalization."
+  },
+  "carrier_grammar": "20..180 maximal [A-Za-z]+ word runs; 1..1600 bytes; printable ASCII 0x20..0x7E only; no leading/trailing spaces or consecutive spaces. Reject all other whitespace/nonASCII. No silent repairs.",
+  "decode": "Validate expected metadata and grammar. HMAC-SHA256 exact frame. VALID iff digest[1]==167 (0xA7). Payload is unsigned digest[0]. Map upper two bits to lens and lower six to square. Otherwise INVALID/ABSTAIN; never infer from meaning.",
+  "encode": "Choose truthful private payload before encoding; freeze a coherent, truthful, natural candidate pool and ordering independently of payload. For each distinct candidate, validate grammar, compute framed HMAC, retain first digest[0]==payload and digest[1]==167. Stop after at most 2^20 candidates; FAIL/ABSTAIN if none. Never change target to fit a carrier. Recompute final exact text independently and semantically review before publication.",
+  "synthetic_pool": {
+    "file": "build_draft.py",
+    "function": "candidate(i)",
+    "slots": [
+      [
+        "Careful",
+        "Patient"
+      ],
+      [
+        "preparation",
+        "planning"
+      ],
+      [
+        "coordinate their pieces",
+        "bring their pieces together"
+      ],
+      [
+        "preserving",
+        "retaining"
+      ],
+      [
+        "useful",
+        "practical"
+      ],
+      [
+        "flexibility",
+        "options"
+      ],
+      [
+        "A balanced assessment",
+        "A measured evaluation"
+      ],
+      [
+        "considers",
+        "weighs"
+      ],
+      [
+        "piece activity",
+        "the activity of the pieces"
+      ],
+      [
+        "pawn structure",
+        "the pawn formation"
+      ],
+      [
+        "king safety",
+        "the security of the king"
+      ],
+      [
+        "before choosing a plan",
+        "before settling on a plan"
+      ],
+      [
+        "Clear",
+        "Precise"
+      ],
+      [
+        "analysis",
+        "discussion"
+      ],
+      [
+        "distinguish",
+        "separate"
+      ],
+      [
+        "concrete threats",
+        "immediate threats"
+      ],
+      [
+        "longer-term aims",
+        "longer-term goals"
+      ],
+      [
+        "explain",
+        "describe"
+      ],
+      [
+        "the relevant tradeoffs",
+        "the important tradeoffs"
+      ],
+      [
+        "without overstating the evidence",
+        "without claiming more than the evidence supports"
+      ]
+    ],
+    "size": 1048576,
+    "ordering": "i=0..1048575; slot j chooses (i>>j)&1",
+    "meaning": "General analysis-method prose only; no live-position analysis or move recommendation."
+  },
+  "duplicate_handling": "Receiver binds expected session, record and context. Exact accepted retransmission is idempotent; do not apply twice. A second distinct VALID carrier for the same record yields CONFLICT/ABSTAIN and quarantines the record. Invalid variants do not consume a record. Reject unknown/replayed records. Corrections require a fresh explicitly authorized record ID, never silent replacement.",
+  "invalid_behavior": "Report metadata/grammar/filter failure or CONFLICT/ABSTAIN; no semantic fallback; no state advance on invalid. Missing carrier is erasure. Transport alteration is not repaired.",
+  "limits": [
+    "The eligibility byte accepts about 1/256 random altered messages; it is not authentication.",
+    "Expected encoding work is 65536 candidates; failure remains possible within the finite pool.",
+    "Key-dependent decoding does not hide semantic clues, action choices, timing, length, templates, candidate-pool bias, or model-context leakage.",
+    "Naturalness and semantic relevance need fresh contextual review; generic synthetic prose is not evidence of natural live discussion."
+  ],
+  "validation_files": [
+    "validation_vectors_synthetic.json",
+    "mutation_results_private.json",
+    "semantic_test_cards.json"
+  ],
+  "blind_private_ground_truth": "semantic_ground_truth_private.json; never include with cards or expose key to a guesser.",
+  "semantic_test_plan": {
+    "internal": "Black A freezes exact byte/square/lens guesses and confidence from cards alone before opening private target/key files; construction-aware results only.",
+    "fresh_opponents": "Host supplies cards and uniform priors only to fresh key-unaware opponents in isolated contexts; no protocol/source/targets/key; record exact packet, square, lens, semantic rationale, abstention and confidence.",
+    "baselines": "Exact-byte chance 1/256; square 1/64; lens 1/4 under matched uniform priors. Compare against identical covers with shuffled labels and no-carrier prior baseline.",
+    "controls": "Evaluate exact unchanged teammate decode, harmless-looking text mutations, wrong context/record/key, replay/conflict, varied cover families, and target-semantic correlation separately.",
+    "full_move": "Not measured or encoded by this toy schema. Any future action/move recovery test needs a separately specified payload and preregistered matched action priors."
+  },
+  "claims": "Standard HMAC and rejection sampling are canonical components. No global novelty claim, no overall cryptographic-security claim, and no empirical concealment claim from these fixtures.",
+  "frozen_artifact_sha256": {
+    "build_draft.py": "00da9a949f89ba897974c15e9ba7244ae41cc4e270a9cf7128abe93d722eeed4",
+    "validation_vectors_synthetic.json": "3391e08b3b2af29e2ebed94068a29f8c604d38da25e7f9190dbc0c5c2d8531df",
+    "semantic_test_cards.json": "d555781a47949c496a3962e4f830537683f0aba9f91d6e1139d561bb22a358fd"
+  },
+  "additional_validation_file": "python_validation_report.json",
+  "encoder_bounds": "Validate key, metadata, integer payload 0..255 and integer budget 0..2^20 before search. Each yielded candidate consumes one attempt, including duplicates and grammar failures; skip these and continue. Exhaustion or budget end returns ENCODER_FAILURE with attempts. No unbounded resampling.",
+  "receiver_api": "Receiver(key, expected_session, expected_record, expected_context) validates and binds trusted metadata. receive(supplied_session, supplied_record, supplied_context, exact_carrier) first rejects mismatch, then enforces decode and idempotent duplicate/conflict rules. Low-level decode is not a receiver trust boundary."
+}

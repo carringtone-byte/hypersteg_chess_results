@@ -1,0 +1,14 @@
+{
+  "stage": "COMPLETE",
+  "ply": 109,
+  "full_moves_completed": 54,
+  "fen": "6k1/pp3ppp/8/3r4/5K2/P5PP/8/8 b - - 2 55",
+  "pending": null,
+  "protocol_versions": {
+    "white": 2,
+    "black": 2
+  },
+  "stop_after_ply": 109,
+  "checkpoint_interval_plies": 20,
+  "gameplay_actor_calls_allowed": false
+}

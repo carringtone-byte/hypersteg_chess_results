@@ -1,0 +1,12 @@
+[Event "Hypersteg Chess live 10-full-move experiment"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[FEN "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w - - 0 1"]
+[SetUp "1"]
+
+1. Bg5 h6 2. Bh4 Be6 3. Bb3 Bxb3 4. axb3 Bd4 5. Nxd4 Nxd4 6. Nd5 Qd7 7. Nxf6+
+gxf6 8. Bxf6 Qe6 9. Bh4 Qd7 10. c3 Ne6 *

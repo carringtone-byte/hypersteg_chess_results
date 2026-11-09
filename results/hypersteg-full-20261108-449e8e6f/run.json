@@ -1,0 +1,42 @@
+{
+  "run_id": "hypersteg-full-20261108-449e8e6f",
+  "design": "live-full-game",
+  "created_at": "2026-11-07T22:43:48.407144+00:00",
+  "position_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "max_full_moves": null,
+  "max_plies": null,
+  "checkpoint_interval_plies": 20,
+  "revision_interval_plies": 20,
+  "model_calls_made_by_harness": 0,
+  "status": "stopped_by_user",
+  "models_requested_or_inherited": "GPT-6.1, medium reasoning for four gameplay agents",
+  "agent_roles": [
+    "White A",
+    "White B",
+    "Black A",
+    "Black B"
+  ],
+  "actor_adapter": "manual live-agent orchestration; host-gated moves and telemetry",
+  "isolation": "logical prompt/store isolation; host process is trusted",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "actual_agent_model": "gpt-6.1-sol",
+  "actual_agent_reasoning_effort": "medium",
+  "agent_identities": {
+    "White A": "/root/hsg61_white_a",
+    "White B": "/root/hsg61_white_b",
+    "Black A": "/root/black_a_61",
+    "Black B": "/root/black_b_61"
+  },
+  "previous_run": "hypersteg-full-98c7be38ad",
+  "previous_run_status": "stopped_by_user at ply 23; permanently separate",
+  "initial_position": "orthodox standard starting position",
+  "game_started_at": "2026-11-07T22:50:26.775482+00:00",
+  "protocol_versions": {
+    "white": 1,
+    "black": 1
+  },
+  "stopped_at": "2026-11-07T22:51:56.869189+00:00",
+  "stopped_after_ply": 0,
+  "stop_reason": "User requested stop before any move was committed; no move played."
+}

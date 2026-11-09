@@ -1,0 +1,47 @@
+{"event": "run_created", "full_moves": 10, "plies": 20, "timestamp": "2026-11-03T09:53:19.238811+00:00"}
+{"event": "game_started", "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w - - 0 1", "timestamp": "2026-11-03T09:53:19.258724+00:00"}
+{"event": "setup_gate_correction", "timestamp": "2026-11-03T09:53:35.093940+00:00", "detail": "Initial host gate was opened using nonsecret markers before private protocol design. No gameplay actor call or move occurred; stage reset to PRIVATE_SETUP before game activity."}
+{"event": "game_started", "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w - - 0 1", "timestamp": "2026-11-03T10:00:39.567269+00:00"}
+{"event": "public_finding", "event_id": "03802ee415554866baa336c59e5bb931", "ply": 1, "timestamp": "2026-11-03T10:03:27.800157+00:00"}
+{"event": "opponent_guess", "event_id": "03802ee415554866baa336c59e5bb931", "timestamp": "2026-11-03T10:03:27.802157+00:00"}
+{"event": "public_finding", "event_id": "b65b4c822fbd4057b8c219a16f43557f", "ply": 2, "timestamp": "2026-11-03T10:05:29.298897+00:00"}
+{"event": "opponent_guess", "event_id": "b65b4c822fbd4057b8c219a16f43557f", "timestamp": "2026-11-03T10:05:29.299896+00:00"}
+{"event": "public_finding", "event_id": "f2ae04e92b584122a3f1745b248c4785", "ply": 3, "timestamp": "2026-11-03T10:07:57.270456+00:00"}
+{"event": "opponent_guess", "event_id": "f2ae04e92b584122a3f1745b248c4785", "timestamp": "2026-11-03T10:07:57.271453+00:00"}
+{"event": "public_finding", "event_id": "bf50738540334fd7beb9ea4a903eeb0a", "ply": 4, "timestamp": "2026-11-03T10:10:41.646882+00:00"}
+{"event": "opponent_guess", "event_id": "bf50738540334fd7beb9ea4a903eeb0a", "timestamp": "2026-11-03T10:10:41.646882+00:00"}
+{"event": "public_finding", "event_id": "371963c39d7c43949e20bea58717b8e5", "ply": 5, "timestamp": "2026-11-03T10:13:39.149601+00:00"}
+{"event": "opponent_guess", "event_id": "371963c39d7c43949e20bea58717b8e5", "timestamp": "2026-11-03T10:13:39.150602+00:00"}
+{"event": "public_finding", "event_id": "c20df09f9f1a4993ae6f78661ad0c2e7", "ply": 6, "timestamp": "2026-11-03T10:16:20.668218+00:00"}
+{"event": "opponent_guess", "event_id": "c20df09f9f1a4993ae6f78661ad0c2e7", "timestamp": "2026-11-03T10:16:20.669732+00:00"}
+{"event": "public_finding", "event_id": "9905cc94ac6b43e6acfd6fc463f773dd", "ply": 7, "timestamp": "2026-11-03T10:18:55.322590+00:00"}
+{"event": "opponent_guess", "event_id": "9905cc94ac6b43e6acfd6fc463f773dd", "timestamp": "2026-11-03T10:18:55.324580+00:00"}
+{"event": "public_finding", "event_id": "8e4c0022327d46fe88eaf4a98edfab6f", "ply": 8, "timestamp": "2026-11-03T10:21:08.623300+00:00"}
+{"event": "opponent_guess", "event_id": "8e4c0022327d46fe88eaf4a98edfab6f", "timestamp": "2026-11-03T10:21:08.625571+00:00"}
+{"event": "public_finding", "event_id": "acc5b8437c1a45f182654cddb56f03d2", "ply": 9, "timestamp": "2026-11-03T10:23:07.122408+00:00"}
+{"event": "opponent_guess", "event_id": "acc5b8437c1a45f182654cddb56f03d2", "timestamp": "2026-11-03T10:23:07.123408+00:00"}
+{"event": "public_finding", "event_id": "9addef005c0a4aaea55b73ec2d984952", "ply": 10, "timestamp": "2026-11-03T10:25:12.802483+00:00"}
+{"event": "opponent_guess", "event_id": "9addef005c0a4aaea55b73ec2d984952", "timestamp": "2026-11-03T10:25:12.802483+00:00"}
+{"event": "protocol_recorded", "stage": "PRIVATE_REVISION", "team": "white", "timestamp": "2026-11-03T10:40:51.783150+00:00", "version": 1}
+{"event": "protocol_recorded", "stage": "PRIVATE_REVISION", "team": "black", "timestamp": "2026-11-03T10:40:51.784655+00:00", "version": 1}
+{"event": "public_finding", "event_id": "bc51eb7181af4e219da4650f085f8f85", "ply": 11, "timestamp": "2026-11-03T10:42:23.519826+00:00"}
+{"event": "opponent_guess", "event_id": "bc51eb7181af4e219da4650f085f8f85", "timestamp": "2026-11-03T10:42:23.521828+00:00"}
+{"event": "public_finding", "event_id": "ae1ae504a19d4ba0a1581c29e008a019", "ply": 12, "timestamp": "2026-11-03T11:24:10.489200+00:00"}
+{"event": "opponent_guess", "event_id": "ae1ae504a19d4ba0a1581c29e008a019", "timestamp": "2026-11-03T11:24:35.926989+00:00"}
+{"event": "public_finding", "event_id": "917367e75d7445a1abdd50522f518868", "ply": 13, "timestamp": "2026-11-03T11:26:06.151169+00:00"}
+{"event": "opponent_guess", "event_id": "917367e75d7445a1abdd50522f518868", "timestamp": "2026-11-03T11:26:29.678478+00:00"}
+{"event": "public_finding", "event_id": "1e32de2cd7e84913991efd512ef2fb20", "ply": 14, "timestamp": "2026-11-03T11:28:33.733933+00:00"}
+{"event": "opponent_guess", "event_id": "1e32de2cd7e84913991efd512ef2fb20", "timestamp": "2026-11-03T11:28:53.820547+00:00"}
+{"event": "public_finding", "event_id": "02591fd68028498d94028dd98f12d7e6", "ply": 15, "timestamp": "2026-11-03T11:31:01.890116+00:00"}
+{"event": "opponent_guess", "event_id": "02591fd68028498d94028dd98f12d7e6", "timestamp": "2026-11-03T11:31:23.613654+00:00"}
+{"event": "public_finding", "event_id": "d4ba98a4185b44bfbb7d3dfa79c4731e", "ply": 16, "timestamp": "2026-11-03T11:33:13.561198+00:00"}
+{"event": "opponent_guess", "event_id": "d4ba98a4185b44bfbb7d3dfa79c4731e", "timestamp": "2026-11-03T11:33:35.272575+00:00"}
+{"event": "public_finding", "event_id": "18bb9b3655af438a91268630df4e9f25", "ply": 17, "timestamp": "2026-11-03T11:35:08.853191+00:00"}
+{"event": "opponent_guess", "event_id": "18bb9b3655af438a91268630df4e9f25", "timestamp": "2026-11-03T11:35:29.769134+00:00"}
+{"event": "public_finding", "event_id": "8e88ea513b554e8dbfe71846f716deef", "ply": 18, "timestamp": "2026-11-03T11:37:19.085256+00:00"}
+{"event": "opponent_guess", "event_id": "8e88ea513b554e8dbfe71846f716deef", "timestamp": "2026-11-03T11:37:42.205394+00:00"}
+{"event": "public_finding", "event_id": "6a4ce3b4e2f247f0a7f913065867460b", "ply": 19, "timestamp": "2026-11-03T11:39:06.142099+00:00"}
+{"event": "opponent_guess", "event_id": "6a4ce3b4e2f247f0a7f913065867460b", "timestamp": "2026-11-03T11:39:25.712321+00:00"}
+{"event": "public_finding", "event_id": "154048a6a8074ebc8c2140f3ef894aa7", "ply": 20, "timestamp": "2026-11-03T11:41:04.993022+00:00"}
+{"event": "opponent_guess", "event_id": "154048a6a8074ebc8c2140f3ef894aa7", "timestamp": "2026-11-03T11:41:31.279705+00:00"}
+{"event": "hard_stop", "ply": 20, "reason": "Black's tenth move committed; no post-game gameplay call", "timestamp": "2026-11-03T11:42:20.890041+00:00"}

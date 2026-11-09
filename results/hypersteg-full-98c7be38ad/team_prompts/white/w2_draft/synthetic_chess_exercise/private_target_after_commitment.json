@@ -1,0 +1,45 @@
+{
+  "selection_index_zero_based": 3,
+  "selected_at_utc": "2026-11-07T22:11:26Z",
+  "selection_after_commitment": true,
+  "payload": {
+    "mode": "live",
+    "category": "candidate_refutation",
+    "uci": "c4f7",
+    "motif": "exchange_sequence"
+  },
+  "finding": "Bxf7+ is not a free pawn: Black can answer Rxf7, exchanging the pawn for the bishop; a sacrifice needs concrete compensation.",
+  "all_payload_options": [
+    {
+      "mode": "live",
+      "category": "positional_plan",
+      "uci": "b1c3",
+      "motif": "piece_activity"
+    },
+    {
+      "mode": "live",
+      "category": "defensive_resource",
+      "uci": "h2h3",
+      "motif": "pin_or_skewer"
+    },
+    {
+      "mode": "live",
+      "category": "tactical_threat",
+      "uci": "f3g5",
+      "motif": "king_safety"
+    },
+    {
+      "mode": "live",
+      "category": "candidate_refutation",
+      "uci": "c4f7",
+      "motif": "exchange_sequence"
+    }
+  ],
+  "all_findings": [
+    "Nc3 develops the queenside knight, reinforces e4, and controls d5 without committing the pawn center.",
+    "h3 discourages Bg4 by controlling g4, helping preserve the f3 knight from the bishop pin.",
+    "Ng5 adds a knight attack on f7 alongside the c4 bishop, creating tactical pressure that Black can meet with h6 or d5.",
+    "Bxf7+ is not a free pawn: Black can answer Rxf7, exchanging the pawn for the bishop; a sacrifice needs concrete compensation."
+  ],
+  "commitment_sha256": "e5302f29caedef952bc0e5934edf0fc1af4109f13be62fc0f463370aec8e7ab0"
+}

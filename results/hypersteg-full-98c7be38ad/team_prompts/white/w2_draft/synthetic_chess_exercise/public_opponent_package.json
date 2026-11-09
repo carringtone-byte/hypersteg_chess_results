@@ -1,0 +1,6 @@
+{
+  "exercise": "OFFLINE SYNTHETIC POSITION, unrelated to any stopped live game",
+  "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/P2P1N2/1PP2PPP/RNBQ1RK1 w - - 2 7",
+  "side_to_move": "White",
+  "commentary": "Nc3 develops the queenside knight and supports e4 while increasing control of d5. White retains flexibility in the center with the knight developed and allows the remaining pieces to develop. A pawn advance with h3 discourages Bg4 by attacking g4 with the h-pawn while the center remains unsettled. The point is to keep the knight free from a pin rather than start a forcing tactical sequence while preserving the central tension. Ng5 adds another attacker to f7 together with the active c4 bishop and gives the pressure a tactical character. The replies h6 and d5 deserve attention here so this knight move requires tactical checking instead of taking a forced attack for granted. Bxf7+ is not a free pawn because Black can answer with Rxf7 and exchange the pawn for a bishop. Giving a check is not enough to justify the sacrifice and White needs a concrete source of compensation before committing to that continuation."
+}

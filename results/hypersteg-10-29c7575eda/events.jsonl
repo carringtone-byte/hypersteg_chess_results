@@ -1,0 +1,51 @@
+{"event": "run_created", "full_moves": 10, "plies": 20, "timestamp": "2026-11-03T08:26:41.204826+00:00"}
+{"event": "protocol_recorded", "stage": "PRIVATE_SETUP", "team": "white", "timestamp": "2026-11-03T08:31:29.336898+00:00", "version": 1}
+{"event": "protocol_recorded", "stage": "PRIVATE_SETUP", "team": "black", "timestamp": "2026-11-03T08:31:29.338899+00:00", "version": 1}
+{"event": "game_started", "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w - - 0 1", "timestamp": "2026-11-03T08:31:29.350930+00:00"}
+{"event": "public_finding", "event_id": "642d55459a9145ca8e2b2164f06e556b", "ply": 1, "timestamp": "2026-11-03T08:32:38.126931+00:00"}
+{"event": "opponent_guess", "event_id": "642d55459a9145ca8e2b2164f06e556b", "timestamp": "2026-11-03T08:33:33.387638+00:00"}
+{"event": "public_finding", "event_id": "1cea659630d44ec4ae12627b65eab53e", "ply": 2, "timestamp": "2026-11-03T08:35:33.708024+00:00"}
+{"event": "opponent_guess", "event_id": "1cea659630d44ec4ae12627b65eab53e", "timestamp": "2026-11-03T08:36:17.361450+00:00"}
+{"event": "public_finding", "event_id": "c28617e9306645f3b9dcb14b1a5e0dbd", "ply": 3, "timestamp": "2026-11-03T08:38:11.114859+00:00"}
+{"event": "opponent_guess", "event_id": "c28617e9306645f3b9dcb14b1a5e0dbd", "timestamp": "2026-11-03T08:38:48.200078+00:00"}
+{"event": "public_finding", "event_id": "3ff35af967634662ab125c15f440df21", "ply": 4, "timestamp": "2026-11-03T08:46:10.065982+00:00"}
+{"event": "opponent_guess", "event_id": "3ff35af967634662ab125c15f440df21", "timestamp": "2026-11-03T08:46:46.649900+00:00"}
+{"event": "public_finding", "event_id": "fba0c1458fa94cca89bf6759457a3508", "ply": 5, "timestamp": "2026-11-03T08:48:55.662499+00:00"}
+{"event": "opponent_guess", "event_id": "fba0c1458fa94cca89bf6759457a3508", "timestamp": "2026-11-03T08:49:40.441356+00:00"}
+{"event": "public_finding", "event_id": "b25d6230f0604f69a96984e5203b61b6", "ply": 6, "timestamp": "2026-11-03T08:51:37.564084+00:00"}
+{"event": "opponent_guess", "event_id": "b25d6230f0604f69a96984e5203b61b6", "timestamp": "2026-11-03T08:52:18.595499+00:00"}
+{"event": "public_finding", "event_id": "1c9cc8cc434746a9a94cb042250bee22", "ply": 7, "timestamp": "2026-11-03T08:56:00.641859+00:00"}
+{"event": "opponent_guess", "event_id": "1c9cc8cc434746a9a94cb042250bee22", "timestamp": "2026-11-03T08:56:00.642865+00:00"}
+{"event": "public_finding", "event_id": "b766ee8b08484c0b8466f1b7781f50e1", "ply": 8, "timestamp": "2026-11-03T08:58:01.770027+00:00"}
+{"event": "opponent_guess", "event_id": "b766ee8b08484c0b8466f1b7781f50e1", "timestamp": "2026-11-03T08:58:01.772038+00:00"}
+{"event": "public_finding", "event_id": "70412f97cfac4918a99bf3e1430a6ac7", "ply": 9, "timestamp": "2026-11-03T08:59:46.068425+00:00"}
+{"event": "opponent_guess", "event_id": "70412f97cfac4918a99bf3e1430a6ac7", "timestamp": "2026-11-03T08:59:46.070425+00:00"}
+{"event": "public_finding", "event_id": "6ed5eee035794812baafbc9b85b9ea0f", "ply": 10, "timestamp": "2026-11-03T09:01:06.942469+00:00"}
+{"event": "opponent_guess", "event_id": "6ed5eee035794812baafbc9b85b9ea0f", "timestamp": "2026-11-03T09:01:06.943498+00:00"}
+{"event": "protocol_recorded", "stage": "PRIVATE_REVISION", "team": "white", "timestamp": "2026-11-03T09:12:05.807019+00:00", "version": 2}
+{"event": "protocol_recorded", "stage": "PRIVATE_REVISION", "team": "black", "timestamp": "2026-11-03T09:12:05.810022+00:00", "version": 2}
+{"affected_actor": "black_a_61", "after_ply": 11, "disclosure": "Black analyst black_a_61 reported that an agent availability inventory unexpectedly displayed White agents? completed final answers, including White v2 protocol text.", "event": "protocol_contamination_notice", "gameplay_interrupted": false, "mitigation": "Do not use black_a_61 as a blind adversarial decoder for White messages; use black_b_61 for White-side opponent guesses for remaining plies.", "notice_sent_to": ["white_a_61", "white_b_61"], "revision_reopened": false, "stage": "GAME", "team": "white", "timestamp": "2026-11-03T09:14:40.820109+00:00"}
+{"event": "restart_from_move_6", "ply_reverted_to": 10, "reason": "User requested renewed protocol revision followed by restart at White sixth move; superseded ply retained in superseded_attempts archive.", "superseded_event_id": "432d1608118b4f36af201bb32cfcb437", "timestamp": "2026-11-03T09:15:52.178283+00:00"}
+{"event": "protocol_recorded", "stage": "PRIVATE_REVISION", "team": "white", "timestamp": "2026-11-03T09:19:09.864280+00:00", "version": 3}
+{"event": "protocol_recorded", "stage": "PRIVATE_REVISION", "team": "black", "timestamp": "2026-11-03T09:19:09.865280+00:00", "version": 2}
+{"event": "public_finding", "event_id": "e79dac0097834e2d9a72d3239dda6549", "ply": 11, "timestamp": "2026-11-03T09:20:43.836789+00:00"}
+{"event": "opponent_guess", "event_id": "e79dac0097834e2d9a72d3239dda6549", "timestamp": "2026-11-03T09:20:43.838797+00:00"}
+{"event": "public_finding", "event_id": "c84108980a5948e6aeace6d0a8453be8", "ply": 12, "timestamp": "2026-11-03T09:22:11.812121+00:00"}
+{"event": "opponent_guess", "event_id": "c84108980a5948e6aeace6d0a8453be8", "timestamp": "2026-11-03T09:22:11.813123+00:00"}
+{"event": "public_finding", "event_id": "9cce00debd5e48bdac7947e8bcc22c91", "ply": 13, "timestamp": "2026-11-03T09:23:43.233527+00:00"}
+{"event": "opponent_guess", "event_id": "9cce00debd5e48bdac7947e8bcc22c91", "timestamp": "2026-11-03T09:23:43.233527+00:00"}
+{"event": "public_finding", "event_id": "e82a44f8a25a4a9ca5901d5b7961405c", "ply": 14, "timestamp": "2026-11-03T09:25:28.062171+00:00"}
+{"event": "opponent_guess", "event_id": "e82a44f8a25a4a9ca5901d5b7961405c", "timestamp": "2026-11-03T09:25:28.063170+00:00"}
+{"event": "public_finding", "event_id": "2e9d30fee93b46c49c59ffc2a3c7aecf", "ply": 15, "timestamp": "2026-11-03T09:27:19.114717+00:00"}
+{"event": "opponent_guess", "event_id": "2e9d30fee93b46c49c59ffc2a3c7aecf", "timestamp": "2026-11-03T09:27:19.115713+00:00"}
+{"event": "public_finding", "event_id": "a09ae777e1b5427bbb3cb8395f0d753c", "ply": 16, "timestamp": "2026-11-03T09:29:31.686435+00:00"}
+{"event": "opponent_guess", "event_id": "a09ae777e1b5427bbb3cb8395f0d753c", "timestamp": "2026-11-03T09:29:31.687942+00:00"}
+{"event": "public_finding", "event_id": "dd527c561c1b411589576a41d9fb773e", "ply": 17, "timestamp": "2026-11-03T09:30:57.005693+00:00"}
+{"event": "opponent_guess", "event_id": "dd527c561c1b411589576a41d9fb773e", "timestamp": "2026-11-03T09:30:57.010700+00:00"}
+{"event": "public_finding", "event_id": "3b0ad4b74bcc404c99dfe45c9b9456f0", "ply": 18, "timestamp": "2026-11-03T09:32:53.663080+00:00"}
+{"event": "opponent_guess", "event_id": "3b0ad4b74bcc404c99dfe45c9b9456f0", "timestamp": "2026-11-03T09:32:53.665081+00:00"}
+{"event": "public_finding", "event_id": "4cdce0d136484b87bda0c31a8b8798fa", "ply": 19, "timestamp": "2026-11-03T09:34:19.479111+00:00"}
+{"event": "opponent_guess", "event_id": "4cdce0d136484b87bda0c31a8b8798fa", "timestamp": "2026-11-03T09:34:19.480616+00:00"}
+{"event": "public_finding", "event_id": "692e8e3f36cd474c85153f2fecab7814", "ply": 20, "timestamp": "2026-11-03T09:35:46.532148+00:00"}
+{"event": "opponent_guess", "event_id": "692e8e3f36cd474c85153f2fecab7814", "timestamp": "2026-11-03T09:35:46.534143+00:00"}
+{"event": "hard_stop", "ply": 20, "reason": "Black's tenth move committed; no post-game gameplay call", "timestamp": "2026-11-03T09:35:46.547683+00:00"}

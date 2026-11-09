@@ -1,0 +1,17 @@
+[Event "Hypersteg Chess live full-game experiment ? positional adjudication"]
+[Site "Hypersteg host harness"]
+[Date "2026.11.08"]
+[Round "2"]
+[White "GPT-6.1 Sol (medium) ? White team"]
+[Black "GPT-6.1 Sol (medium) ? Black team"]
+[Result "1-0"]
+[Termination "User-requested adjudication after 47.Bg4; White stronger by material and position"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4 13. cxd4 Bb7 14. d5 Nc4 15.
+Nxc4 bxc4 16. Be3 Rac8 17. Qd2 c3 18. bxc3 Qxc3 19. Qxc3 Rxc3 20. Bb3 Rfc8 21.
+Nd2 Nd7 22. Rab1 Nc5 23. Bc4 Rc7 24. f3 Kf8 25. Kf2 Ke8 26. Be2 Rc2 27. a3 g6
+28. Nc4 f6 29. Bxc5 dxc5 30. d6 Rd7 31. dxe7 Kxe7 32. Rec1 Ra2 33. Rb2 Rxb2 34.
+Nxb2 Rd2 35. Nc4 Ke6 36. Nxd2 Kd6 37. Nc4+ Kc6 38. Ke3 Bc8 39. Rd1 g5 40. Rd6+
+Kc7 41. Rxf6 h5 42. Nxe5 Bb7 43. Rf5 g4 44. Rxh5 gxh3 45. gxh3 Kd6 46. f4 Bc8
+47. Bg4 1-0

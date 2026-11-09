@@ -1,0 +1,390 @@
+{
+  "key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+  "session_id": "00112233445566778899aabbccddeeff",
+  "vectors": [
+    {
+      "record_id": "expanded-fixture-0001",
+      "context_sha256": "9681f3bc83a3495ff66826ff02dee6932942417bc032d4970d467a4d8a8a6cd2",
+      "input_payload": {
+        "category": 2,
+        "uci": "g1f3",
+        "finding_id": 0,
+        "arg_a": 0,
+        "arg_b": 0
+      },
+      "status": "ENCODED",
+      "carrier": "A sound review begins by considering the balance of material together with immediate threats before comparing plans in greater detail. The safety of the king deserves close attention because exposed squares can make quiet choices less dependable than they first appear. Loose pieces should be identified before a continuation is examined because a series of exchanges can change their protection in an important way. Possible pawn breaks need to be compared with the resulting structure in mind instead of being judged solely by their immediate activity at the moment of contact. The progress of development remains important when multiple plans look plausible because an inactive piece can restrict coordination throughout the position. A sensible candidate list includes active ideas and quieter improvements so the comparison does not depend on a single attractive impression. Concrete forcing lines deserve concrete calculation covering checks and captures considered before quiet replies whenever the position makes that ordering relevant. The opponent's resources merit equally careful attention since an attractive idea can be undermined by an accurate response that the first review missed. Less direct alternatives can prove useful if immediate action would leave weaknesses without obtaining a clear compensating benefit. Exchanges call for evaluation by the position they leave alongside the activity of the pieces that remain after the sequence ends. Confidence in an assessment should reflect the evidence rather than the fluency of the explanation when the critical details remain insufficiently checked. A clear conclusion must connect the candidate with its concrete purpose and identify the principal tradeoff that remains to be assessed. A concluding review should recheck assumptions and separate established facts from reasonable expectations before stating the assessment as a finished argument.",
+      "packet_hex": "8654000000",
+      "pad_hex": "5edb75b8bb",
+      "ciphertext_hex": "d88f75b8bb",
+      "tag_hex": "0f068d6ea7f801f0",
+      "trace": [
+        {
+          "block": 0,
+          "target_byte": 216,
+          "attempts": 165
+        },
+        {
+          "block": 1,
+          "target_byte": 143,
+          "attempts": 2
+        },
+        {
+          "block": 2,
+          "target_byte": 117,
+          "attempts": 161
+        },
+        {
+          "block": 3,
+          "target_byte": 184,
+          "attempts": 328
+        },
+        {
+          "block": 4,
+          "target_byte": 187,
+          "attempts": 24
+        },
+        {
+          "block": 5,
+          "target_byte": 15,
+          "attempts": 67
+        },
+        {
+          "block": 6,
+          "target_byte": 6,
+          "attempts": 174
+        },
+        {
+          "block": 7,
+          "target_byte": 141,
+          "attempts": 511
+        },
+        {
+          "block": 8,
+          "target_byte": 110,
+          "attempts": 44
+        },
+        {
+          "block": 9,
+          "target_byte": 167,
+          "attempts": 333
+        },
+        {
+          "block": 10,
+          "target_byte": 248,
+          "attempts": 2
+        },
+        {
+          "block": 11,
+          "target_byte": 1,
+          "attempts": 174
+        },
+        {
+          "block": 12,
+          "target_byte": 240,
+          "attempts": 335
+        }
+      ],
+      "decoded": {
+        "status": "VALID",
+        "payload": {
+          "category": 2,
+          "uci": "g1f3",
+          "finding_id": 0,
+          "arg_a": 0,
+          "arg_b": 0,
+          "category_label": "positional plan",
+          "finding": "The candidate develops the moving piece."
+        }
+      }
+    },
+    {
+      "record_id": "expanded-fixture-0002",
+      "context_sha256": "9681f3bc83a3495ff66826ff02dee6932942417bc032d4970d467a4d8a8a6cd2",
+      "input_payload": {
+        "category": 0,
+        "uci": "a7a8q",
+        "finding_id": 3,
+        "arg_a": 63,
+        "arg_b": 0
+      },
+      "status": "ENCODED",
+      "carrier": "A balanced review starts by checking material balance alongside immediate threats before comparing plans in greater detail. The security of the king deserves close attention because exposed squares can make quiet choices less dependable than they first appear. Poorly protected pieces must be identified before examining a continuation since exchanges can change their protection in an important way. Pawn breaks need to be compared with the resulting structure in mind instead of being judged only by their immediate activity at the moment of contact. Development remains important when multiple plans look plausible since a poorly placed piece may hinder coordination throughout the position. A sensible candidate list contains active ideas together with quieter improvements so that the comparison does not depend on a single attractive impression. Forcing continuations call for concrete calculation considering checks and captures reviewed before quiet replies whenever the position makes that ordering relevant. The opposing resources merit equally careful attention because an appealing idea can fail against a precise response that the first review missed. Quiet alternatives may prove useful when direct action could leave weaknesses without achieving a clear compensating benefit. Available exchanges need to be evaluated through the resulting position and by the activity of the remaining pieces after the sequence ends. Confidence in a finding must reflect the evidence rather than the apparent fluency of the written explanation when the important details have not been checked sufficiently. A useful conclusion must connect the candidate with its concrete purpose and identify the principal tradeoff that remains to be assessed. A last review should recheck assumptions and distinguish verified facts from tentative expectations before presenting the assessment as a finished argument.",
+      "packet_hex": "30e08ff000",
+      "pad_hex": "9f84709db2",
+      "ciphertext_hex": "af64ff6db2",
+      "tag_hex": "6db92e18187196d2",
+      "trace": [
+        {
+          "block": 0,
+          "target_byte": 175,
+          "attempts": 67
+        },
+        {
+          "block": 1,
+          "target_byte": 100,
+          "attempts": 3
+        },
+        {
+          "block": 2,
+          "target_byte": 255,
+          "attempts": 128
+        },
+        {
+          "block": 3,
+          "target_byte": 109,
+          "attempts": 69
+        },
+        {
+          "block": 4,
+          "target_byte": 178,
+          "attempts": 981
+        },
+        {
+          "block": 5,
+          "target_byte": 109,
+          "attempts": 55
+        },
+        {
+          "block": 6,
+          "target_byte": 185,
+          "attempts": 249
+        },
+        {
+          "block": 7,
+          "target_byte": 46,
+          "attempts": 77
+        },
+        {
+          "block": 8,
+          "target_byte": 24,
+          "attempts": 669
+        },
+        {
+          "block": 9,
+          "target_byte": 24,
+          "attempts": 55
+        },
+        {
+          "block": 10,
+          "target_byte": 113,
+          "attempts": 1513
+        },
+        {
+          "block": 11,
+          "target_byte": 150,
+          "attempts": 175
+        },
+        {
+          "block": 12,
+          "target_byte": 210,
+          "attempts": 192
+        }
+      ],
+      "decoded": {
+        "status": "VALID",
+        "payload": {
+          "category": 0,
+          "uci": "a7a8q",
+          "finding_id": 3,
+          "arg_a": 63,
+          "arg_b": 0,
+          "category_label": "tactical threat",
+          "finding": "The moved piece controls h8."
+        }
+      }
+    },
+    {
+      "record_id": "expanded-fixture-0003",
+      "context_sha256": "9681f3bc83a3495ff66826ff02dee6932942417bc032d4970d467a4d8a8a6cd2",
+      "input_payload": {
+        "category": 1,
+        "uci": "e1g1",
+        "finding_id": 11,
+        "arg_a": 0,
+        "arg_b": 0
+      },
+      "status": "ENCODED",
+      "carrier": "A sound review initially considers the available material and immediate threats before comparing plans in greater detail. King safety calls for close attention because exposed squares may make quiet choices less dependable than they first appear. Insufficiently defended pieces should be identified before examining a continuation because exchanges may change their protection in an important way. Possible pawn breaks need to be compared with the resulting pawn structure in mind rather than judged only by their immediate activity at the moment of contact. The development of the pieces remains important when several plans look plausible since an inactive piece may restrict coordination throughout the position. A useful candidate list includes active ideas and quieter improvements so that the comparison does not depend on a single attractive impression. Potential forcing continuations call for concrete calculation including checks and captures examined before quiet replies wherever the position makes that ordering relevant. The opponent's resources merit equally careful attention since an appealing idea may fail against a precise response that the first review missed. Less forcing alternatives can prove useful when immediate action would leave weaknesses without achieving a clear compensating benefit. Possible exchanges call for evaluation by the resulting position and by the activity available to the remaining pieces after the sequence ends. Confidence in a conclusion must reflect the evidence instead of the apparent fluency of the explanation when the critical details remain insufficiently checked. A focused conclusion should connect the candidate with its specific purpose and also identify the principal tradeoff that remains to be assessed. A final review can revisit assumptions and separate verified facts from tentative expectations before presenting the assessment as a finished argument.",
+      "packet_hex": "44182c0000",
+      "pad_hex": "4f5478ece5",
+      "ciphertext_hex": "0b4c54ece5",
+      "tag_hex": "dd1e6bc99410d979",
+      "trace": [
+        {
+          "block": 0,
+          "target_byte": 11,
+          "attempts": 61
+        },
+        {
+          "block": 1,
+          "target_byte": 76,
+          "attempts": 77
+        },
+        {
+          "block": 2,
+          "target_byte": 84,
+          "attempts": 307
+        },
+        {
+          "block": 3,
+          "target_byte": 236,
+          "attempts": 40
+        },
+        {
+          "block": 4,
+          "target_byte": 229,
+          "attempts": 327
+        },
+        {
+          "block": 5,
+          "target_byte": 221,
+          "attempts": 1
+        },
+        {
+          "block": 6,
+          "target_byte": 30,
+          "attempts": 284
+        },
+        {
+          "block": 7,
+          "target_byte": 107,
+          "attempts": 31
+        },
+        {
+          "block": 8,
+          "target_byte": 201,
+          "attempts": 522
+        },
+        {
+          "block": 9,
+          "target_byte": 148,
+          "attempts": 544
+        },
+        {
+          "block": 10,
+          "target_byte": 16,
+          "attempts": 59
+        },
+        {
+          "block": 11,
+          "target_byte": 217,
+          "attempts": 244
+        },
+        {
+          "block": 12,
+          "target_byte": 121,
+          "attempts": 161
+        }
+      ],
+      "decoded": {
+        "status": "VALID",
+        "payload": {
+          "category": 1,
+          "uci": "e1g1",
+          "finding_id": 11,
+          "arg_a": 0,
+          "arg_b": 0,
+          "category_label": "defensive resource",
+          "finding": "The candidate improves the king shelter."
+        }
+      }
+    },
+    {
+      "record_id": "expanded-fixture-0004",
+      "context_sha256": "9681f3bc83a3495ff66826ff02dee6932942417bc032d4970d467a4d8a8a6cd2",
+      "input_payload": {
+        "category": 3,
+        "uci": "f2f3",
+        "finding_id": 16,
+        "arg_a": 4,
+        "arg_b": 31
+      },
+      "status": "ENCODED",
+      "carrier": "A careful assessment starts by checking material balance together with immediate threats before comparing plans in greater detail. King safety requires careful attention because exposed squares can make quiet choices more difficult to trust than they first appear. Loose pieces deserve to be identified before a sequence is calculated since exchanges can change their protection in an important way. Possible pawn breaks call for comparison with the future structure in mind rather than judged solely by the activity they create at the moment of contact. The development of the pieces also matters when multiple plans look plausible since an inactive piece can restrict coordination throughout the position. A practical candidate list contains active ideas alongside quieter improvements so the comparison does not depend on a single attractive impression. Concrete forcing lines need concrete calculation including checks and captures checked before quiet replies wherever the position makes that ordering useful. The opposing resources deserve equal attention because an appealing idea may fail against a precise response that the first review missed. Quiet alternatives may be valuable when immediate action could leave weaknesses without obtaining a clear compensating benefit. Possible exchanges should be evaluated through the resulting position and by the activity available to the pieces that remain after the sequence ends. Confidence in an assessment ought to reflect the evidence instead of the fluency of the explanation when the critical details remain insufficiently checked. A concise conclusion ought to connect the candidate to its specific purpose and identify the principal tradeoff that remains to be assessed. A last review should revisit assumptions and distinguish verified facts from reasonable expectations before presenting the assessment as a finished argument.",
+      "packet_hex": "cd544047c0",
+      "pad_hex": "b7fd6cf2cb",
+      "ciphertext_hex": "7aa92cb50b",
+      "tag_hex": "06ee91363cb44947",
+      "trace": [
+        {
+          "block": 0,
+          "target_byte": 122,
+          "attempts": 130
+        },
+        {
+          "block": 1,
+          "target_byte": 169,
+          "attempts": 517
+        },
+        {
+          "block": 2,
+          "target_byte": 44,
+          "attempts": 73
+        },
+        {
+          "block": 3,
+          "target_byte": 181,
+          "attempts": 800
+        },
+        {
+          "block": 4,
+          "target_byte": 11,
+          "attempts": 83
+        },
+        {
+          "block": 5,
+          "target_byte": 6,
+          "attempts": 86
+        },
+        {
+          "block": 6,
+          "target_byte": 238,
+          "attempts": 1362
+        },
+        {
+          "block": 7,
+          "target_byte": 145,
+          "attempts": 5
+        },
+        {
+          "block": 8,
+          "target_byte": 54,
+          "attempts": 133
+        },
+        {
+          "block": 9,
+          "target_byte": 60,
+          "attempts": 820
+        },
+        {
+          "block": 10,
+          "target_byte": 180,
+          "attempts": 30
+        },
+        {
+          "block": 11,
+          "target_byte": 73,
+          "attempts": 153
+        },
+        {
+          "block": 12,
+          "target_byte": 71,
+          "attempts": 124
+        }
+      ],
+      "decoded": {
+        "status": "VALID",
+        "payload": {
+          "category": 3,
+          "uci": "f2f3",
+          "finding_id": 16,
+          "arg_a": 4,
+          "arg_b": 31,
+          "category_label": "candidate refutation",
+          "finding": "The candidate leaves the piece on e1 exposed to attack from h4."
+        }
+      }
+    }
+  ]
+}

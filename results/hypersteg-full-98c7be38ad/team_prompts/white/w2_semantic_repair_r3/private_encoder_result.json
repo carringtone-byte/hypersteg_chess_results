@@ -1,0 +1,99 @@
+{
+  "encoded": {
+    "text": "Both kings have already castled and sit behind their kingside pawn shields while the center retains its pawn structure. White's queen knight and queen bishop remain on their original squares so there is still queenside development to complete although castling has already been completed. Black has moved both knights toward the center and developed the kingside bishop while the queenside bishop remains undeveloped. The developed bishops stand on central diagonals with lines toward the opposing kingside pawn shields although those pawns remain protected. In this position, the queen pawns support the king pawns and contribute to the stability of the center before any central pawn exchanges. The queens remain on their original squares rather than taking advanced posts and the intervening pieces affect their scope. The rooks remain behind the pawn formations without an open file immediately available so a suitable file opening would change their activity. Development and pawn support are both relevant when weighing White's possible continuations while forcing replies still require tactical checking.",
+    "trace": {
+      "raw_hex": "09eb85",
+      "tag_hex": "6241",
+      "packet_hex": "27ae158904",
+      "symbols": [
+        4,
+        30,
+        23,
+        1,
+        11,
+        2,
+        8,
+        4
+      ],
+      "candidate_indices_zero_based": [
+        37,
+        5,
+        32,
+        16,
+        68,
+        1,
+        12,
+        6
+      ]
+    },
+    "decoded": {
+      "status": "VALID",
+      "payload": {
+        "mode": "live",
+        "category": "defensive_resource",
+        "uci": "h2h3",
+        "motif": "pin_or_skewer"
+      },
+      "symbols": [
+        4,
+        30,
+        23,
+        1,
+        11,
+        2,
+        8,
+        4
+      ],
+      "raw_hex": "09eb85",
+      "tag_hex": "6241",
+      "packet_hex": "27ae158904"
+    }
+  },
+  "full_legal_uci": [
+    "a1a2",
+    "a3a4",
+    "b1c3",
+    "b1d2",
+    "b2b3",
+    "b2b4",
+    "c1d2",
+    "c1e3",
+    "c1f4",
+    "c1g5",
+    "c1h6",
+    "c2c3",
+    "c4a2",
+    "c4a6",
+    "c4b3",
+    "c4b5",
+    "c4d5",
+    "c4e6",
+    "c4f7",
+    "d1d2",
+    "d1e1",
+    "d1e2",
+    "d3d4",
+    "f1e1",
+    "f3d2",
+    "f3d4",
+    "f3e1",
+    "f3e5",
+    "f3g5",
+    "f3h4",
+    "g1h1",
+    "g2g3",
+    "g2g4",
+    "h2h3",
+    "h2h4"
+  ],
+  "coverage": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+  ]
+}

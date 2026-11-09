@@ -1,0 +1,51 @@
+{
+  "provenance": "White B independently decoded public package+commitment using own codec and full legal set before accessing private target or author encoder artifacts. Offline synthetic FEN only.",
+  "legal_count": 35,
+  "bank_hash": "5ab7386259b91fe1c3e53bdea3062e37ee3c62e5f0318a2b043314ca0f897751",
+  "expected_bank_hash": "5ab7386259b91fe1c3e53bdea3062e37ee3c62e5f0318a2b043314ca0f897751",
+  "bank_hash_match": true,
+  "context_hash_match": true,
+  "bank_counts": [
+    512,
+    512,
+    512,
+    512,
+    512,
+    512,
+    512,
+    512
+  ],
+  "symbol_coverage": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+  ],
+  "word_count": 90,
+  "decoded": {
+    "status": "VALID",
+    "payload": {
+      "mode": "live",
+      "category": "positional_plan",
+      "uci": "b1c3",
+      "motif": "piece_activity"
+    },
+    "symbols": [
+      8,
+      2,
+      18,
+      0,
+      17,
+      27,
+      19,
+      12
+    ],
+    "raw_hex": "102902",
+    "tag_hex": "3b9b",
+    "packet_hex": "40a408ee6c"
+  }
+}

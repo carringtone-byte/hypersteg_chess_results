@@ -1,0 +1,121 @@
+{
+  "encoded": {
+    "text": "Nc3 develops the queenside knight and supports e4 while increasing control of d5. White retains flexibility in the center with the knight developed and allows the remaining pieces to develop. A pawn advance with h3 discourages Bg4 by attacking g4 with the h-pawn while the center remains unsettled. The point is to keep the knight free from a pin rather than start a forcing tactical sequence while preserving the central tension. Ng5 adds another attacker to f7 together with the active c4 bishop and gives the pressure a tactical character. The replies h6 and d5 deserve attention here so this knight move requires tactical checking instead of taking a forced attack for granted. Bxf7+ is not a free pawn because Black can answer with Rxf7 and exchange the pawn for a bishop. Giving a check is not enough to justify the sacrifice and White needs a concrete source of compensation before committing to that continuation.",
+    "trace": {
+      "raw_hex": "1b5a8c",
+      "tag_hex": "fce0",
+      "packet_hex": "6d6a33f380",
+      "symbols": [
+        13,
+        21,
+        21,
+        3,
+        7,
+        28,
+        28,
+        0
+      ],
+      "candidate_indices_zero_based": [
+        0,
+        6,
+        25,
+        14,
+        15,
+        47,
+        2,
+        53
+      ]
+    },
+    "decoded": {
+      "status": "VALID",
+      "payload": {
+        "mode": "live",
+        "category": "candidate_refutation",
+        "uci": "c4f7",
+        "motif": "exchange_sequence"
+      },
+      "symbols": [
+        13,
+        21,
+        21,
+        3,
+        7,
+        28,
+        28,
+        0
+      ],
+      "raw_hex": "1b5a8c",
+      "tag_hex": "fce0",
+      "packet_hex": "6d6a33f380"
+    }
+  },
+  "roundtrip": {
+    "status": "VALID",
+    "payload": {
+      "mode": "live",
+      "category": "candidate_refutation",
+      "uci": "c4f7",
+      "motif": "exchange_sequence"
+    },
+    "symbols": [
+      13,
+      21,
+      21,
+      3,
+      7,
+      28,
+      28,
+      0
+    ],
+    "raw_hex": "1b5a8c",
+    "tag_hex": "fce0",
+    "packet_hex": "6d6a33f380"
+  },
+  "full_legal_uci": [
+    "a1a2",
+    "a3a4",
+    "b1c3",
+    "b1d2",
+    "b2b3",
+    "b2b4",
+    "c1d2",
+    "c1e3",
+    "c1f4",
+    "c1g5",
+    "c1h6",
+    "c2c3",
+    "c4a2",
+    "c4a6",
+    "c4b3",
+    "c4b5",
+    "c4d5",
+    "c4e6",
+    "c4f7",
+    "d1d2",
+    "d1e1",
+    "d1e2",
+    "d3d4",
+    "f1e1",
+    "f3d2",
+    "f3d4",
+    "f3e1",
+    "f3e5",
+    "f3g5",
+    "f3h4",
+    "g1h1",
+    "g2g3",
+    "g2g4",
+    "h2h3",
+    "h2h4"
+  ],
+  "coverage": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+  ]
+}

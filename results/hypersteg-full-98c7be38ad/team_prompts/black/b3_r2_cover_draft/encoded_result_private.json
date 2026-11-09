@@ -1,0 +1,87 @@
+{
+  "status": "ENCODED",
+  "carrier": "The kings have already castled and the material remains equal. The central pawns stand opposite one another along the c-file and also the d-file. White has the option to mobilize the remaining bishop with Bd2 while preserving central tension. White has the alternative to play b3 to prepare a later Bb2 without changing the central contact. Capturing on d5 makes possible both exd5 and Nxd5 for Black with different structural consequences. Following cxd5 exd5 Black has central pawns standing on c5 and d5 rather than the original d5 and e6 formation. In the line cxd5 Nxd5 the knight from f6 takes up the d5 square and leaves f6 vacant. The bishop on d3 also bears toward the h7 pawn through the diagonal. White's c3 knight already attacks d5 from its present square. The f3 knight also supports the pawn on d4. Black's c5 pawn also puts pressure on White's pawn on d4. Both development plans preserve the central exchanges as available options for Black. The candidate plans call for careful comparison instead of the assumption that a gain is forced.",
+  "packet_hex": "1a8c06a000",
+  "pad_hex": "7b100be111",
+  "ciphertext_hex": "619c0d4111",
+  "tag_hex": "5391df781cee96f8",
+  "trace": [
+    {
+      "block": 0,
+      "target_byte": 97,
+      "attempts": 12
+    },
+    {
+      "block": 1,
+      "target_byte": 156,
+      "attempts": 613
+    },
+    {
+      "block": 2,
+      "target_byte": 13,
+      "attempts": 267
+    },
+    {
+      "block": 3,
+      "target_byte": 65,
+      "attempts": 36
+    },
+    {
+      "block": 4,
+      "target_byte": 17,
+      "attempts": 47
+    },
+    {
+      "block": 5,
+      "target_byte": 83,
+      "attempts": 370
+    },
+    {
+      "block": 6,
+      "target_byte": 145,
+      "attempts": 107
+    },
+    {
+      "block": 7,
+      "target_byte": 223,
+      "attempts": 250
+    },
+    {
+      "block": 8,
+      "target_byte": 120,
+      "attempts": 6
+    },
+    {
+      "block": 9,
+      "target_byte": 28,
+      "attempts": 1
+    },
+    {
+      "block": 10,
+      "target_byte": 238,
+      "attempts": 41
+    },
+    {
+      "block": 11,
+      "target_byte": 150,
+      "attempts": 212
+    },
+    {
+      "block": 12,
+      "target_byte": 248,
+      "attempts": 732
+    }
+  ],
+  "decoded": {
+    "status": "VALID",
+    "payload": {
+      "category": 0,
+      "uci": "c4d5",
+      "finding_id": 1,
+      "arg_a": 42,
+      "arg_b": 0,
+      "category_label": "tactical threat",
+      "finding": "The moved piece attacks the piece on c6."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "Construction-aware internal baseline only; not blind opponent evidence.",
+  "n": 5,
+  "semantic_abstentions": 5,
+  "forced_exact_packet_correct": 0,
+  "forced_square_correct": 0,
+  "forced_lens_correct": 1,
+  "chance_priors": {
+    "exact_packet": "1/256",
+    "square": "1/64",
+    "lens": "1/4"
+  },
+  "limitation": "Five generic covers and random synthetic payloads do not establish concealment in substantive contextual discussion or action recovery."
+}

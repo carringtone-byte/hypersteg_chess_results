@@ -1,0 +1,283 @@
+{
+  "implementation": "Python same-source regression, separate independent JS required",
+  "passed": 27,
+  "total": 27,
+  "checks": [
+    {
+      "test": "expanded-fixture-0001",
+      "pass": true,
+      "result": {
+        "status": "VALID",
+        "payload": {
+          "category": 2,
+          "uci": "g1f3",
+          "finding_id": 0,
+          "arg_a": 0,
+          "arg_b": 0,
+          "category_label": "positional plan",
+          "finding": "The candidate develops the moving piece."
+        }
+      }
+    },
+    {
+      "test": "expanded-fixture-0002",
+      "pass": true,
+      "result": {
+        "status": "VALID",
+        "payload": {
+          "category": 0,
+          "uci": "a7a8q",
+          "finding_id": 3,
+          "arg_a": 63,
+          "arg_b": 0,
+          "category_label": "tactical threat",
+          "finding": "The moved piece controls h8."
+        }
+      }
+    },
+    {
+      "test": "expanded-fixture-0003",
+      "pass": true,
+      "result": {
+        "status": "VALID",
+        "payload": {
+          "category": 1,
+          "uci": "e1g1",
+          "finding_id": 11,
+          "arg_a": 0,
+          "arg_b": 0,
+          "category_label": "defensive resource",
+          "finding": "The candidate improves the king shelter."
+        }
+      }
+    },
+    {
+      "test": "expanded-fixture-0004",
+      "pass": true,
+      "result": {
+        "status": "VALID",
+        "payload": {
+          "category": 3,
+          "uci": "f2f3",
+          "finding_id": 16,
+          "arg_a": 4,
+          "arg_b": 31,
+          "category_label": "candidate refutation",
+          "finding": "The candidate leaves the piece on e1 exposed to attack from h4."
+        }
+      }
+    },
+    {
+      "test": "wrong-key",
+      "pass": true,
+      "result": {
+        "status": "INVALID_TAG"
+      }
+    },
+    {
+      "test": "wrong-session",
+      "pass": true,
+      "result": {
+        "status": "INVALID_TAG"
+      }
+    },
+    {
+      "test": "wrong-record",
+      "pass": true,
+      "result": {
+        "status": "INVALID_TAG"
+      }
+    },
+    {
+      "test": "wrong-context",
+      "pass": true,
+      "result": {
+        "status": "INVALID_TAG"
+      }
+    },
+    {
+      "test": "bad-key",
+      "pass": true,
+      "result": {
+        "status": "INVALID_METADATA"
+      }
+    },
+    {
+      "test": "bad-record",
+      "pass": true,
+      "result": {
+        "status": "INVALID_METADATA"
+      }
+    },
+    {
+      "test": "nonascii",
+      "pass": true,
+      "result": {
+        "status": "INVALID_GRAMMAR"
+      }
+    },
+    {
+      "test": "leading-space",
+      "pass": true,
+      "result": {
+        "status": "INVALID_GRAMMAR"
+      }
+    },
+    {
+      "test": "double-space",
+      "pass": true,
+      "result": {
+        "status": "INVALID_GRAMMAR"
+      }
+    },
+    {
+      "test": "wrong-count",
+      "pass": true,
+      "result": {
+        "status": "INVALID_GRAMMAR"
+      }
+    },
+    {
+      "test": "same-slot-byte-edit",
+      "pass": true,
+      "carrier": "A measured assessment starts by checking material balance as well as immediate threats before comparing plans in greater detail. The safety of the king deserves close attention because exposed squares can make quiet choices less dependable than they first appear. Loose pieces should be identified before a continuation is examined because a series of exchanges can change their protection in an important way. Possible pawn breaks need to be compared with the resulting structure in mind instead of being judged solely by their immediate activity at the moment of contact. The progress of development remains important when multiple plans look plausible because an inactive piece can restrict coordination throughout the position. A sensible candidate list includes active ideas and quieter improvements so the comparison does not depend on a single attractive impression. Concrete forcing lines deserve concrete calculation covering checks and captures considered before quiet replies whenever the position makes that ordering relevant. The opponent's resources merit equally careful attention since an attractive idea can be undermined by an accurate response that the first review missed. Less direct alternatives can prove useful if immediate action would leave weaknesses without obtaining a clear compensating benefit. Exchanges call for evaluation by the position they leave alongside the activity of the pieces that remain after the sequence ends. Confidence in an assessment should reflect the evidence rather than the fluency of the explanation when the critical details remain insufficiently checked. A clear conclusion must connect the candidate with its concrete purpose and identify the principal tradeoff that remains to be assessed. A concluding review should recheck assumptions and separate established facts from reasonable expectations before stating the assessment as a finished argument.",
+      "result": {
+        "status": "VALID",
+        "payload": {
+          "category": 2,
+          "uci": "g1f3",
+          "finding_id": 0,
+          "arg_a": 0,
+          "arg_b": 0,
+          "category_label": "positional plan",
+          "finding": "The candidate develops the moving piece."
+        }
+      }
+    },
+    {
+      "test": "different-slot-byte-edit",
+      "pass": true,
+      "carrier": "A sound review starts by checking material balance and immediate threats before comparing plans in greater detail. The safety of the king deserves close attention because exposed squares can make quiet choices less dependable than they first appear. Loose pieces should be identified before a continuation is examined because a series of exchanges can change their protection in an important way. Possible pawn breaks need to be compared with the resulting structure in mind instead of being judged solely by their immediate activity at the moment of contact. The progress of development remains important when multiple plans look plausible because an inactive piece can restrict coordination throughout the position. A sensible candidate list includes active ideas and quieter improvements so the comparison does not depend on a single attractive impression. Concrete forcing lines deserve concrete calculation covering checks and captures considered before quiet replies whenever the position makes that ordering relevant. The opponent's resources merit equally careful attention since an attractive idea can be undermined by an accurate response that the first review missed. Less direct alternatives can prove useful if immediate action would leave weaknesses without obtaining a clear compensating benefit. Exchanges call for evaluation by the position they leave alongside the activity of the pieces that remain after the sequence ends. Confidence in an assessment should reflect the evidence rather than the fluency of the explanation when the critical details remain insufficiently checked. A clear conclusion must connect the candidate with its concrete purpose and identify the principal tradeoff that remains to be assessed. A concluding review should recheck assumptions and separate established facts from reasonable expectations before stating the assessment as a finished argument.",
+      "result": {
+        "status": "INVALID_TAG"
+      }
+    },
+    {
+      "test": "receiver-state",
+      "pass": true,
+      "sequence": [
+        {
+          "status": "INVALID_BINDING"
+        },
+        {
+          "status": "VALID",
+          "payload": {
+            "category": 2,
+            "uci": "g1f3",
+            "finding_id": 0,
+            "arg_a": 0,
+            "arg_b": 0,
+            "category_label": "positional plan",
+            "finding": "The candidate develops the moving piece."
+          },
+          "apply": true
+        },
+        {
+          "status": "VALID_DUPLICATE",
+          "payload": {
+            "category": 2,
+            "uci": "g1f3",
+            "finding_id": 0,
+            "arg_a": 0,
+            "arg_b": 0,
+            "category_label": "positional plan",
+            "finding": "The candidate develops the moving piece."
+          },
+          "apply": false
+        },
+        {
+          "status": "CONFLICT_ABSTAIN"
+        },
+        {
+          "status": "CONFLICT_ABSTAIN"
+        }
+      ]
+    },
+    {
+      "test": "sender-reuse",
+      "pass": true
+    },
+    {
+      "test": "zero-budget",
+      "pass": true,
+      "result": {
+        "status": "ENCODER_FAILURE",
+        "failed_block": 0
+      }
+    },
+    {
+      "test": "invalid-payload",
+      "pass": true,
+      "result": {
+        "status": "ENCODER_INVALID_INPUT"
+      }
+    },
+    {
+      "test": "invalid-reserved-operands",
+      "pass": true,
+      "result": {
+        "status": "ENCODER_INVALID_INPUT"
+      }
+    },
+    {
+      "test": "invalid-promotion",
+      "pass": true,
+      "result": {
+        "status": "ENCODER_INVALID_INPUT"
+      }
+    },
+    {
+      "test": "invalid-pawn-source",
+      "pass": true,
+      "result": {
+        "status": "ENCODER_INVALID_INPUT"
+      }
+    },
+    {
+      "test": "bounded-duplicates",
+      "pass": true,
+      "result": {
+        "status": "ENCODER_FAILURE",
+        "failed_block": 0
+      }
+    },
+    {
+      "test": "bounded-invalid",
+      "pass": true,
+      "result": {
+        "status": "ENCODER_FAILURE",
+        "failed_block": 0
+      }
+    },
+    {
+      "test": "reserved-bit",
+      "pass": true,
+      "record_id": "invalid-reserved-bit",
+      "context_sha256": "9681f3bc83a3495ff66826ff02dee6932942417bc032d4970d467a4d8a8a6cd2",
+      "carrier": "A balanced review initially considers material balance as well as immediate threats before comparing plans in greater detail. King safety merits careful attention because exposed squares can leave quiet choices less dependable than they first appear. Insufficiently defended pieces should be identified before calculating a sequence since exchanges may change their protection in an important way. Available pawn breaks call for comparison with the resulting structure in mind instead of being assessed solely by their immediate activity at the moment of contact. The progress of development still matters when several plans look plausible since a poorly placed piece may restrict coordination throughout the position. A balanced candidate list should include active ideas together with quieter improvements ensuring that the comparison need not depend on a single attractive impression. Available forcing lines deserve concrete calculation covering checks and captures reviewed before quiet replies whenever the position makes that ordering relevant. The opposing resources should receive equal attention because an attractive idea can be undermined by a precise response that the first review missed. Quieter alternatives may be valuable when direct action could create weaknesses without obtaining a clear compensating benefit. Potential exchanges should be evaluated through the position they leave alongside the activity of the remaining pieces after the sequence ends. Confidence in an assessment needs to reflect the evidence rather than the fluency of the written explanation when the critical details remain insufficiently checked. A concise conclusion ought to connect the candidate to its specific purpose while identifying the important tradeoff that remains to be assessed. A concluding review can revisit assumptions and separate verified facts from plausible expectations before reporting the assessment as a finished argument.",
+      "result": {
+        "status": "INVALID_PAYLOAD"
+      }
+    },
+    {
+      "test": "unsupported-finding",
+      "pass": true,
+      "record_id": "invalid-unsupported-finding",
+      "context_sha256": "9681f3bc83a3495ff66826ff02dee6932942417bc032d4970d467a4d8a8a6cd2",
+      "carrier": "A careful assessment begins by considering the material balance and immediate threats before comparing plans in greater detail. The security of the king calls for close attention since weakened squares can leave quiet choices less reliable than they first appear. Insufficiently defended pieces deserve to be identified before a sequence is calculated because a series of exchanges can alter their protection in an important way. Available pawn breaks call for comparison with the resulting pawn structure in mind rather than judged only by their immediate activity at the moment of contact. The development of the pieces still matters when several plans seem reasonable since an inactive piece may restrict coordination throughout the position. A useful candidate list contains active ideas and quieter improvements helping ensure that the comparison does not depend on a single attractive impression. Forcing continuations call for concrete calculation with checks and captures considered before quiet replies whenever the position makes that ordering relevant. The defensive resources should receive equal attention because an attractive idea can fail against a precise response that the first review missed. Less direct alternatives can prove useful when direct action would leave weaknesses without achieving a clear compensating benefit. Potential exchanges should be evaluated through the position they leave alongside the activity of the remaining pieces after the sequence ends. Confidence in an evaluation must reflect the evidence instead of the apparent fluency of the explanation when the critical details remain insufficiently checked. A clear conclusion ought to connect the candidate with its specific purpose while also identifying the relevant tradeoff that remains to be assessed. A final review should revisit assumptions and separate verified facts from provisional expectations before presenting the assessment as a finished argument.",
+      "result": {
+        "status": "INVALID_PAYLOAD"
+      }
+    }
+  ]
+}

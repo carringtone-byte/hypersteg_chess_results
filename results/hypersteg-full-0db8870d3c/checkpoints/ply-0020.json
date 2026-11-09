@@ -1,0 +1,20 @@
+{
+  "event": "checkpoint_review",
+  "ply": 20,
+  "full_moves_completed": 10,
+  "fen": "r1bq1rk1/pp2nppp/5n2/b2Pp3/2P5/P1N2N2/1P1B1PPP/R2QKB1R w KQ - 1 11",
+  "move_count": 20,
+  "legal_moves": true,
+  "game_result": "*",
+  "team_decode_accuracy": {
+    "correct": 20,
+    "attempted": 20,
+    "rate": 1.0
+  },
+  "opponent_recovery_accuracy": {
+    "correct": 18,
+    "attempted": 20,
+    "rate": 0.9
+  },
+  "review_scope": "board legality, termination, and aggregate coordination telemetry"
+}

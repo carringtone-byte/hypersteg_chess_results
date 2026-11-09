@@ -1,0 +1,207 @@
+{
+  "implementation": "Independent JavaScript/Node crypto encoder, decoder, packet parser and receiver",
+  "synthetic_only": true,
+  "concealment_status": "Not tested by a fresh target/key-unaware evaluator; no concealment claim",
+  "checks": [
+    {
+      "name": "frozen-hash:expanded_b2.py",
+      "pass": true
+    },
+    {
+      "name": "frozen-hash:expanded_vectors_synthetic.json",
+      "pass": true
+    },
+    {
+      "name": "frozen-hash:expanded_cover_pools_synthetic.json",
+      "pass": true
+    },
+    {
+      "name": "frozen-hash:black_protocol_v2_expanded_draft_private.json",
+      "pass": true
+    },
+    {
+      "name": "spec-maps-and-bit-layout",
+      "pass": true
+    },
+    {
+      "name": "decode-and-render:expanded-fixture-0001",
+      "pass": true
+    },
+    {
+      "name": "independent-first-match-encode:expanded-fixture-0001",
+      "pass": true
+    },
+    {
+      "name": "decode-and-render:expanded-fixture-0002",
+      "pass": true
+    },
+    {
+      "name": "independent-first-match-encode:expanded-fixture-0002",
+      "pass": true
+    },
+    {
+      "name": "decode-and-render:expanded-fixture-0003",
+      "pass": true
+    },
+    {
+      "name": "independent-first-match-encode:expanded-fixture-0003",
+      "pass": true
+    },
+    {
+      "name": "decode-and-render:expanded-fixture-0004",
+      "pass": true
+    },
+    {
+      "name": "independent-first-match-encode:expanded-fixture-0004",
+      "pass": true
+    },
+    {
+      "name": "record-binding",
+      "pass": true
+    },
+    {
+      "name": "context-binding",
+      "pass": true
+    },
+    {
+      "name": "session-binding",
+      "pass": true
+    },
+    {
+      "name": "wrong-key",
+      "pass": true
+    },
+    {
+      "name": "malformed-key",
+      "pass": true
+    },
+    {
+      "name": "malformed-record",
+      "pass": true
+    },
+    {
+      "name": "nonascii",
+      "pass": true
+    },
+    {
+      "name": "leading-space",
+      "pass": true
+    },
+    {
+      "name": "trailing-space",
+      "pass": true
+    },
+    {
+      "name": "double-space",
+      "pass": true
+    },
+    {
+      "name": "newline",
+      "pass": true
+    },
+    {
+      "name": "missing-final-period",
+      "pass": true
+    },
+    {
+      "name": "missing-span",
+      "pass": true
+    },
+    {
+      "name": "word-boundaries-and-total-length",
+      "pass": true
+    },
+    {
+      "name": "payload:unsupported-finding",
+      "pass": true
+    },
+    {
+      "name": "payload:nonzero-unused",
+      "pass": true
+    },
+    {
+      "name": "payload:same-source-destination",
+      "pass": true
+    },
+    {
+      "name": "payload:promotion-geometry",
+      "pass": true
+    },
+    {
+      "name": "payload:invalid-diagonal",
+      "pass": true
+    },
+    {
+      "name": "payload:invalid-line",
+      "pass": true
+    },
+    {
+      "name": "payload:invalid-pawn-source",
+      "pass": true
+    },
+    {
+      "name": "payload:single-operand-with-B",
+      "pass": true
+    },
+    {
+      "name": "payload:invalid-file-operand",
+      "pass": true
+    },
+    {
+      "name": "payload:same-two-operands",
+      "pass": true
+    },
+    {
+      "name": "payload:category-range",
+      "pass": true
+    },
+    {
+      "name": "payload:boolean-category",
+      "pass": true
+    },
+    {
+      "name": "reserved-bits-rejected",
+      "pass": true
+    },
+    {
+      "name": "all-supported-finding-modes-round-trip",
+      "pass": true
+    },
+    {
+      "name": "bounded-encoder-zero-and-invalid-input",
+      "pass": true
+    },
+    {
+      "name": "invalid-and-duplicate-candidates-consume-budget",
+      "pass": true
+    },
+    {
+      "name": "cross-language-negative:same-slot-byte-edit",
+      "pass": true
+    },
+    {
+      "name": "cross-language-negative:different-slot-byte-edit",
+      "pass": true
+    },
+    {
+      "name": "cross-language-negative:reserved-bit",
+      "pass": true
+    },
+    {
+      "name": "cross-language-negative:unsupported-finding",
+      "pass": true
+    },
+    {
+      "name": "receiver-idempotence-and-sticky-conflict",
+      "pass": true
+    }
+  ],
+  "artifact_sha256": {
+    "expanded_b2.py": "0e815999e147ee9c9a854697467ac3f9ad6976f70b320a7fc2c9676ce759d5c3",
+    "expanded_vectors_synthetic.json": "d7be9e5f9517e046d30a07080a9d37d3630b689186b761fd3a2883abe4520283",
+    "expanded_cover_pools_synthetic.json": "7a5f81ddc1c0b3db0b0dc4dde75fff970a0bc02e4966c358a2ef83a5de3e4399",
+    "black_protocol_v2_expanded_draft_private.json": "1a00db68da8c11bb505b14a53257f98e075f7043905722439e3cb20e1708a30d"
+  },
+  "passed": 48,
+  "total": 48
+}

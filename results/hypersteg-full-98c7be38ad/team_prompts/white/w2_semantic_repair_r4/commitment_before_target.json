@@ -1,0 +1,67 @@
+{
+  "draft_revision": "W2-R4-FINAL-UNADOPTED",
+  "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/P2P1N2/1PP2PPP/RNBQ1RK1 w - - 2 7",
+  "context": {
+    "version": 2,
+    "channel_id": "WHITE-W2-SEMANTIC-REPAIR-R4-FINAL",
+    "message_id": 4,
+    "position_tag": "e4a30241a5fd542f806a40c88f5454736ad29d7d603ea80421b4ba353d210682"
+  },
+  "bank_sha256_display": "5ab7386259b91fe1c3e53bdea3062e37ee3c62e5f0318a2b043314ca0f897751",
+  "frozen_at_utc": "2026-11-07T22:22:11Z",
+  "selected_target": "NOT_YET_DRAWN",
+  "banks": [
+    512,
+    512,
+    512,
+    512,
+    512,
+    512,
+    512,
+    512
+  ],
+  "eligible_payloads": [
+    {
+      "mode": "live",
+      "category": "positional_plan",
+      "uci": "b1c3",
+      "motif": "piece_activity"
+    },
+    {
+      "mode": "live",
+      "category": "defensive_resource",
+      "uci": "b1d2",
+      "motif": "central_control"
+    },
+    {
+      "mode": "live",
+      "category": "tactical_threat",
+      "uci": "f3g5",
+      "motif": "king_safety"
+    },
+    {
+      "mode": "live",
+      "category": "candidate_refutation",
+      "uci": "f3e5",
+      "motif": "exchange_sequence"
+    }
+  ],
+  "eligible_findings": [
+    "Nc3 develops the queenside knight, reinforces e4, and controls d5 without committing the pawn center.",
+    "Nbd2 adds a defender to e4 while developing the queenside knight.",
+    "Ng5 adds a knight attack on f7 alongside the c4 bishop, though h6 or d5 require checking.",
+    "Nxe5 does not win a free pawn because Black can answer dxe5 and capture the knight."
+  ],
+  "selection_policy": "uniformsecrets.randbelow4 AFTER this file; all4payloadtuples differ from actually tested initialrefutation andR3h3",
+  "evaluator_prior": "not informed of4eligible payloads or samplerprior; do not equate uniformsampler with evaluatorprior",
+  "baseline_policy": "first displaycandidate each bank before targetdraw and before outcomes",
+  "prompt_header_sha256": "f5d51cf5818bf4bb363731a85c971697ff87da48e28bd533b0abfa26e8c1353c",
+  "acceptance": "descriptive comparison only; no adoption without measurable recovery reduction and acceptable naturalness; FINALiteration, stop after report",
+  "preregistered_descriptive_acceptance": {
+    "encoded_naturalness_min": 4,
+    "encoded_usefulness_min": 3,
+    "encoded_suspicion_max": 0.2,
+    "observed_gain": "encoded forced jointcategory+UCI+finding recovery below matchedbaseline, report eachcomponent separately",
+    "adoption": "n1paired cannot establishrobustconcealment; remainunadoptedregardless, stopafterthisfinaliteration"
+  }
+}

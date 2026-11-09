@@ -1,0 +1,119 @@
+{
+  "scope": "Python recomputation of Black A fresh neutral vectors and final envelope fixtures; no game calls",
+  "reverse_codec": [
+    {
+      "id": "black-a-fresh-0-0",
+      "pass": true
+    },
+    {
+      "id": "black-a-fresh-0-1",
+      "pass": true
+    },
+    {
+      "id": "black-a-fresh-0-2",
+      "pass": true
+    },
+    {
+      "id": "black-a-fresh-0-3",
+      "pass": true
+    },
+    {
+      "id": "black-a-fresh-1-0",
+      "pass": true
+    },
+    {
+      "id": "black-a-fresh-1-1",
+      "pass": true
+    },
+    {
+      "id": "black-a-fresh-1-2",
+      "pass": true
+    },
+    {
+      "id": "black-a-fresh-1-3",
+      "pass": true
+    }
+  ],
+  "reverse_codec_passed": 8,
+  "reverse_codec_total": 8,
+  "python_wrapper": [
+    {
+      "name": "wrong-run_id",
+      "pass": true
+    },
+    {
+      "name": "wrong-session_id",
+      "pass": true
+    },
+    {
+      "name": "wrong-event_id",
+      "pass": true
+    },
+    {
+      "name": "wrong-team",
+      "pass": true
+    },
+    {
+      "name": "wrong-protocol_id",
+      "pass": true
+    },
+    {
+      "name": "wrong-protocol_version",
+      "pass": true
+    },
+    {
+      "name": "wrong-spec_sha256",
+      "pass": true
+    },
+    {
+      "name": "wrong-fen",
+      "pass": true
+    },
+    {
+      "name": "wrong-absolute_ply",
+      "pass": true
+    },
+    {
+      "name": "wrong-run_relative_ply",
+      "pass": true
+    },
+    {
+      "name": "wrong-run_start_absolute_ply",
+      "pass": true
+    },
+    {
+      "name": "wrong-host_stage",
+      "pass": true
+    },
+    {
+      "name": "wrong-event_kind",
+      "pass": true
+    },
+    {
+      "name": "wrong-both_protocols_recorded",
+      "pass": true
+    },
+    {
+      "name": "wrong-host_begin_confirmed",
+      "pass": true
+    },
+    {
+      "name": "wrong-gameplay_actor_calls_allowed",
+      "pass": true
+    },
+    {
+      "name": "strict-type-protocol_version",
+      "pass": true
+    },
+    {
+      "name": "strict-type-run_relative_ply",
+      "pass": true
+    },
+    {
+      "name": "strict-type-both_protocols_recorded",
+      "pass": true
+    }
+  ],
+  "python_wrapper_passed": 19,
+  "python_wrapper_total": 19
+}

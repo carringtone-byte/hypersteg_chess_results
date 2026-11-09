@@ -1,0 +1,17 @@
+{
+  "stage": "STOPPED_BY_USER",
+  "ply": 0,
+  "full_moves_completed": 0,
+  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "pending": null,
+  "protocol_versions": {
+    "white": 1,
+    "black": 1
+  },
+  "stop_after_ply": null,
+  "checkpoint_interval_plies": 20,
+  "revision_interval_plies": 20,
+  "gameplay_actor_calls_allowed": false,
+  "stopped_after_ply": 0,
+  "stop_reason": "User requested stop before any move was committed."
+}

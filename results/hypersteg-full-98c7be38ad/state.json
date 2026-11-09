@@ -1,0 +1,17 @@
+{
+  "stage": "STOPPED_BY_USER",
+  "ply": 23,
+  "full_moves_completed": 11,
+  "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 b - - 2 12",
+  "pending": null,
+  "protocol_versions": {
+    "white": 1,
+    "black": 1
+  },
+  "stop_after_ply": null,
+  "checkpoint_interval_plies": 20,
+  "revision_interval_plies": 20,
+  "gameplay_actor_calls_allowed": false,
+  "stopped_after_ply": 23,
+  "stop_reason": "User requested stop; players instructed to prioritize concealment for future protocol work."
+}
