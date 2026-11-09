@@ -1,0 +1,9 @@
+# Python runtime artifacts
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Runtime experiment output (archived results are already under /results/)
+harness/results/*
